@@ -271,19 +271,96 @@ class ChatbotService:
                 user_profile=user_profile
             )
 
-        # 13. Semantic Similarity Match over FAQ
+        q_low = query.lower()
+
+        # 13. Direct Campus Services Matches (Library, Resto U)
+        if any(w in q_low for w in ["biblioth", "bu", "biblio", "bouquin"]) and any(w in q_low for w in ["heure", "horaire", "ouvr", "ferm", "samedi", "dimanche", "quand", "jusqu'à"]):
+            reply = (
+                "Bonjour ! 📚 La bibliothèque est ouverte :\n"
+                "- Lundi à vendredi : 8h-20h\n"
+                "- Samedi : 9h-17h\n"
+                "- Fermée le dimanche\n\n"
+                "Puis-je vous aider avec autre chose ?"
+            )
+            return self._finalize_and_log(
+                session_id=session_id,
+                client_id=client_id,
+                query_raw=query,
+                query_anonymized=anonymized_query,
+                response_text=reply,
+                intent="service_campus",
+                intent_conf=0.98,
+                entities=entities,
+                sentiment=sentiment,
+                urgency_score=urgency_score,
+                escalated=False,
+                start_time=start_time,
+                source=source,
+                language=detected_lang,
+                user_profile=user_profile,
+                suggestions=["Réserver un box de travail à la BU", "Emprunter des livres", "Horaires du Resto U"]
+            )
+
+        if any(w in q_low for w in ["graille", "manger", "resto u", "resto", "cafeteria", "cafet", "repas", "nourriture", "midi"]) and not any(w in q_low for w in ["stage", "bourse"]):
+            reply = (
+                "🍽️ **Restauration Universitaire (Bâtiment D)** :\n\n"
+                "- **Resto U** : Ouvert pour le déjeuner de 11h30 à 14h00\n"
+                "- **Cafétéria & Micro-ondes** : Accessible de 7h45 à 18h00\n"
+                "- **Tarifs** : 3,30 € le menu complet (1,00 € pour les étudiants boursiers)\n"
+                "- **Paiement** : Carte étudiante Izly ou Carte Bancaire."
+            )
+            return self._finalize_and_log(
+                session_id=session_id,
+                client_id=client_id,
+                query_raw=query,
+                query_anonymized=anonymized_query,
+                response_text=reply,
+                intent="service_campus",
+                intent_conf=0.96,
+                entities=entities,
+                sentiment=sentiment,
+                urgency_score=urgency_score,
+                escalated=False,
+                start_time=start_time,
+                source=source,
+                language=detected_lang,
+                user_profile=user_profile,
+                suggestions=["Horaires de la bibliothèque", "Recharger ma carte Izly", "Accès micro-ondes"]
+            )
+
+        # 14. Procedural Knowledge Base Matches
+        proc_match = knowledge_service.search_procedure(query)
+        if proc_match:
+            steps_text = "\n".join([f"{idx+1}. {step}" for idx, step in enumerate(proc_match.get("etapes", []))])
+            reply = (
+                f"📋 **{proc_match.get('titre')}**\n\n"
+                f"{proc_match.get('description')}\n\n"
+                f"**Étapes à suivre :**\n{steps_text}\n\n"
+                f"⏱️ **Délai moyen** : {proc_match.get('delai')}\n"
+                f"👤 **Contact** : {proc_match.get('contact')}"
+            )
+            return self._finalize_and_log(
+                session_id=session_id,
+                client_id=client_id,
+                query_raw=query,
+                query_anonymized=anonymized_query,
+                response_text=reply,
+                intent="procedure_admin",
+                intent_conf=0.95,
+                entities=entities,
+                sentiment=sentiment,
+                urgency_score=urgency_score,
+                escalated=False,
+                start_time=start_time,
+                source=source,
+                language=detected_lang,
+                user_profile=user_profile
+            )
+
+        # 15. Semantic Similarity Match over FAQ
         match_result = similarity_engine.find_best_match(query)
-        if match_result["status"] == "direct_match" and match_result["score"] >= 0.65:
+        if match_result["status"] == "direct_match" and match_result["score"] >= 0.55:
             reply = match_result["answer"]
-            # Conversation 1 style: add polite closing
-            if "bibliothèque" in query.lower() or "bu" in query.lower():
-                reply = (
-                    "Bonjour ! 📚 La bibliothèque est ouverte :\n"
-                    "- Lundi à vendredi : 8h-20h\n"
-                    "- Samedi : 9h-17h\n"
-                    "- Fermée le dimanche\n\n"
-                    "Puis-je vous aider avec autre chose ?"
-                )
             return self._finalize_and_log(
                 session_id=session_id,
                 client_id=client_id,
@@ -301,35 +378,6 @@ class ChatbotService:
                 language=detected_lang,
                 user_profile=user_profile,
                 suggestions=[s["question"] for s in match_result.get("suggestions", [])]
-            )
-
-        # 14. Procedural & Static Knowledge Base Matches
-        proc_match = knowledge_service.search_procedure(query)
-        if proc_match and (intent == "procedure_admin" or "comment" in query.lower() or "demarche" in query.lower()):
-            steps_text = "\n".join([f"{idx+1}. {step}" for idx, step in enumerate(proc_match.get("etapes", []))])
-            reply = (
-                f"📋 **{proc_match.get('titre')}**\n\n"
-                f"{proc_match.get('description')}\n\n"
-                f"**Étapes à suivre :**\n{steps_text}\n\n"
-                f"⏱️ **Délai moyen** : {proc_match.get('delai')}\n"
-                f"👤 **Contact** : {proc_match.get('contact')}"
-            )
-            return self._finalize_and_log(
-                session_id=session_id,
-                client_id=client_id,
-                query_raw=query,
-                query_anonymized=anonymized_query,
-                response_text=reply,
-                intent="procedure_admin",
-                intent_conf=0.92,
-                entities=entities,
-                sentiment=sentiment,
-                urgency_score=urgency_score,
-                escalated=False,
-                start_time=start_time,
-                source=source,
-                language=detected_lang,
-                user_profile=user_profile
             )
 
         # 15. Contact Directory Matches
@@ -479,16 +527,23 @@ class ChatbotService:
 
     def _check_exam_schedule_query(self, query: str, entities: Dict[str, List[str]], user_profile: Optional[Dict[str, Any]]) -> Optional[str]:
         q_lower = query.lower()
-        has_exam = "examen" in q_lower or "partiel" in q_lower or "quand" in q_lower or "planning" in q_lower
+        # Exclude questions about accommodations, absences, or rules
+        if any(term in q_lower for term in ["tiers-temps", "temps supplémentaire", "handicap", "absence", "malade", "sanction", "fraude", "règle"]):
+            return None
+
+        # Look for explicit exam schedule requests
+        asks_when = any(w in q_lower for w in ["quand", "date", "horaire", "planning", "quel jour", "heure"])
+        mentions_exam = any(w in q_lower for w in ["examen", "examens", "partiel", "partiels", "soutenance", "épreuve"])
+        is_machine_learning = "machine learning" in q_lower or "ml" in q_lower
+
         is_data_science = (
             "data science" in q_lower or
             any("data science" in str(f).lower() for f in entities["FORMATION"]) or
             (user_profile and "data science" in user_profile.get("formation", "").lower())
         )
-        is_machine_learning = "machine learning" in q_lower or "ml" in q_lower
 
-        if has_exam and (is_data_science or is_machine_learning):
-            # Conversation 2 format from PDF Page 8:
+        # Trigger if explicitly asking when/schedule of exams (or machine learning exam)
+        if mentions_exam and (is_machine_learning or (asks_when and is_data_science)):
             return (
                 "Pour la formation Data Science 2e année, les examens de Machine Learning sont programmés :\n\n"
                 "📅 **Examen écrit** : Vendredi 15 mars, 14h-17h, Amphi B\n"

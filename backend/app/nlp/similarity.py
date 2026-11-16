@@ -16,8 +16,24 @@ import numpy as np
 
 FAQ_FILE = os.path.join(os.path.dirname(__file__), "..", "..", "data", "knowledge", "faq_historique.txt")
 
+SLANG_SYNONYMS = {
+    r"\bbiblio\b": "bibliothèque",
+    r"\bbouquins?\b": "livres bibliothèque",
+    r"\bchoper\b": "emprunter",
+    r"\bgraille(r)?\b": "manger restaurant universitaire",
+    r"\bcro[uû]te\b": "manger",
+    r"\bpartiels?\b": "examens",
+    r"\bpartiel\b": "examen",
+    r"\bscola\b": "scolarité",
+    r"\bedt\b": "emploi du temps",
+    r"\bpaum[ée](e)?\b": "perdu",
+    r"\bcertif\b": "certificat médical absence"
+}
+
 def clean_text(text: str) -> str:
     text = text.lower().strip()
+    for pattern, repl in SLANG_SYNONYMS.items():
+        text = re.sub(pattern, repl, text)
     text = re.sub(r"[^\w\s\u00C0-\u017F]", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text

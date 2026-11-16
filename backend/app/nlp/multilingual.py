@@ -1,26 +1,42 @@
 """
 Multilingual Module for Campus Assistant.
 Detects language (French, English, Spanish) and handles translations/localized campus answers.
-Primary language is French (default). Spanish and English are detected through unambiguous markers.
+Primary language is French (default). Spanish and English are detected through strict, unambiguous markers.
 """
 
 import re
-from typing import Dict, Any, Tuple
+from typing import Dict, Any
 
-# Unambiguous English markers
+# Unambiguous English markers (strictly English)
 EN_MARKERS = [
-    r"\bthe\b", r"\bwhen\b", r"\bwhat\b", r"\bwhere\b", r"\bhow\b",
-    r"\bcan\s+you\b", r"\bmy\s+name\b", r"\bhello\b", r"\bhi\b",
-    r"\blibrary\b", r"\bschedule\b", r"\bopening\s+hours\b",
-    r"\bwho\b", r"\bplease\b", r"\bthank(s|\s+you)\b"
+    r"\bwhen\s+is\b", r"\bwhat\s+is\b", r"\bwhere\s+is\b", r"\bhow\s+to\b",
+    r"\bcan\s+i\b", r"\bcan\s+you\b", r"\bhello\b", r"\bhi\s+there\b",
+    r"\blibrary\b", r"\bopening\s+hours\b", r"\bschedule\b",
+    r"\bwho\s+is\b", r"\bplease\b", r"\bthank\s+you\b", r"\bthanks\b",
+    r"\bwhere\s+can\s+i\b", r"\bexchange\s+student\b", r"\baccommodation\b"
 ]
 
-# Unambiguous Spanish markers (excluding overlapping words like 'la' or 'en')
+# Unambiguous Spanish markers (strictly Spanish, NO common words like 'que' or 'de')
 ES_MARKERS = [
-    r"\bcu[aá]ndo\b", r"\bd[oó]nde\b", r"\bc[oó]mo\b", r"\bqu[eé]\b",
+    r"\bcu[aá]ndo\b", r"\bd[oó]nde\b", r"\bc[oó]mo\b",
     r"\bhorario(s)?\b", r"\bbiblioteca\b", r"\bhola\b", r"\bgracias\b",
     r"\bestudiante(s)?\b", r"\bpor\s+favor\b", r"\bbuenos\s+d[ií]as\b",
-    r"¿"
+    r"¿", r"\bbuenas\s+tardes\b", r"\bprofesores?\b"
+]
+
+# Common French markers
+FR_MARKERS = [
+    r"\bc'est\b", r"\bqu'est-ce\b", r"\bqu'on\b", r"\bj'ai\b", r"\bj'peux\b",
+    r"\bje\b", r"\btu\b", r"\bil\b", r"\bnous\b", r"\bvous\b", r"\bils\b",
+    r"\best\b", r"\bsont\b", r"\bavoir\b", r"\bfaire\b", r"\bquelle\b",
+    r"\bquel\b", r"\bcomment\b", r"\bpourquoi\b", r"\boù\b", r"\bquand\b",
+    r"\bdans\b", r"\bpour\b", r"\bavec\b", r"\bsur\b", r"\bmon\b", r"\bma\b",
+    r"\bmes\b", r"\bton\b", r"\bta\b", r"\btes\b", r"\bson\b", r"\bsa\b",
+    r"\bses\b", r"\bnotre\b", r"\bvotre\b", r"\bleur\b", r"\bpas\b",
+    r"\bplus\b", r"\btrès\b", r"\bmême\b", r"\baussi\b", r"\bmerci\b",
+    r"\bbonjour\b", r"\bsalut\b", r"\bça\b", r"\bce\b", r"\bcette\b",
+    r"\bces\b", r"\bun\b", r"\bune\b", r"\bdes\b", r"\bdu\b", r"\bau\b",
+    r"\baux\b", r"\bqui\b", r"\bque\b", r"\bquoi\b", r"\bdont\b"
 ]
 
 LOCALIZED_RESPONSES = {
@@ -51,15 +67,17 @@ class MultilingualService:
             return "fr"
         t = text.lower()
 
+        fr_score = sum(1 for p in FR_MARKERS if re.search(p, t))
         en_score = sum(1 for p in EN_MARKERS if re.search(p, t))
         es_score = sum(1 for p in ES_MARKERS if re.search(p, t))
 
-        # Check for typical French indicators
-        fr_score = len(re.findall(r"\b(bonjour|salut|horaires|scolarit[ée]|cours|demande|biblioth[èe]que|est-ce|sont|suis|pour|avec|dans)\b", t))
+        # If clear French markers are present, keep French
+        if fr_score >= 1 and fr_score >= en_score and fr_score >= es_score:
+            return "fr"
 
-        if en_score >= 1 and en_score > fr_score and en_score > es_score:
+        if en_score >= 2 or (en_score >= 1 and fr_score == 0):
             return "en"
-        if es_score >= 1 and es_score > fr_score and es_score > en_score:
+        if es_score >= 2 or (es_score >= 1 and fr_score == 0):
             return "es"
 
         return "fr"

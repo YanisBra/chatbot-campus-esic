@@ -19,6 +19,32 @@ from ..database.db import get_connection
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "..", "data", "knowledge")
 
+# Stop-words to ignore in procedure search
+COMMON_STOPWORDS = {
+    "dans", "pour", "avec", "cette", "votre", "suis", "faire", "comment", "avoir",
+    "peux", "rentrer", "salles", "études", "projet", "cours", "demande", "obtenir",
+    "temps", "an", "mois", "jour", "cours", "mon", "ma", "mes", "les", "des", "une"
+}
+
+# Domain keyword mapping for procedures
+PROCEDURE_INTENT_MAP = [
+    (r"\b(badge|carte [ée]tudiante|paum[ée]|perdu(e)? mon badge|renouvellement carte)\b", "PROC-11"), # Carte étudiante
+    (r"\b(pause|c[ée]sure|suspendre|ann[ée]e sabbatique)\b", "PROC-08"), # Césure
+    (r"\b(tiers-temps|handicap|temps suppl[ée]mentaire|am[ée]nagement)\b", "PROC-06"), # Tiers-temps
+    (r"\b(absence|certif(icat)? m[ée]dical|malade|pas l[àa]|justifi(er|catif))\b", "PROC-15"), # Absence
+    (r"\b(convention( de)? stage|trouver un stage)\b", "PROC-01"), # Stage
+    (r"\b(alternance|apprentissage|contrat pro)\b", "PROC-02"), # Alternance
+    (r"\b(certificat de scolarit[ée]|attestation d'inscription)\b", "PROC-03"), # Certificat
+    (r"\b(bourse|crous|aide financi[èe]re|fonds d'urgence)\b", "PROC-07"), # Bourse
+    (r"\b(logement|chambre|r[ée]sidence|visale)\b", "PROC-12"), # Logement
+    (r"\b(wifi|eduroam|vpn|connexion r[ée]seau)\b", "PROC-23"), # WiFi
+    (r"\b(pc portable|pr[êe]t d'ordinateur|mat[ée]riel informatique)\b", "PROC-17"), # Prêt PC
+    (r"\b(fablab|imprimante 3d|d[ée]coupe laser)\b", "PROC-18"), # FabLab
+    (r"\b(box|r[ée]server (une )?salle (de travail|bu))\b", "PROC-19"), # Box BU
+    (r"\b(rattrapage|contestation|contester une note)\b", "PROC-09"), # Contestation note
+    (r"\b(harc[èe]lement|discrimination|cellule d'[ée]coute)\b", "PROC-22") # Signalement
+]
+
 class KnowledgeService:
     def __init__(self):
         self.schedules: List[Dict[str, Any]] = []
@@ -66,7 +92,6 @@ class KnowledgeService:
         for s in self.schedules:
             match = True
             if formation and formation.lower() not in s.get("formation", "").lower():
-                # Allow partial match like 'data science'
                 if "data" in formation.lower() and "data" in s.get("formation", "").lower():
                     pass
                 elif "cyber" in formation.lower() and "cyber" in s.get("formation", "").lower():
@@ -99,26 +124,38 @@ class KnowledgeService:
 
     def search_procedure(self, query: str) -> Optional[Dict[str, Any]]:
         q_lower = query.lower()
-        # Direct keyword checks
+
+        # 1. High precision intent map
+        for pattern, proc_id in PROCEDURE_INTENT_MAP:
+            if re.search(pattern, q_lower):
+                for p in self.procedures:
+                    if p.get("id") == proc_id:
+                        return p
+
+        # 2. Weighted scoring search over title and description (ignoring common stopwords)
+        q_tokens = [w for w in re.findall(r"\b[a-zA-Z\u00C0-\u017F]{4,}\b", q_lower) if w not in COMMON_STOPWORDS]
+        best_proc = None
+        best_score = 0
+
         for p in self.procedures:
             titre = p.get("titre", "").lower()
             desc = p.get("description", "").lower()
             cat = p.get("categorie", "").lower()
-            if any(k in q_lower for k in titre.split() if len(k) > 3) or \
-               any(k in titre for k in q_lower.split() if len(k) > 3):
-                return p
-            if "stage" in q_lower and "stage" in titre:
-                return p
-            if "alternance" in q_lower and "alternance" in titre:
-                return p
-            if "certificat" in q_lower and "certificat" in titre:
-                return p
-            if "bourse" in q_lower and "bourse" in titre:
-                return p
-            if "tiers-temps" in q_lower or "handicap" in q_lower and "tiers-temps" in titre:
-                return p
-            if "absence" in q_lower and "absence" in titre:
-                return p
+
+            score = 0
+            for t in q_tokens:
+                if t in titre:
+                    score += 5
+                elif t in desc or t in cat:
+                    score += 2
+
+            if score > best_score:
+                best_score = score
+                best_proc = p
+
+        if best_proc and best_score >= 4:
+            return best_proc
+
         return None
 
     def search_contact(self, name_or_service: str) -> List[Dict[str, Any]]:
