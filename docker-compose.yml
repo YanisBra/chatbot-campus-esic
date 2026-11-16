@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  chatbot-campus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: esic-chatbot-campus
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - PYTHONPATH=/app
+    restart: unless-stopped
