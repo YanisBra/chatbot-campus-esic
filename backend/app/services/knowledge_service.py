@@ -171,19 +171,53 @@ class KnowledgeEngine:
             except Exception as e:
                 print(f"Error loading FAQ: {e}")
 
-        # 5. Index Key Exam Slots from Schedules (emplois_du_temps.json)
+        # 5. Index Schedules & Courses (emplois_du_temps.json)
         sched_file = os.path.join(DATA_DIR, "emplois_du_temps.json")
         if os.path.exists(sched_file):
             try:
                 with open(sched_file, "r", encoding="utf-8") as f:
                     scheds = json.load(f)
                 self.schedules = scheds
+
+                # A. Group regular courses by formation and year to index complete course schedules
+                courses_by_formation: Dict[tuple, List[Dict[str, Any]]] = {}
+                for s in scheds:
+                    stype = s.get("type", "").lower()
+                    if "examen" not in stype and "soutenance" not in stype:
+                        key = (s.get("formation"), s.get("annee"))
+                        if key not in courses_by_formation:
+                            courses_by_formation[key] = []
+                        exists = any(
+                            c["matiere"] == s.get("matiere") and c["date"] == s.get("date")
+                            for c in courses_by_formation[key]
+                        )
+                        if not exists and len(courses_by_formation[key]) < 8:
+                            courses_by_formation[key].append(s)
+
+                for (form, yr), clist in courses_by_formation.items():
+                    if not form or not yr:
+                        continue
+                    course_lines = [
+                        f"• **{c.get('matiere')}** ({c.get('type')}) : {c.get('date')} {c.get('horaire')}, {c.get('salle')} (Enseignant : {c.get('enseignant')})"
+                        for c in clist
+                    ]
+                    full_course_text = f"Emploi du temps et prochains cours pour {form} {yr} :\n\n" + "\n".join(course_lines)
+                    chunks.append(DocumentChunk(
+                        doc_id=f"EDT-COURS-{form}-{yr}",
+                        title=f"Emploi du temps et prochains cours - {form} {yr}",
+                        content=full_course_text,
+                        source_file="emplois_du_temps.json",
+                        category="emploi_du_temps",
+                        metadata={"type": "cours_schedule", "formation": form, "annee": yr, "courses": clist}
+                    ))
+
+                # B. Index Exams from schedules
                 for s in scheds:
                     if "examen" in s.get("type", "").lower() or "soutenance" in s.get("type", "").lower():
                         c_text = f"Formation: {s.get('formation')} {s.get('annee')}. Matière: {s.get('matiere')}. Type: {s.get('type')}. Date: {s.get('date')} {s.get('horaire')}. Salle: {s.get('salle')}. Enseignant: {s.get('enseignant')}."
                         chunks.append(DocumentChunk(
                             doc_id=s.get("id", f"EDT-{len(chunks)}"),
-                            title=f"Examen {s.get('matiere')} - {s.get('formation')}",
+                            title=f"Examen {s.get('matiere')} - {s.get('formation')} {s.get('annee')}",
                             content=c_text,
                             source_file="emplois_du_temps.json",
                             category="emploi_du_temps",
@@ -311,8 +345,17 @@ class KnowledgeEngine:
                 f"📄 **Documents requis** : {docs_md}"
             )
 
-        # Services response (BU, Resto U, Helpdesk, etc.)
+        # Services response (BU, Resto U, Scolarité, Helpdesk, etc.)
         if doc.source_file == "services_campus.md":
+            # If scolarité
+            if "scolarité" in doc.title.lower() or "scolarite" in doc.title.lower():
+                return (
+                    "🏢 **Service Scolarité et Accueil Pédagogique (Bâtiment A, Bureau 102)** :\n\n"
+                    "• **Horaires d'ouverture** : Du Lundi au Vendredi de 08h30 à 17h30 (fermé le samedi et dimanche)\n"
+                    "• **Permanence téléphonique** : 01.53.90.15.20 (09h00 - 17h00)\n"
+                    "• **Responsable** : Mme Sophie Dubois (`sophie.dubois@esic.fr`)\n"
+                    "• **Missions** : Inscriptions pédagogiques, certificats de scolarité, conventions de stage, relevés de notes, gestion des plannings et examens."
+                )
             # If library
             if "bibliothèque" in doc.title.lower() or "bu" in doc.title.lower():
                 return (
@@ -342,8 +385,14 @@ class KnowledgeEngine:
                 f"{doc.content}"
             )
 
-        # Exam schedule response
+        # Timetable / Exam schedule response
         if doc.source_file == "emplois_du_temps.json":
+            if meta.get("type") == "cours_schedule":
+                return (
+                    f"📅 **{doc.title}**\n\n"
+                    f"{doc.content}\n\n"
+                    "💡 *Retrouvez votre planning détaillé et les mises à jour de salle en temps réel sur l'ENT (rubrique Emploi du Temps).*"
+                )
             return (
                 f"📅 **{doc.title}**\n\n"
                 f"• **Formation** : {meta.get('formation')} ({meta.get('annee')})\n"

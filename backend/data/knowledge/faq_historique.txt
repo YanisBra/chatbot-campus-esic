@@ -13,6 +13,18 @@ R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou sco
 Q: Où se trouve le service scolarité ?
 R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
 ---
+Q: Quels sont les horaires du service scolarité ?
+R: Le service scolarité (Bâtiment A, Bureau 102) est ouvert du lundi au vendredi de 8h30 à 17h30 (fermé le samedi et le dimanche). Permanence téléphonique au 01.53.90.15.20 de 9h00 à 17h00.
+---
+Q: Quels sont les horaires de la scolarité ?
+R: Le service scolarité vous accueille du lundi au vendredi de 8h30 à 17h30 au Bâtiment A, bureau 102. Permanence téléphonique au 01.53.90.15.20 (9h00 - 17h00).
+---
+Q: Horaires de la scolarité
+R: Le service scolarité (Bâtiment A, Bureau 102) est ouvert du lundi au vendredi de 8h30 à 17h30. Téléphone : 01.53.90.15.20.
+---
+Q: À quelle heure ouvre la scolarité ?
+R: La scolarité (Bâtiment A, bureau 102) ouvre du lundi au vendredi à 8h30 et ferme à 17h30. Contact : 01.53.90.15.20 (Sophie Dubois).
+---
 Q: Quels sont les tarifs du resto U ?
 R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
 ---
@@ -21,6 +33,15 @@ R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, D
 ---
 Q: Quand ont lieu les examens de Data Science 2e année ?
 R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Quels sont les prochains cours en Data Science 2e année ?
+R: En Data Science 2e année, les prochains cours programmés comprennent : Deep Learning (Jeudi 08h30-10h30, Salle 202, M. Marc Lefebvre), Big Data Architecture (Mardi 10h45-12h45, Salle 211, M. Alexandre Petit), Bases de Données NoSQL (Jeudi 16h15-18h15, Salle 103, M. Joel Banka), Éthique des Données (Mardi 16h15-18h15, Salle 104, Mme Sophie Leroy) et Machine Learning (Jeudi 16h15-18h15, Salle 212, M. David Cohen).
+---
+Q: Quel est l'emploi du temps des cours de Data Science ?
+R: L'emploi du temps de Data Science 2e année comprend des enseignements de Machine Learning, Deep Learning, Big Data Architecture et Bases de Données NoSQL. Consultez l'ENT (rubrique Emploi du temps) pour le détail hebdomadaire.
+---
+Q: Prochains cours data science
+R: En Data Science, les cours réguliers sont : Deep Learning (Jeudi matin 8h30 Salle 202), Big Data Architecture (Mardi 10h45 Salle 211), Bases de Données NoSQL (Jeudi 16h15 Salle 103) et Machine Learning (Jeudi 16h15 Salle 212). Retrouvez l'agenda complet sur votre ENT.
 ---
 Q: Comment réinitialiser mon mot de passe ENT ?
 R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).

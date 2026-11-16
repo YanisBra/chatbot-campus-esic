@@ -4,9 +4,9 @@ Bienvenue sur le campus ESIC ! Retrouvez l'ensemble des services, horaires et co
 
 ---
 
-## 1. Service Scolarité et Accueil Pédagogique
+## 1. Service Scolarité et Accueil Pédagogique (Horaires, Inscriptions, Démarches)
 - **Localisation** : Bâtiment A, Rez-de-chaussée, Bureau 102
-- **Horaires d'ouverture** : Du Lundi au Vendredi, 08h30 - 17h30 (Accueil physique fermé le week-end)
+- **Horaires d'ouverture de l'accueil scolarité** : Du Lundi au Vendredi, 08h30 - 17h30 (Accueil physique fermé le week-end)
 - **Permanence téléphonique** : 01.53.90.15.20 (09h00 - 17h00)
 - **Responsable** : Mme Sophie Dubois (`sophie.dubois@esic.fr`)
 - **Missions** : Inscriptions pédagogiques, certificats de scolarité, conventions de stage, relevés de notes, gestion des plannings et examens.
