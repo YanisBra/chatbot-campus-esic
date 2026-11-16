@@ -13,26 +13,26 @@ Bienvenue sur le campus ESIC ! Retrouvez l'ensemble des services, horaires et co
 
 ---
 
-## 2. Bibliothèque Universitaire & Espace Numérique (BU)
+## 2. Bibliothèque Universitaire & Espace Numérique (BU - Emprunt de livres)
 - **Localisation** : Bâtiment C, 1er et 2e étages
-- **Horaires d'ouverture** :
+- **Horaires d'ouverture (emprunt de livres et accès travail)** :
   - **Lundi à Vendredi** : 08h00 - 20h00
   - **Samedi** : 09h00 - 17h00
   - **Dimanche** : Fermée
 - **Services** :
-  - 15 000 ouvrages en libre accès, revues académiques, presse internationale.
+  - 15 000 ouvrages et livres en libre accès, revues académiques, presse internationale.
   - 12 box de travail en groupe insonorisés (réservation sur l'app BU).
   - 50 postes informatiques équipés de double-écrans et suites logicielles IA/Dev.
-  - Prêt de casques audio, liseuses et calculatrices programmables.
+  - Prêt de livres, casques audio, liseuses et calculatrices programmables.
 - **Contact** : `bibliotheque@esic.fr` | 01.53.90.15.40
 
 ---
 
-## 3. Restauration Universitaire (Resto U & Cafétéria)
+## 3. Restauration Universitaire (Resto U & Cafétéria - Repas du midi)
 - **Localisation** : Bâtiment D (Espace Vie Étudiante)
-- **Horaires d'ouverture** :
+- **Horaires d'ouverture pour manger ce midi** :
   - **Cafétéria** : 07h45 - 18h00 (boissons chaudes, sandwichs, viennoiseries, micro-ondes en accès libre)
-  - **Resto U (Déjeuner)** : 11h30 - 14h00
+  - **Resto U (Déjeuner / Repas du midi)** : 11h30 - 14h00
 - **Tarifs** :
   - Tarif étudiant standard : 3,30 € le menu complet (entrée + plat chaud + dessert).
   - Tarif étudiant boursier : 1,00 € le repas Crous.

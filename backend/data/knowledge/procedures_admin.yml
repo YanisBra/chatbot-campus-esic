@@ -214,9 +214,9 @@
   - Attestation d'hébergement
   - Certificat de scolarité
 - id: PROC-15
-  titre: Justification d'absence à un cours ou examen
+  titre: Justification d'absence et dépôt de certificat médical (cours ou examen)
   categorie: scolarite
-  description: Règles de validation des absences imprévues ou médicales.
+  description: Règles de validation des absences imprévues, maladie ou certificat médical.
   etapes:
   - Prévenir le secrétariat pédagogique par mail le jour même de l'absence.
   - Transmettre le justificatif médical ou officiel sous 48 heures maximum.

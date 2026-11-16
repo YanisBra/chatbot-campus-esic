@@ -24,7 +24,7 @@ from ..nlp.sentiment import sentiment_analyzer
 from ..nlp.similarity import similarity_engine
 from ..nlp.multilingual import multilingual_service
 from ..security.security_manager import security_manager
-from ..services.knowledge_service import knowledge_service
+from ..services.knowledge_service import knowledge_service, knowledge_engine
 from ..database.db import get_connection
 
 # In-memory session store for multi-turn history: session_id -> list of messages
@@ -250,125 +250,42 @@ class ChatbotService:
                     suggestions=["Library hours", "Resto U pricing", "Student Affairs contact"] if detected_lang == "en" else ["Horarios de biblioteca", "Precios Resto U", "Contacto Secretaría"]
                 )
 
-        # 12. Dynamic Knowledge Base Lookup
-        dynamic_kb = knowledge_service.search_dynamic_knowledge(query)
-        if dynamic_kb:
-            return self._finalize_and_log(
-                session_id=session_id,
-                client_id=client_id,
-                query_raw=query,
-                query_anonymized=anonymized_query,
-                response_text=dynamic_kb["answer"],
-                intent=dynamic_kb.get("category", intent),
-                intent_conf=0.95,
-                entities=entities,
-                sentiment=sentiment,
-                urgency_score=urgency_score,
-                escalated=False,
-                start_time=start_time,
-                source=source,
-                language=detected_lang,
-                user_profile=user_profile
-            )
-
-        q_low = query.lower()
-
-        # 13. Direct Campus Services Matches (Library, Resto U)
-        if any(w in q_low for w in ["biblioth", "bu", "biblio", "bouquin"]) and any(w in q_low for w in ["heure", "horaire", "ouvr", "ferm", "samedi", "dimanche", "quand", "jusqu'à"]):
-            reply = (
-                "Bonjour ! 📚 La bibliothèque est ouverte :\n"
-                "- Lundi à vendredi : 8h-20h\n"
-                "- Samedi : 9h-17h\n"
-                "- Fermée le dimanche\n\n"
-                "Puis-je vous aider avec autre chose ?"
-            )
+        # 12. Salutations
+        if intent == "salutation":
+            reply = "Bonjour ! Je suis l'assistant virtuel du campus ESIC. Comment puis-je vous aider aujourd'hui ?"
             return self._finalize_and_log(
                 session_id=session_id,
                 client_id=client_id,
                 query_raw=query,
                 query_anonymized=anonymized_query,
                 response_text=reply,
-                intent="service_campus",
-                intent_conf=0.98,
-                entities=entities,
-                sentiment=sentiment,
-                urgency_score=urgency_score,
-                escalated=False,
-                start_time=start_time,
-                source=source,
-                language=detected_lang,
-                user_profile=user_profile,
-                suggestions=["Réserver un box de travail à la BU", "Emprunter des livres", "Horaires du Resto U"]
-            )
-
-        if any(w in q_low for w in ["graille", "manger", "resto u", "resto", "cafeteria", "cafet", "repas", "nourriture", "midi"]) and not any(w in q_low for w in ["stage", "bourse"]):
-            reply = (
-                "🍽️ **Restauration Universitaire (Bâtiment D)** :\n\n"
-                "- **Resto U** : Ouvert pour le déjeuner de 11h30 à 14h00\n"
-                "- **Cafétéria & Micro-ondes** : Accessible de 7h45 à 18h00\n"
-                "- **Tarifs** : 3,30 € le menu complet (1,00 € pour les étudiants boursiers)\n"
-                "- **Paiement** : Carte étudiante Izly ou Carte Bancaire."
-            )
-            return self._finalize_and_log(
-                session_id=session_id,
-                client_id=client_id,
-                query_raw=query,
-                query_anonymized=anonymized_query,
-                response_text=reply,
-                intent="service_campus",
+                intent="salutation",
                 intent_conf=0.96,
                 entities=entities,
                 sentiment=sentiment,
-                urgency_score=urgency_score,
+                urgency_score=0.1,
                 escalated=False,
                 start_time=start_time,
                 source=source,
                 language=detected_lang,
                 user_profile=user_profile,
-                suggestions=["Horaires de la bibliothèque", "Recharger ma carte Izly", "Accès micro-ondes"]
+                suggestions=[item["query"] for item in FREQUENT_QUESTIONS_SUGGESTIONS[:4]]
             )
 
-        # 14. Procedural Knowledge Base Matches
-        proc_match = knowledge_service.search_procedure(query)
-        if proc_match:
-            steps_text = "\n".join([f"{idx+1}. {step}" for idx, step in enumerate(proc_match.get("etapes", []))])
-            reply = (
-                f"📋 **{proc_match.get('titre')}**\n\n"
-                f"{proc_match.get('description')}\n\n"
-                f"**Étapes à suivre :**\n{steps_text}\n\n"
-                f"⏱️ **Délai moyen** : {proc_match.get('delai')}\n"
-                f"👤 **Contact** : {proc_match.get('contact')}"
-            )
+        # 13. Unified Semantic Document Search across ALL indexed campus documents
+        # (procedures_admin.yml, services_campus.md, reglement_campus.md, emplois_du_temps.json, contacts_annuaire.csv, faq)
+        doc_result = knowledge_engine.search(query, entities=entities)
+        if doc_result["status"] == "confident" and doc_result["score"] >= 0.11:
+            reply = doc_result["formatted_response"]
+            candidate_titles = [c["title"] for c in doc_result.get("top_candidates", [])]
             return self._finalize_and_log(
                 session_id=session_id,
                 client_id=client_id,
                 query_raw=query,
                 query_anonymized=anonymized_query,
                 response_text=reply,
-                intent="procedure_admin",
-                intent_conf=0.95,
-                entities=entities,
-                sentiment=sentiment,
-                urgency_score=urgency_score,
-                escalated=False,
-                start_time=start_time,
-                source=source,
-                language=detected_lang,
-                user_profile=user_profile
-            )
-
-        # 15. Semantic Similarity Match over FAQ
-        match_result = similarity_engine.find_best_match(query)
-        if match_result["status"] == "direct_match" and match_result["score"] >= 0.55:
-            reply = match_result["answer"]
-            return self._finalize_and_log(
-                session_id=session_id,
-                client_id=client_id,
-                query_raw=query,
-                query_anonymized=anonymized_query,
-                response_text=reply,
-                intent=intent,
-                intent_conf=max(intent_conf, match_result["score"]),
+                intent=intent if intent != "information_generale" else doc_result["best_match"].category,
+                intent_conf=round(max(intent_conf, doc_result["score"]), 2),
                 entities=entities,
                 sentiment=sentiment,
                 urgency_score=urgency_score,
@@ -377,94 +294,7 @@ class ChatbotService:
                 source=source,
                 language=detected_lang,
                 user_profile=user_profile,
-                suggestions=[s["question"] for s in match_result.get("suggestions", [])]
-            )
-
-        # 15. Contact Directory Matches
-        if intent == "contact" or "contact" in query.lower() or "qui" in query.lower() or "téléphone" in query.lower() or "email" in query.lower():
-            person_query = entities["PERSONNE"][0] if entities["PERSONNE"] else query
-            contacts_found = knowledge_service.search_contact(person_query)
-            if contacts_found:
-                c = contacts_found[0]
-                reply = (
-                    f"👤 **{c.get('prenom')} {c.get('nom')}** - {c.get('role')} ({c.get('service')})\n"
-                    f"📧 Email : {c.get('email')}\n"
-                    f"☎️ Téléphone : {c.get('telephone')}\n"
-                    f"📍 Bureau : {c.get('bureau')}\n"
-                    f"🕒 Disponibilité : {c.get('disponibilite')}"
-                )
-                return self._finalize_and_log(
-                    session_id=session_id,
-                    client_id=client_id,
-                    query_raw=query,
-                    query_anonymized=anonymized_query,
-                    response_text=reply,
-                    intent="contact",
-                    intent_conf=0.94,
-                    entities=entities,
-                    sentiment=sentiment,
-                    urgency_score=urgency_score,
-                    escalated=False,
-                    start_time=start_time,
-                    source=source,
-                    language=detected_lang,
-                    user_profile=user_profile
-                )
-
-        # 16. Campus Regulations
-        if intent == "reglement" or "absence" in query.lower() or "fraude" in query.lower() or "sanction" in query.lower():
-            reply = (
-                "📜 **Règlement Intérieur du Campus ESIC** :\n\n"
-                "- **Assiduité** : Présence obligatoire à tous les cours et TD/TP. Justification requise sous 48h.\n"
-                "- **Examens** : Tout retard > 15 min entraîne le refus d'accès. Téléphones éteints obligatoires.\n"
-                "- **Plagiat & Fraude** : Interdiction formelle du plagiat de code et de projet (vérification automatique). Sanctions pouvant aller jusqu'au conseil de discipline.\n"
-                "- **Cellule de respect & écoute** : `ecoute-egalite@esic.fr` accessible 24h/24."
-            )
-            return self._finalize_and_log(
-                session_id=session_id,
-                client_id=client_id,
-                query_raw=query,
-                query_anonymized=anonymized_query,
-                response_text=reply,
-                intent="reglement",
-                intent_conf=0.91,
-                entities=entities,
-                sentiment=sentiment,
-                urgency_score=urgency_score,
-                escalated=False,
-                start_time=start_time,
-                source=source,
-                language=detected_lang,
-                user_profile=user_profile
-            )
-
-        # 17. Formations Available
-        if intent == "formation" or "filière" in query.lower() or "master" in query.lower() or "bachelor" in query.lower():
-            reply = (
-                "🎓 **Formations d'Excellence proposées à l'ESIC** :\n\n"
-                "1. **Data Science** : Machine Learning, Big Data, Statistiques, Data Viz\n"
-                "2. **Cybersécurité** : Pentesting, Cryptographie, Sécurité Réseaux, Forensics\n"
-                "3. **Développement Web & Cloud** : Architecture Microservices, React/Next, DevOps, APIs\n"
-                "4. **Intelligence Artificielle** : NLP, Computer Vision, MLOps, LLMs\n"
-                "5. **Réseaux & Cloud** : Kubernetes, AWS/Azure, Virtualisation\n\n"
-                "Toutes nos formations sont accessibles en initial ou en contrat d'alternance."
-            )
-            return self._finalize_and_log(
-                session_id=session_id,
-                client_id=client_id,
-                query_raw=query,
-                query_anonymized=anonymized_query,
-                response_text=reply,
-                intent="formation",
-                intent_conf=0.93,
-                entities=entities,
-                sentiment=sentiment,
-                urgency_score=urgency_score,
-                escalated=False,
-                start_time=start_time,
-                source=source,
-                language=detected_lang,
-                user_profile=user_profile
+                suggestions=candidate_titles[:3] or [item["query"] for item in FREQUENT_QUESTIONS_SUGGESTIONS[:3]]
             )
 
         # 18. Salutations

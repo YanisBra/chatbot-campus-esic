@@ -16,24 +16,10 @@ import numpy as np
 
 FAQ_FILE = os.path.join(os.path.dirname(__file__), "..", "..", "data", "knowledge", "faq_historique.txt")
 
-SLANG_SYNONYMS = {
-    r"\bbiblio\b": "bibliothèque",
-    r"\bbouquins?\b": "livres bibliothèque",
-    r"\bchoper\b": "emprunter",
-    r"\bgraille(r)?\b": "manger restaurant universitaire",
-    r"\bcro[uû]te\b": "manger",
-    r"\bpartiels?\b": "examens",
-    r"\bpartiel\b": "examen",
-    r"\bscola\b": "scolarité",
-    r"\bedt\b": "emploi du temps",
-    r"\bpaum[ée](e)?\b": "perdu",
-    r"\bcertif\b": "certificat médical absence"
-}
-
 def clean_text(text: str) -> str:
+    if not text:
+        return ""
     text = text.lower().strip()
-    for pattern, repl in SLANG_SYNONYMS.items():
-        text = re.sub(pattern, repl, text)
     text = re.sub(r"[^\w\s\u00C0-\u017F]", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text
@@ -78,7 +64,7 @@ class SimilarityEngine:
 
     def find_best_match(self, query: str) -> Dict[str, Any]:
         """Find the best matching question and return answer, similarity score and confidence status."""
-        if not self.questions or not self.vectorizer or not self.faq_matrix is not None:
+        if not self.questions or not self.vectorizer or self.faq_matrix is None:
             return {
                 "matched_question": None,
                 "answer": None,
@@ -93,9 +79,9 @@ class SimilarityEngine:
         best_idx = int(np.argmax(scores))
         best_score = float(scores[best_idx])
 
-        if best_score >= 0.70:
+        if best_score >= 0.65:
             status = "direct_match"
-        elif best_score >= 0.45:
+        elif best_score >= 0.40:
             status = "ambiguous"
         else:
             status = "fallback"
@@ -104,7 +90,7 @@ class SimilarityEngine:
         top_indices = np.argsort(scores)[::-1][:3]
         suggestions = [
             {"question": self.questions[i], "score": float(scores[i])}
-            for i in top_indices if scores[i] >= 0.35 and i != best_idx
+            for i in top_indices if scores[i] >= 0.30 and i != best_idx
         ]
 
         return {
