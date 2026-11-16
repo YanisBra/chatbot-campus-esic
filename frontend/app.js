@@ -1,6 +1,9 @@
 /**
  * ESIC Campus Connected Assistant - Frontend Single Page Application
- * Handles Chatbot, 21" IoT Kiosk Simulation, Real-time Analytics, Admin KB, and ENT SSO.
+ * Handles Chatbot, 21" IoT Kiosk Simulation, Real-time Analytics (Admin),
+ * Knowledge Base Administration (Admin), and ENT SSO.
+ * 
+ * Styled according to https://www.esic.fr/ Design System & Art Direction.
  */
 
 // Application State
@@ -13,8 +16,12 @@ let speechRecognizer = null;
 let activeKioskMode = 'visiteur';
 let hourlyChartInstance = null;
 let categoryChartInstance = null;
+let pendingAdminTab = null;
 
-// Mock Personas
+// Admin Authentication State
+let isAdminAuthenticated = false;
+
+// Mock Personas (Academic & Administrative)
 const PERSONAS = {
   emma_rousseau: {
     id: "emma_rousseau",
@@ -25,7 +32,8 @@ const PERSONAS = {
     student_id: "ESIC-2024-DS-042",
     email: "emma.rousseau@esic.fr",
     avatar: "👩‍🎓",
-    description: "Persona Principal : 20 ans, Data Science 2"
+    description: "Persona Principal : 20 ans, Data Science 2",
+    is_admin: false
   },
   carlos_martinez: {
     id: "carlos_martinez",
@@ -36,18 +44,20 @@ const PERSONAS = {
     student_id: "ESIC-2024-INT-109",
     email: "carlos.martinez@esic.fr",
     avatar: "👨‍🎓",
-    description: "Persona Secondaire : 23 ans, International (EN/ES)"
+    description: "Persona Secondaire : 23 ans, International (EN/ES)",
+    is_admin: false
   },
   sophie_dubois: {
     id: "sophie_dubois",
     name: "Sophie Dubois",
     role: "Responsable Scolarité",
-    formation: "Personnel Administratif",
-    annee: "Staff",
-    student_id: "STAFF-ESIC-007",
+    formation: "Direction Scolarité & Admin",
+    annee: "Staff Administrateur",
+    student_id: "ADMIN-ESIC-001",
     email: "sophie.dubois@esic.fr",
     avatar: "👩‍💼",
-    description: "Persona Tertiaire : 42 ans, Responsable Scolarité"
+    description: "Persona Administrateur : Responsable Scolarité (Accès Total)",
+    is_admin: true
   },
   jean_moreau: {
     id: "jean_moreau",
@@ -58,7 +68,8 @@ const PERSONAS = {
     student_id: "VISITEUR-2026",
     email: "jean.moreau@gmail.com",
     avatar: "🧑",
-    description: "Persona Quaternaire : 18 ans, lycéen"
+    description: "Persona Quaternaire : 18 ans, lycéen",
+    is_admin: false
   }
 };
 
@@ -68,16 +79,131 @@ let activeUser = PERSONAS.emma_rousseau;
 document.addEventListener('DOMContentLoaded', () => {
   setupSpeechRecognition();
   updateProfileUI();
+  updateAdminUI();
   loadSuggestions();
   loadNotifications();
-  // Preload initial analytics and knowledge base stats
-  loadRealtimeAnalytics();
-  loadKnowledgeSummary();
-  loadKiosksFleet();
 });
 
 // ==============================================================================
-// Tab Navigation
+// Admin Authentication & Role Enforcement
+// ==============================================================================
+function updateAdminUI() {
+  const lockAnalytics = document.getElementById('lock-icon-analytics');
+  const lockAdmin = document.getElementById('lock-icon-admin');
+  const statusPill = document.getElementById('admin-status-pill');
+  const statusText = document.getElementById('admin-status-text');
+  const dropdownAction = document.getElementById('admin-dropdown-action');
+
+  if (isAdminAuthenticated) {
+    if (lockAnalytics) lockAnalytics.textContent = '🔓';
+    if (lockAdmin) lockAdmin.textContent = '🔓';
+    if (statusPill) {
+      statusPill.className = 'esic-badge esic-badge-mint text-[11px] cursor-pointer shadow-sm';
+      statusText.innerHTML = '<i class="fa-solid fa-crown text-amber-500 mr-1"></i>Admin Actif (Sophie Dubois)';
+      statusPill.onclick = () => logoutAdmin();
+      statusPill.title = "Cliquez pour vous déconnecter du mode Administrateur";
+    }
+    if (dropdownAction) {
+      dropdownAction.innerHTML = `
+        <button onclick="logoutAdmin()" class="w-full text-left p-2 rounded-lg hover:bg-rose-50 text-rose-700 transition flex items-center space-x-2 text-xs font-semibold">
+          <i class="fa-solid fa-right-from-bracket"></i>
+          <span>Déconnexion Admin (Retour Étudiant)</span>
+        </button>
+      `;
+    }
+  } else {
+    if (lockAnalytics) lockAnalytics.textContent = '🔒';
+    if (lockAdmin) lockAdmin.textContent = '🔒';
+    if (statusPill) {
+      statusPill.className = 'esic-badge esic-badge-sombre text-[11px] cursor-pointer';
+      statusText.innerHTML = '<i class="fa-solid fa-user-lock mr-1"></i>Accès Étudiant';
+      statusPill.onclick = () => openAdminAuthModal('analytics');
+      statusPill.title = "Cliquez pour vous connecter en tant qu'Administrateur";
+    }
+    if (dropdownAction) {
+      dropdownAction.innerHTML = `
+        <button onclick="openAdminAuthModal('analytics')" class="w-full text-left p-2 rounded-lg hover:bg-amber-50 text-amber-800 transition flex items-center space-x-2 text-xs font-semibold">
+          <i class="fa-solid fa-key text-amber-600"></i>
+          <span>Connexion Espace Admin</span>
+        </button>
+      `;
+    }
+  }
+}
+
+function openAdminAuthModal(targetTab = 'analytics') {
+  pendingAdminTab = targetTab;
+  document.getElementById('profile-dropdown').classList.add('hidden');
+  const errBox = document.getElementById('admin-login-error');
+  if (errBox) errBox.classList.add('hidden');
+  document.getElementById('admin-auth-modal').classList.remove('hidden');
+}
+
+function closeAdminAuthModal() {
+  document.getElementById('admin-auth-modal').classList.add('hidden');
+  pendingAdminTab = null;
+}
+
+async function handleAdminLoginSubmit(event) {
+  if (event) event.preventDefault();
+  const username = document.getElementById('admin-login-username').value.trim();
+  const password = document.getElementById('admin-login-password').value.trim();
+  const errBox = document.getElementById('admin-login-error');
+
+  try {
+    const res = await fetch('/api/auth/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username, password })
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      isAdminAuthenticated = true;
+      activeUser = PERSONAS.sophie_dubois;
+      updateProfileUI();
+      updateAdminUI();
+      closeAdminAuthModal();
+      
+      const tabToOpen = pendingAdminTab || 'analytics';
+      switchTab(tabToOpen);
+      appendChatMessage('system', `🔐 Authentification réussie : Connecté en tant qu'Administrateur (Sophie Dubois).`);
+    } else {
+      const err = await res.json();
+      if (errBox) {
+        errBox.textContent = err.detail || "Identifiants incorrects.";
+        errBox.classList.remove('hidden');
+      }
+    }
+  } catch (e) {
+    if (errBox) {
+      errBox.textContent = "Erreur de connexion au serveur.";
+      errBox.classList.remove('hidden');
+    }
+  }
+}
+
+function quickLoginAdmin(targetTab = 'analytics') {
+  isAdminAuthenticated = true;
+  activeUser = PERSONAS.sophie_dubois;
+  updateProfileUI();
+  updateAdminUI();
+  closeAdminAuthModal();
+  switchTab(targetTab || 'analytics');
+  appendChatMessage('system', `⭐ Accès Rapide Démo : Connecté avec succès en tant qu'Administrateur (Sophie Dubois).`);
+}
+
+function logoutAdmin() {
+  isAdminAuthenticated = false;
+  activeUser = PERSONAS.emma_rousseau;
+  updateProfileUI();
+  updateAdminUI();
+  switchTab('chat');
+  appendChatMessage('system', `🔒 Déconnexion Admin : Vous êtes désormais en profil Étudiante (Emma Rousseau).`);
+}
+
+// ==============================================================================
+// Tab Navigation with Admin Gate
 // ==============================================================================
 function switchTab(tabName) {
   currentTab = tabName;
@@ -89,19 +215,36 @@ function switchTab(tabName) {
     if (t === tabName) {
       view.classList.remove('hidden');
       navBtn.classList.add('active-tab');
-      navBtn.classList.remove('text-slate-300');
     } else {
       view.classList.add('hidden');
       navBtn.classList.remove('active-tab');
-      navBtn.classList.add('text-slate-300');
     }
   });
 
+  // Check Admin Access for Analytics and Knowledge Base
   if (tabName === 'analytics') {
-    loadRealtimeAnalytics();
+    const gate = document.getElementById('analytics-admin-gate');
+    const content = document.getElementById('analytics-content-unlocked');
+    if (!isAdminAuthenticated) {
+      if (gate) gate.classList.remove('hidden');
+      if (content) content.classList.add('hidden');
+    } else {
+      if (gate) gate.classList.add('hidden');
+      if (content) content.classList.remove('hidden');
+      loadRealtimeAnalytics();
+    }
   } else if (tabName === 'admin') {
-    loadKnowledgeSummary();
-    loadKiosksFleet();
+    const gate = document.getElementById('admin-kb-gate');
+    const content = document.getElementById('admin-kb-content-unlocked');
+    if (!isAdminAuthenticated) {
+      if (gate) gate.classList.remove('hidden');
+      if (content) content.classList.add('hidden');
+    } else {
+      if (gate) gate.classList.add('hidden');
+      if (content) content.classList.remove('hidden');
+      loadKnowledgeSummary();
+      loadKiosksFleet();
+    }
   }
 }
 
@@ -116,10 +259,20 @@ function toggleProfileDropdown() {
 function selectPersona(personaKey) {
   if (PERSONAS[personaKey]) {
     activeUser = PERSONAS[personaKey];
+    if (activeUser.is_admin) {
+      isAdminAuthenticated = true;
+    } else {
+      isAdminAuthenticated = false;
+    }
     updateProfileUI();
+    updateAdminUI();
     document.getElementById('profile-dropdown').classList.add('hidden');
-    // Notify chatbot user profile updated
-    appendChatMessage('system', `Profil actif changé : <strong>${activeUser.name}</strong> (${activeUser.role} - ${activeUser.formation})`);
+    appendChatMessage('system', `Profil actif : <strong>${activeUser.name}</strong> (${activeUser.role} - ${activeUser.formation})`);
+    
+    // Refresh current tab if on analytics or admin
+    if (currentTab === 'analytics' || currentTab === 'admin') {
+      switchTab(currentTab);
+    }
   }
 }
 
@@ -129,9 +282,12 @@ function updateProfileUI() {
   document.getElementById('active-role').textContent = `${activeUser.formation} (${activeUser.annee})`;
   
   // Update ENT tab widgets
-  document.getElementById('ent-avatar').textContent = activeUser.avatar;
-  document.getElementById('ent-name').textContent = activeUser.name;
-  document.getElementById('ent-subtitle').textContent = `${activeUser.role} - ${activeUser.formation} | N° ${activeUser.student_id}`;
+  const entAvatar = document.getElementById('ent-avatar');
+  const entName = document.getElementById('ent-name');
+  const entSubtitle = document.getElementById('ent-subtitle');
+  if (entAvatar) entAvatar.textContent = activeUser.avatar;
+  if (entName) entName.textContent = activeUser.name;
+  if (entSubtitle) entSubtitle.textContent = `${activeUser.role} - ${activeUser.formation} | N° ${activeUser.student_id}`;
 }
 
 // ==============================================================================
@@ -201,17 +357,17 @@ function appendChatMessage(role, text, meta = null) {
 
   if (role === 'user') {
     msgWrapper.innerHTML = `
-      <div class="bg-blue-600 text-white p-3.5 rounded-2xl rounded-tr-none max-w-xl text-sm shadow">
+      <div class="chat-bubble-user text-sm shadow-sm">
         <p class="whitespace-pre-line">${escapeHtml(text)}</p>
       </div>
-      <div class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center text-sm shrink-0">
+      <div class="w-8 h-8 rounded-full flex items-center justify-center text-sm shrink-0 border bg-white shadow-sm" style="border-color: var(--esic-gris-clair);">
         ${activeUser.avatar}
       </div>
     `;
   } else if (role === 'system') {
     msgWrapper.innerHTML = `
       <div class="w-full text-center my-2">
-        <span class="px-3 py-1 bg-slate-800 border border-slate-700 text-slate-400 rounded-full text-xs">
+        <span class="esic-badge esic-badge-mint text-xs">
           ${text}
         </span>
       </div>
@@ -220,17 +376,17 @@ function appendChatMessage(role, text, meta = null) {
     // Bot message
     const formattedText = formatMarkdown(text);
     const metaBadges = meta ? `
-      <div class="mt-2 pt-2 border-t border-slate-700/60 flex items-center justify-between text-[10px] text-slate-400">
-        <div class="flex items-center space-x-2">
-          <span class="bg-slate-800 px-2 py-0.5 rounded border border-slate-700 font-mono">Intent: ${meta.intent} (${Math.round(meta.intent_confidence * 100)}%)</span>
-          <span class="bg-slate-800 px-2 py-0.5 rounded border border-slate-700 font-mono">Latence: ${meta.latency_ms}ms</span>
-          ${meta.escalated ? '<span class="bg-rose-500/20 text-rose-300 px-2 py-0.5 rounded border border-rose-500/30 font-bold">Escalade Humaine</span>' : ''}
+      <div class="mt-2.5 pt-2 border-t flex flex-wrap items-center justify-between gap-1 text-[11px]" style="border-color: var(--esic-gris-clair); color: var(--esic-gris-fonce);">
+        <div class="flex items-center space-x-1.5 flex-wrap">
+          <span class="px-2 py-0.5 rounded border text-[10px] font-mono" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">Intent: ${meta.intent} (${Math.round(meta.intent_confidence * 100)}%)</span>
+          <span class="px-2 py-0.5 rounded border text-[10px] font-mono" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">Latence: ${meta.latency_ms}ms</span>
+          ${meta.escalated ? '<span class="esic-badge esic-badge-accent text-[9px]">Escalade Humaine</span>' : ''}
         </div>
         <div class="flex items-center space-x-1">
-          <button onclick="rateInteraction(${meta.interaction_id}, 1)" class="p-1 hover:text-emerald-400 text-slate-400 transition" title="Réponse utile 👍">
+          <button onclick="rateInteraction(${meta.interaction_id}, 1)" class="p-1 hover:text-emerald-600 text-slate-400 transition" title="Réponse utile 👍">
             <i class="fa-regular fa-thumbs-up"></i>
           </button>
-          <button onclick="rateInteraction(${meta.interaction_id}, -1)" class="p-1 hover:text-rose-400 text-slate-400 transition" title="Réponse incorrecte 👎">
+          <button onclick="rateInteraction(${meta.interaction_id}, -1)" class="p-1 hover:text-rose-600 text-slate-400 transition" title="Réponse incorrecte 👎">
             <i class="fa-regular fa-thumbs-down"></i>
           </button>
         </div>
@@ -238,17 +394,17 @@ function appendChatMessage(role, text, meta = null) {
     ` : '';
 
     const suggestionsHtml = (meta && meta.suggestions && meta.suggestions.length > 0) ? `
-      <div class="mt-2.5 flex flex-wrap gap-1">
+      <div class="mt-3 flex flex-wrap gap-1.5">
         ${meta.suggestions.map(s => `<button onclick="sendQuickQuery('${escapeQuotes(s)}')" class="quick-pill">${escapeHtml(s)}</button>`).join('')}
       </div>
     ` : '';
 
     msgWrapper.innerHTML = `
-      <div class="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-500 to-indigo-600 flex items-center justify-center text-white text-sm shrink-0">
-        <i class="fa-solid fa-robot"></i>
+      <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold text-white shrink-0 shadow-sm" style="background-color: var(--esic-sombre);">
+        <i class="fa-solid fa-graduation-cap"></i>
       </div>
-      <div class="bg-slate-750 text-slate-200 p-4 rounded-2xl rounded-tl-none max-w-xl border border-slate-700 shadow-md text-sm">
-        <div class="leading-relaxed prose prose-invert">${formattedText}</div>
+      <div class="chat-bubble-bot text-sm">
+        <div class="leading-relaxed">${formattedText}</div>
         ${suggestionsHtml}
         ${metaBadges}
       </div>
@@ -262,16 +418,20 @@ function appendChatMessage(role, text, meta = null) {
 function showTypingIndicator() {
   const container = document.getElementById('chat-messages');
   const id = 'typing_' + Date.now();
-  const typingDiv = document.createElement('div');
-  typingDiv.id = id;
-  typingDiv.className = 'flex items-center space-x-2 text-slate-400 text-xs px-2 py-1';
-  typingDiv.innerHTML = `
-    <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></div>
-    <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse" style="animation-delay: 0.2s"></div>
-    <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse" style="animation-delay: 0.4s"></div>
-    <span class="ml-1 text-[11px] text-slate-400">Recherche dans la base campus...</span>
+  const div = document.createElement('div');
+  div.id = id;
+  div.className = 'flex items-start space-x-3 chat-message-anim';
+  div.innerHTML = `
+    <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold text-white shrink-0 shadow-sm" style="background-color: var(--esic-sombre);">
+      <i class="fa-solid fa-graduation-cap"></i>
+    </div>
+    <div class="chat-bubble-bot p-3 flex items-center space-x-1.5">
+      <div class="w-2 h-2 rounded-full bg-slate-400 animate-pulse"></div>
+      <div class="w-2 h-2 rounded-full bg-slate-400 animate-pulse delay-100"></div>
+      <div class="w-2 h-2 rounded-full bg-slate-400 animate-pulse delay-200"></div>
+    </div>
   `;
-  container.appendChild(typingDiv);
+  container.appendChild(div);
   container.scrollTop = container.scrollHeight;
   return id;
 }
@@ -283,81 +443,89 @@ function removeTypingIndicator(id) {
 
 async function resetConversation() {
   await fetch(`/api/chat/reset/${activeSessionId}`, { method: 'POST' });
-  activeSessionId = 'session_' + Math.random().toString(36).substring(2, 9);
   const container = document.getElementById('chat-messages');
-  container.innerHTML = '';
-  appendChatMessage('system', 'Conversation réinitialisée.');
-  appendChatMessage('bot', "Bonjour ! Comment puis-je vous aider aujourd'hui ?");
+  container.innerHTML = `
+    <div class="flex items-start space-x-3">
+      <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold text-white shrink-0 shadow-sm" style="background-color: var(--esic-sombre);">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </div>
+      <div class="chat-bubble-bot">
+        <p class="font-bold mb-1" style="color: var(--esic-sombre);">Nouvelle conversation initialisée. Bonjour ! 👋</p>
+        <p class="text-sm leading-relaxed" style="color: var(--esic-gris-fonce);">
+          Comment puis-je vous aider aujourd'hui ? Posez votre question sur les emplois du temps, scolarité, examens ou démarches.
+        </p>
+        <div class="mt-3 pt-3 border-t flex flex-wrap gap-2" style="border-color: var(--esic-gris-clair);">
+          <button onclick="sendQuickQuery('À quelle heure ouvre la bibliothèque ?')" class="quick-pill">📚 Horaires BU</button>
+          <button onclick="sendQuickQuery('Quels sont les horaires de la scolarité ?')" class="quick-pill">🏢 Horaires Scolarité</button>
+          <button onclick="sendQuickQuery('Je suis en Data Science 2e année, quand sont mes examens de machine learning ?')" class="quick-pill">📅 Examens Machine Learning DS2</button>
+          <button onclick="sendQuickQuery('Où manger le midi ?')" class="quick-pill">🍽️ Resto U ce midi</button>
+        </div>
+      </div>
+    </div>
+  `;
 }
 
 // ==============================================================================
-// Voice Speech-to-Text & Text-to-Speech (US-029)
+// Web Speech API : Speech-to-Text & Text-to-Speech
 // ==============================================================================
 function setupSpeechRecognition() {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (SpeechRecognition) {
     speechRecognizer = new SpeechRecognition();
-    speechRecognizer.continuous = false;
-    speechRecognizer.interimResults = false;
     speechRecognizer.lang = 'fr-FR';
-
-    speechRecognizer.onstart = () => {
-      isRecording = true;
-      document.getElementById('voice-btn').classList.add('bg-rose-600', 'text-white', 'animate-pulse');
-      document.getElementById('voice-icon').className = 'fa-solid fa-microphone-lines text-base';
-    };
+    speechRecognizer.interimResults = false;
 
     speechRecognizer.onresult = (event) => {
       const transcript = event.results[0][0].transcript;
       document.getElementById('chat-input').value = transcript;
-      sendQuery(transcript, currentTab === 'kiosk' ? 'borne_iot' : 'web');
+      handleChatSubmit(null);
+      stopVoiceInput();
     };
 
-    speechRecognizer.onend = () => {
-      isRecording = false;
-      document.getElementById('voice-btn').classList.remove('bg-rose-600', 'text-white', 'animate-pulse');
-      document.getElementById('voice-icon').className = 'fa-solid fa-microphone text-base';
-    };
-
-    speechRecognizer.onerror = (e) => {
-      console.warn("Speech recognition error:", e);
-      isRecording = false;
-    };
-  } else {
-    console.info("Web Speech API not supported in this browser.");
+    speechRecognizer.onerror = () => stopVoiceInput();
+    speechRecognizer.onend = () => stopVoiceInput();
   }
 }
 
 function toggleVoiceInput() {
+  if (isRecording) {
+    stopVoiceInput();
+  } else {
+    startVoiceInput();
+  }
+}
+
+function startVoiceInput() {
   if (!speechRecognizer) {
-    alert("La reconnaissance vocale Web Speech API n'est pas supportée sur ce navigateur.");
+    alert("La reconnaissance vocale n'est pas prise en charge sur ce navigateur.");
     return;
   }
-  if (isRecording) {
-    speechRecognizer.stop();
-  } else {
-    speechRecognizer.start();
-  }
+  isRecording = true;
+  document.getElementById('voice-icon').className = 'fa-solid fa-circle-dot text-rose-500 animate-ping';
+  speechRecognizer.start();
+}
+
+function stopVoiceInput() {
+  isRecording = false;
+  document.getElementById('voice-icon').className = 'fa-solid fa-microphone text-base';
+  if (speechRecognizer) speechRecognizer.stop();
 }
 
 function toggleTTS() {
   isTTSEnabled = !isTTSEnabled;
   const icon = document.getElementById('tts-icon');
-  const btn = document.getElementById('tts-toggle-btn');
   if (isTTSEnabled) {
-    icon.className = 'fa-solid fa-volume-high text-cyan-400';
-    btn.classList.add('bg-cyan-500/20');
+    icon.className = 'fa-solid fa-volume-high text-emerald-400';
+    speakText("Lecture vocale activée");
   } else {
-    icon.className = 'fa-solid fa-volume-xmark';
-    btn.classList.remove('bg-cyan-500/20');
-    window.speechSynthesis?.cancel();
+    icon.className = 'fa-solid fa-volume-xmark text-slate-300';
+    window.speechSynthesis.cancel();
   }
 }
 
 function speakText(text) {
   if (!('speechSynthesis' in window)) return;
   window.speechSynthesis.cancel();
-  // Strip markdown symbols for clean speech
   const clean = text.replace(/[*_#`[\]()]/g, '');
   const utterance = new SpeechSynthesisUtterance(clean);
   utterance.lang = 'fr-FR';
@@ -478,9 +646,9 @@ async function kioskScanBadge(cardId) {
     <div class="flex items-center space-x-3">
       <span class="text-2xl">${st.photo ? '👩‍🎓' : '🧑‍🎓'}</span>
       <div>
-        <div class="font-bold text-emerald-400 text-sm">${st.prenom} ${st.nom}</div>
-        <div class="text-slate-300 text-[11px]">${st.formation} (${st.annee}) | N° ${st.etudiant_id}</div>
-        <div class="text-slate-400 text-[10px] mt-1">Badge NFC validé • Prochain examen : Machine Learning (15 mars, Amphi B)</div>
+        <div class="font-bold text-emerald-800 text-sm">${st.prenom} ${st.nom}</div>
+        <div class="text-slate-600 text-[11px]">${st.formation} (${st.annee}) | N° ${st.etudiant_id}</div>
+        <div class="text-emerald-700 text-[10px] mt-1 font-semibold">✓ Badge NFC validé • Prochain examen : Machine Learning (15 mars, Amphi B)</div>
       </div>
     </div>
   `;
@@ -489,7 +657,7 @@ async function kioskScanBadge(cardId) {
 }
 
 // ==============================================================================
-// Analytics & Dashboard (Sprint 2 - Epic 5)
+// Analytics & Dashboard (Sprint 2 - Epic 5 - Admin Only)
 // ==============================================================================
 async function loadRealtimeAnalytics() {
   try {
@@ -511,8 +679,8 @@ async function loadRealtimeAnalytics() {
     data.top_10_questions.forEach(item => {
       topTbody.innerHTML += `
         <tr>
-          <td class="py-2 pr-2 text-slate-200 truncate max-w-xs">${escapeHtml(item.question)}</td>
-          <td class="py-2 text-right font-bold text-blue-400">${item.count}</td>
+          <td class="py-2 pr-2 text-slate-800 truncate max-w-xs">${escapeHtml(item.question)}</td>
+          <td class="py-2 text-right font-bold" style="color: var(--esic-accent);">${item.count}</td>
         </tr>
       `;
     });
@@ -522,12 +690,12 @@ async function loadRealtimeAnalytics() {
     recBox.innerHTML = '';
     data.continuous_learning_recommendations.forEach(r => {
       recBox.innerHTML += `
-        <div class="p-2.5 bg-slate-750 rounded-xl border border-slate-700">
-          <div class="flex items-center justify-between font-semibold text-purple-300">
+        <div class="p-2.5 rounded-xl border" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
+          <div class="flex items-center justify-between font-semibold" style="color: var(--esic-accent-texte);">
             <span>💡 Sujet : ${escapeHtml(r.topic)}</span>
-            <span class="text-[10px] bg-purple-500/20 text-purple-300 px-2 py-0.5 rounded">${r.occurrences} requêtes</span>
+            <span class="esic-badge esic-badge-mint text-[9px]">${r.occurrences} requêtes</span>
           </div>
-          <p class="text-[11px] text-slate-300 mt-1">${escapeHtml(r.action)}</p>
+          <p class="text-[11px] text-slate-600 mt-1">${escapeHtml(r.action)}</p>
         </div>
       `;
     });
@@ -537,19 +705,19 @@ async function loadRealtimeAnalytics() {
     fbBox.innerHTML = '';
     data.recent_feedback.forEach(f => {
       fbBox.innerHTML += `
-        <div class="p-2.5 bg-slate-750 rounded-xl border border-slate-700">
+        <div class="p-2.5 rounded-xl border" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
           <div class="flex items-center justify-between">
-            <span class="font-semibold text-xs ${f.rating > 0 ? 'text-emerald-400' : 'text-rose-400'}">
+            <span class="font-semibold text-xs ${f.rating > 0 ? 'text-emerald-700' : 'text-rose-700'}">
               ${f.rating > 0 ? '👍 Satisfait' : '👎 Insatisfait'}
             </span>
             <span class="text-[10px] text-slate-400">${new Date(f.timestamp * 1000).toLocaleTimeString()}</span>
           </div>
-          <p class="text-slate-300 text-[11px] mt-1 italic">"${escapeHtml(f.comment)}"</p>
+          <p class="text-slate-700 text-[11px] mt-1 italic">"${escapeHtml(f.comment)}"</p>
         </div>
       `;
     });
 
-    // Render Charts
+    // Render Charts styled with ESIC DA colors
     renderHourlyChart(data.hourly_trend_last_24h);
     renderCategoryChart(data.category_distribution);
 
@@ -569,63 +737,87 @@ function renderHourlyChart(hourlyData) {
     data: {
       labels: labels,
       datasets: [{
-        label: 'Requêtes reçues',
+        label: 'Requêtes étudiantes',
         data: hourlyData,
-        borderColor: '#38bdf8',
-        backgroundColor: 'rgba(56, 189, 248, 0.1)',
+        borderColor: '#5dbe9c',
+        backgroundColor: 'rgba(93, 190, 156, 0.15)',
+        pointBackgroundColor: '#07294d',
         fill: true,
         tension: 0.35,
-        borderWidth: 2
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        x: { grid: { color: '#334155' }, ticks: { color: '#94a3b8' } },
-        y: { grid: { color: '#334155' }, ticks: { color: '#94a3b8' }, beginAtZero: true }
-      }
-    }
-  });
-}
-
-function renderCategoryChart(catData) {
-  const ctx = document.getElementById('chart-categories').getContext('2d');
-  const labels = Object.keys(catData);
-  const values = Object.values(catData);
-
-  if (categoryChartInstance) categoryChartInstance.destroy();
-
-  categoryChartInstance = new Chart(ctx, {
-    type: 'doughnut',
-    data: {
-      labels: labels,
-      datasets: [{
-        data: values,
-        backgroundColor: [
-          '#3b82f6', '#06b6d4', '#10b981', '#f59e0b', '#ec4899',
-          '#8b5cf6', '#6366f1', '#14b8a6', '#f97316', '#64748b'
-        ]
+        borderWidth: 2.5
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'right', labels: { color: '#cbd5e1', font: { size: 10 } } }
+        legend: { display: false }
+      },
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: { color: '#64748b', font: { family: 'Inter', size: 10 } }
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: 'rgba(7, 41, 77, 0.06)' },
+          ticks: { color: '#64748b', font: { family: 'Inter', size: 10 } }
+        }
+      }
+    }
+  });
+}
+
+function renderCategoryChart(dist) {
+  const ctx = document.getElementById('chart-categories').getContext('2d');
+  const labels = Object.keys(dist);
+  const data = Object.values(dist);
+
+  if (categoryChartInstance) categoryChartInstance.destroy();
+
+  // Official ESIC palette: Sombre (#07294d), Primaire (#5dbe9c), Secondaire (#48a2db), Accent (#2770ff), Amber (#f2a541)
+  const esicColors = [
+    '#07294d', '#5dbe9c', '#48a2db', '#2770ff', '#f2a541',
+    '#49a988', '#2073a8', '#123aad', '#15795a', '#f59e0b',
+    '#8b5cf6', '#06b6d4', '#64748b', '#0d9488', '#e11d48'
+  ];
+
+  categoryChartInstance = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: labels,
+      datasets: [{
+        data: data,
+        backgroundColor: esicColors.slice(0, labels.length),
+        borderWidth: 2,
+        borderColor: '#ffffff'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: {
+            boxWidth: 10,
+            color: '#07294d',
+            font: { family: 'Inter', size: 10, weight: '500' }
+          }
+        }
       }
     }
   });
 }
 
 // ==============================================================================
-// Admin & Knowledge Base Management (US-025, US-026, US-031)
+// Knowledge Base Administration (Sprint 1 & Sprint 2 - Epic 6 - Admin Only)
 // ==============================================================================
 async function loadKnowledgeSummary() {
   try {
     const res = await fetch('/api/knowledge/summary');
     const data = await res.json();
+
     document.getElementById('kb-schedules-count').textContent = data.schedules_count;
     document.getElementById('kb-procedures-count').textContent = data.procedures_count;
     document.getElementById('kb-contacts-count').textContent = data.contacts_count;
@@ -639,9 +831,9 @@ async function loadKnowledgeSummary() {
 async function handleAddKnowledge(event) {
   event.preventDefault();
   const category = document.getElementById('new-kb-category').value;
-  const keywords = document.getElementById('new-kb-keywords').value;
-  const question = document.getElementById('new-kb-question').value;
-  const answer = document.getElementById('new-kb-answer').value;
+  const question = document.getElementById('new-kb-question').value.trim();
+  const answer = document.getElementById('new-kb-answer').value.trim();
+  const keywords = document.getElementById('new-kb-keywords').value.trim();
 
   await fetch('/api/knowledge/items', {
     method: 'POST',
@@ -667,20 +859,20 @@ async function loadKiosksFleet() {
       const isOnline = k.status === 'online';
       tbody.innerHTML += `
         <tr>
-          <td class="py-2.5 font-mono text-cyan-400 font-bold">${k.id}</td>
+          <td class="py-2.5 font-mono font-bold" style="color: var(--esic-accent);">${k.id}</td>
           <td class="py-2.5">
-            <span class="font-semibold text-white block">${escapeHtml(k.name)}</span>
-            <span class="text-[10px] text-slate-400">${escapeHtml(k.location)}</span>
+            <span class="font-bold block" style="color: var(--esic-sombre);">${escapeHtml(k.name)}</span>
+            <span class="text-[10px] text-slate-500">${escapeHtml(k.location)}</span>
           </td>
           <td class="py-2.5">
-            <span class="px-2 py-0.5 rounded-full text-[10px] font-bold ${isOnline ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' : 'bg-rose-500/20 text-rose-300 border border-rose-500/30'}">
+            <span class="px-2 py-0.5 rounded-full text-[10px] font-bold ${isOnline ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'}">
               ${k.status.toUpperCase()}
             </span>
           </td>
-          <td class="py-2.5 font-semibold text-slate-300">${k.battery_level}%</td>
-          <td class="py-2.5 font-bold text-blue-400">${k.interactions_count}</td>
-          <td class="py-2.5 text-slate-300 capitalize">${k.active_mode}</td>
-          <td class="py-2.5 text-right text-slate-400 font-mono text-[11px]">${new Date(k.last_heartbeat * 1000).toLocaleTimeString()}</td>
+          <td class="py-2.5 font-semibold text-slate-700">${k.battery_level}%</td>
+          <td class="py-2.5 font-bold" style="color: var(--esic-sombre);">${k.interactions_count}</td>
+          <td class="py-2.5 text-slate-600 capitalize">${k.active_mode}</td>
+          <td class="py-2.5 text-right text-slate-500 font-mono text-[11px]">${new Date(k.last_heartbeat * 1000).toLocaleTimeString()}</td>
         </tr>
       `;
     });
@@ -707,7 +899,6 @@ async function loadSuggestions() {
   try {
     const res = await fetch('/api/chat/suggestions');
     const data = await res.json();
-    // Already pre-rendered in HTML
   } catch (e) {}
 }
 

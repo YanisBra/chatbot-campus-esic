@@ -1,60 +1,294 @@
-/* Custom styles for Campus ESIC Virtual Assistant */
+/* ==============================================================================
+   ESIC CAMPUS CONNECTED ASSISTANT - DESIGN SYSTEM & DA REVERSE-ENGINEERED
+   Matching https://www.esic.fr/ Design System
+   ============================================================================== */
 
-/* Quick pill button */
-.quick-pill {
-  display: inline-flex;
-  align-items: center;
-  background-color: rgba(51, 65, 85, 0.7);
-  color: #cbd5e1;
-  padding: 0.35rem 0.75rem;
-  border-radius: 9999px;
-  font-size: 0.75rem;
-  border: 1px solid rgba(71, 85, 105, 0.8);
-  cursor: pointer;
-  transition: all 0.2s ease;
-  white-space: nowrap;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Official ESIC Color Palette */
+  --esic-primaire: #5dbe9c;               /* Mint Green Signature ESIC */
+  --esic-primaire-fonce: #49a988;         /* Mint Hover */
+  --esic-secondaire: #48a2db;             /* Sky Blue Accent */
+  --esic-accent: #2770ff;                 /* Vivid Royal Blue */
+  --esic-sombre: #07294d;                 /* Midnight Deep Navy - main brand dark */
+  --esic-primaire-texte: #15795a;         /* High contrast green text */
+  --esic-secondaire-texte: #2073a8;       /* High contrast blue text */
+  --esic-accent-texte: #123aad;           /* High contrast royal blue text */
+  --esic-succes: #5eff95;
+  --esic-fond: #ffffff;
+  --esic-gris-tres-clair: #f7f9fb;        /* Ultra light page & section background */
+  --esic-gris-clair: #e5e9ed;             /* Border lines */
+  --esic-gris-moyen: #9aa4af;             /* Medium gray icons & borders */
+  --esic-gris-fonce: #455060;             /* Body paragraph text */
+  --esic-noir-doux: #1a2230;
+  --esic-avertissement: #f2a541;          /* Warning amber */
+  --esic-erreur: #e74c3c;                 /* Red error */
+  --esic-info: #48a2db;
+
+  /* Typography */
+  --esic-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  /* Radiuses */
+  --esic-radius-sm: 8px;
+  --esic-radius: 12px;
+  --esic-radius-lg: 20px;
+  --esic-radius-pill: 999px;
+
+  /* Shadows */
+  --esic-shadow-sm: 0 1px 2px rgba(7, 41, 77, 0.06);
+  --esic-shadow: 0 4px 16px rgba(7, 41, 77, 0.08);
+  --esic-shadow-lg: 0 14px 36px rgba(7, 41, 77, 0.12);
+
+  /* Transitions */
+  --esic-transition: 0.2s ease-out;
 }
 
-.quick-pill:hover {
-  background-color: rgba(37, 99, 235, 0.3);
-  color: #ffffff;
-  border-color: rgba(59, 130, 246, 0.5);
+body {
+  font-family: var(--esic-font);
+  background-color: var(--esic-gris-tres-clair);
+  color: var(--esic-sombre);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==============================================================================
+   ESIC BUTTONS
+   ============================================================================== */
+.esic-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--esic-primaire);
+  color: var(--esic-sombre);
+  font-family: var(--esic-font);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: var(--esic-radius-sm);
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color var(--esic-transition), box-shadow var(--esic-transition), transform var(--esic-transition);
+}
+
+.esic-btn-primary:hover {
+  background-color: var(--esic-primaire-fonce);
+  box-shadow: var(--esic-shadow);
   transform: translateY(-1px);
 }
 
-/* Active Nav Tab */
+.esic-btn-primary:active {
+  transform: translateY(0);
+}
+
+.esic-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #ffffff;
+  color: var(--esic-sombre);
+  font-family: var(--esic-font);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: var(--esic-radius-sm);
+  border: 1px solid var(--esic-gris-clair);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--esic-transition);
+}
+
+.esic-btn-secondary:hover {
+  background-color: var(--esic-gris-tres-clair);
+  border-color: var(--esic-gris-moyen);
+}
+
+.esic-btn-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--esic-sombre);
+  color: #ffffff;
+  font-family: var(--esic-font);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: var(--esic-radius-sm);
+  border: none;
+  cursor: pointer;
+  transition: all var(--esic-transition);
+}
+
+.esic-btn-dark:hover {
+  background-color: #0c3866;
+  box-shadow: var(--esic-shadow);
+}
+
+/* ==============================================================================
+   NAVIGATION TABS
+   ============================================================================== */
+.nav-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--esic-font);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--esic-gris-fonce);
+  padding: 8px 14px;
+  border-radius: var(--esic-radius-sm);
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all var(--esic-transition);
+  white-space: nowrap;
+}
+
+.nav-tab:hover {
+  color: var(--esic-sombre);
+  background-color: var(--esic-gris-tres-clair);
+}
+
 .nav-tab.active-tab {
-  background: linear-gradient(135deg, #2563eb, #4f46e5);
-  color: #ffffff;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+  color: var(--esic-sombre);
+  background-color: color-mix(in srgb, var(--esic-primaire) 24%, #ffffff);
+  border-color: color-mix(in srgb, var(--esic-primaire) 45%, #ffffff);
+  font-weight: 600;
+  box-shadow: var(--esic-shadow-sm);
 }
 
-/* Kiosk Mode Button */
-.kiosk-mode-btn {
-  background-color: rgba(51, 65, 85, 0.6);
-  color: #94a3b8;
-  border: 1px solid rgba(71, 85, 105, 0.7);
-  transition: all 0.2s;
+.nav-tab-admin-locked {
+  position: relative;
 }
 
-.kiosk-mode-btn.active {
-  background-color: #0284c7;
-  color: #ffffff;
-  border-color: #38bdf8;
+.nav-tab-admin-locked::after {
+  content: '🔒';
+  font-size: 9px;
+  margin-left: 2px;
+}
+
+/* ==============================================================================
+   QUICK SUGGESTION PILLS
+   ============================================================================== */
+.quick-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #ffffff;
+  color: var(--esic-sombre);
+  padding: 6px 14px;
+  border-radius: var(--esic-radius-pill);
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid var(--esic-gris-clair);
+  cursor: pointer;
+  transition: all var(--esic-transition);
+  white-space: nowrap;
+  box-shadow: var(--esic-shadow-sm);
+}
+
+.quick-pill:hover {
+  background-color: color-mix(in srgb, var(--esic-primaire) 18%, #ffffff);
+  color: var(--esic-sombre);
+  border-color: var(--esic-primaire-fonce);
+  transform: translateY(-1px);
+  box-shadow: var(--esic-shadow);
+}
+
+/* ==============================================================================
+   ESIC CARD CONTAINER & SECTION STYLING
+   ============================================================================== */
+.esic-card {
+  background-color: #ffffff;
+  border: 1px solid var(--esic-gris-clair);
+  border-radius: var(--esic-radius);
+  box-shadow: var(--esic-shadow);
+  transition: box-shadow var(--esic-transition);
+}
+
+.esic-card:hover {
+  box-shadow: var(--esic-shadow-lg);
+}
+
+.esic-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: var(--esic-radius-pill);
+  font-size: 0.72rem;
   font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-/* Slate intermediate background shades */
-.bg-slate-750 {
-  background-color: #243044;
+.esic-badge-mint {
+  background-color: color-mix(in srgb, var(--esic-primaire) 20%, #ffffff);
+  color: var(--esic-primaire-texte);
+  border: 1px solid color-mix(in srgb, var(--esic-primaire) 40%, transparent);
 }
 
-.bg-slate-850 {
-  background-color: #152033;
+.esic-badge-accent {
+  background-color: var(--esic-accent);
+  color: #ffffff;
 }
 
-.border-slate-750 {
-  border-color: #2d3b53;
+.esic-badge-sombre {
+  background-color: var(--esic-sombre);
+  color: #ffffff;
+}
+
+.esic-badge-warning {
+  background-color: #fff4e5;
+  color: #b76e00;
+  border: 1px solid #fed29d;
+}
+
+/* ==============================================================================
+   CHAT INTERFACE SPECIFIC STYLES
+   ============================================================================== */
+.chat-bubble-user {
+  background-color: var(--esic-sombre);
+  color: #ffffff;
+  border-radius: 18px 18px 4px 18px;
+  padding: 12px 16px;
+  max-width: 82%;
+  box-shadow: var(--esic-shadow);
+}
+
+.chat-bubble-bot {
+  background-color: #ffffff;
+  color: var(--esic-sombre);
+  border: 1px solid var(--esic-gris-clair);
+  border-radius: 18px 18px 18px 4px;
+  padding: 14px 18px;
+  max-width: 88%;
+  box-shadow: var(--esic-shadow-sm);
+}
+
+.chat-bubble-bot h1, .chat-bubble-bot h2, .chat-bubble-bot h3 {
+  color: var(--esic-sombre);
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.chat-bubble-bot strong {
+  color: var(--esic-sombre);
+}
+
+.chat-bubble-bot ul, .chat-bubble-bot ol {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 18px;
+}
+
+.chat-bubble-bot li {
+  margin-bottom: 4px;
 }
 
 /* Smooth message animations */
@@ -70,10 +304,47 @@
 }
 
 .chat-message-anim {
-  animation: fadeInSlideUp 0.25s ease-out forwards;
+  animation: fadeInSlideUp 0.22s ease-out forwards;
 }
 
-/* Kiosk High Contrast Accessibility Mode */
+/* ==============================================================================
+   KIOSK MODE BUTTONS & FRAME
+   ============================================================================== */
+.kiosk-mode-btn {
+  background-color: #ffffff;
+  color: var(--esic-gris-fonce);
+  border: 1px solid var(--esic-gris-clair);
+  font-family: var(--esic-font);
+  font-weight: 600;
+  transition: all var(--esic-transition);
+}
+
+.kiosk-mode-btn.active {
+  background-color: var(--esic-sombre);
+  color: #ffffff;
+  border-color: var(--esic-sombre);
+}
+
+.kiosk-tile {
+  background-color: #ffffff;
+  border: 1.5px solid var(--esic-gris-clair);
+  border-radius: var(--esic-radius);
+  padding: 16px;
+  cursor: pointer;
+  transition: all var(--esic-transition);
+  box-shadow: var(--esic-shadow-sm);
+}
+
+.kiosk-tile:hover {
+  border-color: var(--esic-primaire-fonce);
+  background-color: color-mix(in srgb, var(--esic-primaire) 10%, #ffffff);
+  transform: translateY(-2px);
+  box-shadow: var(--esic-shadow);
+}
+
+/* ==============================================================================
+   KIOSK HIGH CONTRAST ACCESSIBILITY MODE (PDF REQ)
+   ============================================================================== */
 body.accessibility-mode {
   background-color: #000000 !important;
   color: #ffff00 !important;
@@ -82,9 +353,10 @@ body.accessibility-mode {
 
 body.accessibility-mode header,
 body.accessibility-mode section,
-body.accessibility-mode .bg-slate-800,
-body.accessibility-mode .bg-slate-900,
-body.accessibility-mode .bg-slate-750 {
+body.accessibility-mode .esic-card,
+body.accessibility-mode .chat-bubble-bot,
+body.accessibility-mode .chat-bubble-user,
+body.accessibility-mode div {
   background-color: #000000 !important;
   border-color: #ffff00 !important;
   color: #ffff00 !important;
@@ -101,11 +373,9 @@ body.accessibility-mode h4 {
   color: #ffff00 !important;
 }
 
-body.accessibility-mode .quick-pill {
-  background-color: #000000 !important;
+body.accessibility-mode button {
   border: 2px solid #ffff00 !important;
-  color: #ffff00 !important;
-  font-weight: bold !important;
+  background-color: #000000 !important;
 }
 
 /* Scrollbar styling */
@@ -113,16 +383,13 @@ body.accessibility-mode .quick-pill {
   width: 6px;
   height: 6px;
 }
-
 ::-webkit-scrollbar-track {
-  background: rgba(15, 23, 42, 0.6);
+  background: var(--esic-gris-tres-clair);
 }
-
 ::-webkit-scrollbar-thumb {
-  background: rgba(71, 85, 105, 0.8);
+  background: var(--esic-gris-moyen);
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(100, 116, 139, 1);
+  background: var(--esic-gris-fonce);
 }

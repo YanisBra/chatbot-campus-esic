@@ -14,7 +14,7 @@ from fastapi.responses import FileResponse, JSONResponse
 
 from .models.schemas import (
     ChatRequest, FeedbackRequest, KnowledgeItemCreate,
-    KioskHeartbeatRequest, BadgeScanRequest, NotificationCreate
+    KioskHeartbeatRequest, BadgeScanRequest, NotificationCreate, LoginRequest
 )
 from .services.chatbot_service import chatbot_service, FREQUENT_QUESTIONS_SUGGESTIONS
 from .services.knowledge_service import knowledge_service
@@ -43,6 +43,30 @@ app.add_middleware(
 )
 
 FRONTEND_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend"))
+
+# ==============================================================================
+# Authentication & Role Verification (Admin for Analytics & Knowledge Base)
+# ==============================================================================
+
+@app.post("/api/auth/login")
+async def login_endpoint(req: LoginRequest):
+    valid_admins = {
+        "admin@esic.fr": "esic2026",
+        "admin": "admin",
+        "sophie.dubois@esic.fr": "esic2026"
+    }
+    if (req.username in valid_admins and valid_admins[req.username] == req.password) or (req.username == "admin" and req.password == "admin"):
+        return {
+            "status": "authenticated",
+            "token": "esic_admin_token_2026",
+            "user": {
+                "name": "Sophie Dubois",
+                "email": "sophie.dubois@esic.fr",
+                "role": "Responsable Scolarité & Administrateur",
+                "is_admin": True
+            }
+        }
+    raise HTTPException(status_code=401, detail="Identifiants administrateur incorrects. Utilisez admin / admin ou admin@esic.fr / esic2026.")
 
 # ==============================================================================
 # Chatbot Endpoints (Sprint 1 & Sprint 2)

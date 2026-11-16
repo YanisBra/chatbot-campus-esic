@@ -1,192 +1,282 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ESIC - Assistant Virtuel Campus Connecté & Analytics</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+
+  <!-- Inter Google Font (Exact typography from esic.fr) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- ESIC Official Design System Styles -->
   <link rel="stylesheet" href="/static/styles.css">
 </head>
-<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
+<body class="min-h-screen flex flex-col font-sans" style="background-color: var(--esic-gris-tres-clair); color: var(--esic-sombre);">
 
-  <!-- TOP NAVIGATION BAR -->
-  <header class="bg-slate-800/90 backdrop-blur border-b border-slate-700 sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+  <!-- ========================================================================= -->
+  <!-- 1. TOP UTILITY HEADER (Exact replica of esic.fr dark navy utility bar) -->
+  <!-- ========================================================================= -->
+  <div style="background-color: var(--esic-sombre); color: rgba(255, 255, 255, 0.85);" class="text-xs py-2 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
       
-      <!-- Logo & Campus Info -->
-      <div class="flex items-center space-x-3 cursor-pointer" onclick="switchTab('chat')">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-cyan-400 flex items-center justify-center shadow-lg shadow-blue-500/20">
-          <i class="fa-solid fa-graduation-cap text-white text-xl"></i>
+      <!-- Promo link -->
+      <div class="flex items-center space-x-3">
+        <a href="https://www.esic-online.com/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition flex items-center space-x-1.5">
+          <span>Salarié ou Alternant&nbsp;? Découvrez</span>
+          <strong class="text-white font-semibold">esic-online.com</strong>
+        </a>
+        <span class="hidden md:inline text-slate-500">|</span>
+        <span class="hidden md:inline text-[11px] text-emerald-400 font-semibold tracking-wide flex items-center space-x-1">
+          <i class="fa-solid fa-circle text-[7px] text-emerald-400 animate-pulse mr-1"></i>
+          Campus Connecté • ESIS-2 / CPDIA-2
+        </span>
+      </div>
+
+      <!-- Utility links & Socials -->
+      <div class="flex items-center space-x-4">
+        <nav class="hidden sm:flex items-center space-x-4 text-xs">
+          <a href="https://app.esic.fr/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">Espace Candidat</a>
+          <a href="#view-ent" onclick="switchTab('ent')" class="hover:text-white transition">Portail Beraca ENT</a>
+          <a href="https://www.esic.fr/contact" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">Contact</a>
+        </nav>
+        <div class="flex items-center space-x-2.5 text-slate-400 border-l border-slate-700 pl-3">
+          <a href="https://www.linkedin.com/school/esic-ecole-sup-rieure-d-informatique-et-du-commerce/" target="_blank" class="hover:text-white transition" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/esic_ecole" target="_blank" class="hover:text-white transition" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@ESIC-EcoleInformatiqueCommerce" target="_blank" class="hover:text-white transition" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
         </div>
-        <div>
-          <div class="flex items-center space-x-2">
-            <span class="font-bold text-lg text-white tracking-wide">Campus ESIC</span>
-            <span class="px-2 py-0.5 text-xs font-semibold rounded-full bg-blue-500/20 text-blue-400 border border-blue-500/30">ESIS-2 / CPDIA-2</span>
-          </div>
-          <p class="text-xs text-slate-400 hidden sm:block">Assistant Virtuel Connecté & Plateforme Analytics</p>
+        <!-- Lang Pill -->
+        <span class="px-2 py-0.5 rounded-full text-[11px] font-bold bg-slate-800 text-emerald-400 border border-slate-700">FR</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- 2. MAIN HEADER NAVIGATION BAR (Exact logo, heights and colors of esic.fr) -->
+  <!-- ========================================================================= -->
+  <header class="bg-white border-b sticky top-0 z-50 shadow-sm" style="border-color: var(--esic-gris-clair);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
+      
+      <!-- ESIC Official Logo -->
+      <div class="flex items-center space-x-3 cursor-pointer shrink-0" onclick="switchTab('chat')">
+        <img src="/static/images/logo-esic.webp" alt="ESIC - École Supérieure d'Informatique et de Commerce" class="h-11 sm:h-12 w-auto object-contain">
+        <div class="hidden lg:block border-l pl-3 ml-1" style="border-color: var(--esic-gris-clair);">
+          <span class="text-[11px] font-bold tracking-wider uppercase block leading-none" style="color: var(--esic-sombre);">Assistant Virtuel</span>
+          <span class="text-[10px] leading-tight block" style="color: var(--esic-gris-fonce);">Intelligence & Services Campus</span>
         </div>
       </div>
 
-      <!-- Navigation Tabs -->
-      <nav class="flex items-center space-x-1 sm:space-x-2 overflow-x-auto py-1">
-        <button id="nav-chat" onclick="switchTab('chat')" class="nav-tab active-tab px-3 py-1.5 rounded-lg text-sm font-medium transition flex items-center space-x-2">
-          <i class="fa-regular fa-comments"></i>
-          <span>Chatbot</span>
+      <!-- Navigation Tabs (Chatbot, Borne IoT, Analytics (Admin), Base KB (Admin), ENT) -->
+      <nav class="flex items-center space-x-1 sm:space-x-1.5 overflow-x-auto py-1">
+        <button id="nav-chat" onclick="switchTab('chat')" class="nav-tab active-tab">
+          <i class="fa-regular fa-comments text-sm" style="color: var(--esic-primaire-texte);"></i>
+          <span>Chatbot Campus</span>
         </button>
-        <button id="nav-kiosk" onclick="switchTab('kiosk')" class="nav-tab text-slate-300 hover:text-white px-3 py-1.5 rounded-lg text-sm font-medium transition flex items-center space-x-2">
-          <i class="fa-solid fa-tablet-screen-button"></i>
+        <button id="nav-kiosk" onclick="switchTab('kiosk')" class="nav-tab">
+          <i class="fa-solid fa-tablet-screen-button text-sm"></i>
           <span>Borne IoT (21")</span>
         </button>
-        <button id="nav-analytics" onclick="switchTab('analytics')" class="nav-tab text-slate-300 hover:text-white px-3 py-1.5 rounded-lg text-sm font-medium transition flex items-center space-x-2">
-          <i class="fa-solid fa-chart-line"></i>
+        <button id="nav-ent" onclick="switchTab('ent')" class="nav-tab">
+          <i class="fa-solid fa-id-card text-sm"></i>
+          <span>Mon Espace ENT</span>
+        </button>
+        <!-- Protected Admin Tabs with Lock Indicator -->
+        <button id="nav-analytics" onclick="switchTab('analytics')" class="nav-tab" title="Réservé Administrateur">
+          <i class="fa-solid fa-chart-line text-sm"></i>
           <span>Analytics & ROI</span>
+          <span id="lock-icon-analytics" class="text-[11px] text-amber-600 ml-0.5">🔒</span>
         </button>
-        <button id="nav-admin" onclick="switchTab('admin')" class="nav-tab text-slate-300 hover:text-white px-3 py-1.5 rounded-lg text-sm font-medium transition flex items-center space-x-2">
-          <i class="fa-solid fa-database"></i>
-          <span>Base de Connaissances</span>
-        </button>
-        <button id="nav-ent" onclick="switchTab('ent')" class="nav-tab text-slate-300 hover:text-white px-3 py-1.5 rounded-lg text-sm font-medium transition flex items-center space-x-2">
-          <i class="fa-solid fa-id-card"></i>
-          <span>ENT SSO</span>
+        <button id="nav-admin" onclick="switchTab('admin')" class="nav-tab" title="Réservé Administrateur">
+          <i class="fa-solid fa-database text-sm"></i>
+          <span>Base Documentaire</span>
+          <span id="lock-icon-admin" class="text-[11px] text-amber-600 ml-0.5">🔒</span>
         </button>
       </nav>
 
-      <!-- Active User Profile Pill & RGPD Menu -->
-      <div class="flex items-center space-x-3">
+      <!-- Right Actions: Admin Status, Persona Switcher & RGPD -->
+      <div class="flex items-center space-x-2.5 shrink-0">
+        
+        <!-- Admin Status Indicator Badge (Dynamic) -->
+        <div id="admin-badge-indicator" class="hidden sm:flex items-center">
+          <span id="admin-status-pill" class="esic-badge esic-badge-mint text-[11px] cursor-pointer" onclick="openAdminAuthModal('analytics')">
+            <i class="fa-solid fa-user-lock mr-1"></i>
+            <span id="admin-status-text">Mode Étudiant</span>
+          </span>
+        </div>
+
+        <!-- Persona Menu Dropdown Button -->
         <div class="relative">
-          <button id="profile-dropdown-btn" onclick="toggleProfileDropdown()" class="flex items-center space-x-2 bg-slate-700/60 hover:bg-slate-700 px-3 py-1.5 rounded-xl border border-slate-600 text-xs text-slate-200 transition">
+          <button id="profile-dropdown-btn" onclick="toggleProfileDropdown()" class="esic-btn-secondary py-1.5 px-3 text-xs flex items-center space-x-2 shadow-sm">
             <span id="active-avatar" class="text-base">👩‍🎓</span>
             <div class="text-left hidden md:block">
-              <div id="active-name" class="font-semibold leading-tight">Emma Rousseau</div>
-              <div id="active-role" class="text-[10px] text-blue-400">Data Science 2</div>
+              <div id="active-name" class="font-bold leading-tight" style="color: var(--esic-sombre);">Emma Rousseau</div>
+              <div id="active-role" class="text-[10px] font-semibold" style="color: var(--esic-secondaire-texte);">Data Science 2</div>
             </div>
             <i class="fa-solid fa-chevron-down text-[10px] text-slate-400"></i>
           </button>
 
           <!-- Dropdown Personas Menu -->
-          <div id="profile-dropdown" class="hidden absolute right-0 mt-2 w-64 bg-slate-800 border border-slate-700 rounded-xl shadow-2xl p-2 z-50">
-            <div class="text-[11px] font-semibold text-slate-400 px-2 py-1 uppercase tracking-wider">Changer de Persona (Test)</div>
-            <button onclick="selectPersona('emma_rousseau')" class="w-full text-left p-2 rounded-lg hover:bg-slate-700/70 transition flex items-center space-x-2">
-              <span class="text-lg">👩‍🎓</span>
+          <div id="profile-dropdown" class="hidden absolute right-0 mt-2 w-72 bg-white rounded-xl shadow-xl p-2.5 z-50 border" style="border-color: var(--esic-gris-clair);">
+            <div class="text-[11px] font-bold px-2 py-1 uppercase tracking-wider" style="color: var(--esic-gris-fonce);">Sélection du Persona (Test)</div>
+            
+            <button onclick="selectPersona('emma_rousseau')" class="w-full text-left p-2 rounded-lg hover:bg-slate-50 transition flex items-center space-x-2.5">
+              <span class="text-xl">👩‍🎓</span>
               <div>
-                <div class="text-xs font-semibold text-white">Emma Rousseau</div>
-                <div class="text-[10px] text-slate-400">Étudiante 2e année Data Science</div>
+                <div class="text-xs font-bold" style="color: var(--esic-sombre);">Emma Rousseau</div>
+                <div class="text-[11px] text-slate-500">Étudiante 2e année Data Science</div>
               </div>
             </button>
-            <button onclick="selectPersona('carlos_martinez')" class="w-full text-left p-2 rounded-lg hover:bg-slate-700/70 transition flex items-center space-x-2">
-              <span class="text-lg">👨‍🎓</span>
+            
+            <button onclick="selectPersona('carlos_martinez')" class="w-full text-left p-2 rounded-lg hover:bg-slate-50 transition flex items-center space-x-2.5">
+              <span class="text-xl">👨‍🎓</span>
               <div>
-                <div class="text-xs font-semibold text-white">Carlos Martinez</div>
-                <div class="text-[10px] text-slate-400">Étudiant International Erasmus (EN/ES)</div>
+                <div class="text-xs font-bold" style="color: var(--esic-sombre);">Carlos Martinez</div>
+                <div class="text-[11px] text-slate-500">Étudiant International (EN/ES)</div>
               </div>
             </button>
-            <button onclick="selectPersona('sophie_dubois')" class="w-full text-left p-2 rounded-lg hover:bg-slate-700/70 transition flex items-center space-x-2">
-              <span class="text-lg">👩‍💼</span>
+
+            <!-- Admin Persona (Sophie Dubois) -->
+            <button onclick="selectPersona('sophie_dubois')" class="w-full text-left p-2 rounded-lg hover:bg-emerald-50 transition flex items-center space-x-2.5 border border-emerald-200 bg-emerald-50/50 mt-1">
+              <span class="text-xl">👩‍💼</span>
               <div>
-                <div class="text-xs font-semibold text-white">Sophie Dubois</div>
-                <div class="text-[10px] text-slate-400">Responsable Scolarité</div>
+                <div class="text-xs font-bold text-emerald-900 flex items-center">
+                  <span>Sophie Dubois</span>
+                  <span class="ml-1.5 px-1.5 py-0.2 text-[9px] bg-emerald-600 text-white rounded font-bold uppercase">ADMIN</span>
+                </div>
+                <div class="text-[11px] text-emerald-700">Responsable Scolarité (Accès Total)</div>
               </div>
             </button>
-            <button onclick="selectPersona('jean_moreau')" class="w-full text-left p-2 rounded-lg hover:bg-slate-700/70 transition flex items-center space-x-2">
-              <span class="text-lg">🧑</span>
+
+            <button onclick="selectPersona('jean_moreau')" class="w-full text-left p-2 rounded-lg hover:bg-slate-50 transition flex items-center space-x-2.5">
+              <span class="text-xl">🧑</span>
               <div>
-                <div class="text-xs font-semibold text-white">Jean Moreau</div>
-                <div class="text-[10px] text-slate-400">Visiteur / Prospect Lycéen</div>
+                <div class="text-xs font-bold" style="color: var(--esic-sombre);">Jean Moreau</div>
+                <div class="text-[11px] text-slate-500">Visiteur / Prospect Lycéen</div>
               </div>
             </button>
-            <div class="border-t border-slate-700 my-1"></div>
-            <button onclick="openRgpdModal()" class="w-full text-left p-2 rounded-lg hover:bg-blue-600/20 text-blue-400 transition flex items-center space-x-2 text-xs">
+
+            <div class="border-t my-1.5" style="border-color: var(--esic-gris-clair);"></div>
+            
+            <!-- Quick Admin Login/Logout link -->
+            <div id="admin-dropdown-action">
+              <button onclick="openAdminAuthModal('analytics')" class="w-full text-left p-2 rounded-lg hover:bg-amber-50 text-amber-700 transition flex items-center space-x-2 text-xs font-semibold">
+                <i class="fa-solid fa-key"></i>
+                <span>Connexion Espace Admin</span>
+              </button>
+            </div>
+
+            <button onclick="openRgpdModal()" class="w-full text-left p-2 rounded-lg hover:bg-blue-50 text-blue-700 transition flex items-center space-x-2 text-xs font-medium">
               <i class="fa-solid fa-shield-halved"></i>
               <span>Confidentialité RGPD & Oubli</span>
             </button>
           </div>
         </div>
+
       </div>
     </div>
   </header>
 
-  <!-- PROACTIVE NOTIFICATION BANNER -->
-  <div id="proactive-banner" class="bg-gradient-to-r from-blue-900/60 to-indigo-900/60 border-b border-blue-500/30 px-4 py-2 flex items-center justify-between text-xs sm:text-sm">
-    <div class="flex items-center space-x-2 max-w-5xl mx-auto w-full">
-      <span class="flex h-2 w-2 relative">
-        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
-        <span class="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
-      </span>
-      <span class="font-semibold text-cyan-300 uppercase tracking-wider text-[11px]">[Flash Info Campus]</span>
-      <span id="proactive-text" class="text-slate-200 truncate">Période des examens S2 : Machine Learning le 15 mars en Amphi B. Consultez vos convocations sur l'ENT.</span>
+  <!-- ========================================================================= -->
+  <!-- 3. PROACTIVE CAMPUS FLASH BANNER (ESIC Style) -->
+  <!-- ========================================================================= -->
+  <div id="proactive-banner" class="border-b px-4 py-2.5 text-xs transition" style="background-color: #e9f6f1; border-color: #c7eadc; color: var(--esic-primaire-texte);">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center space-x-2.5 truncate">
+        <span class="flex h-2 w-2 relative shrink-0">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+        </span>
+        <span class="font-bold text-[11px] uppercase tracking-wider shrink-0" style="color: var(--esic-primaire-texte);">[Flash Campus ESIC]</span>
+        <span id="proactive-text" class="font-medium truncate text-slate-800">Période des examens S2 : Machine Learning le 15 mars en Amphi B. Consultez vos convocations sur l'ENT.</span>
+      </div>
+      <button onclick="document.getElementById('proactive-banner').style.display='none'" class="text-slate-400 hover:text-slate-600 text-xs ml-2 shrink-0">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
     </div>
   </div>
 
-  <!-- MAIN VIEWPORT CONTAINER -->
+  <!-- ========================================================================= -->
+  <!-- 4. MAIN VIEWPORT CONTAINER -->
+  <!-- ========================================================================= -->
   <main class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 overflow-hidden">
     
-    <!-- ========================================================================= -->
+    <!-- ======================================================================= -->
     <!-- TAB 1 : CHATBOT CONVERSATIONNEL (Sprint 1 & Sprint 2) -->
-    <!-- ========================================================================= -->
-    <section id="view-chat" class="h-full flex flex-col max-w-4xl mx-auto bg-slate-800/80 rounded-2xl border border-slate-700 shadow-2xl overflow-hidden">
+    <!-- ======================================================================= -->
+    <section id="view-chat" class="h-full flex flex-col max-w-4xl mx-auto esic-card overflow-hidden">
       
-      <!-- Chat Header -->
-      <div class="bg-slate-800 px-5 py-3.5 border-b border-slate-700/80 flex items-center justify-between">
-        <div class="flex items-center space-x-3">
+      <!-- Chat Header (ESIC Midnight Navy) -->
+      <div class="px-5 py-4 flex items-center justify-between text-white" style="background-color: var(--esic-sombre);">
+        <div class="flex items-center space-x-3.5">
           <div class="relative">
-            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-blue-500 to-indigo-600 flex items-center justify-center text-white shadow">
-              <i class="fa-solid fa-robot"></i>
+            <div class="w-10 h-10 rounded-xl flex items-center justify-center font-bold text-lg shadow-sm" style="background-color: var(--esic-primaire); color: var(--esic-sombre);">
+              <i class="fa-solid fa-graduation-cap"></i>
             </div>
-            <span class="absolute bottom-0 right-0 w-3 h-3 bg-emerald-500 border-2 border-slate-800 rounded-full"></span>
+            <span class="absolute -bottom-1 -right-1 w-3.5 h-3.5 bg-emerald-400 border-2 border-slate-900 rounded-full" title="En ligne"></span>
           </div>
           <div>
             <div class="flex items-center space-x-2">
               <h2 class="font-bold text-white text-base">Assistant Virtuel ESIC</h2>
-              <span class="text-[10px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full border border-emerald-500/30 font-semibold">24h/7j En Ligne</span>
+              <span class="esic-badge esic-badge-mint text-[10px]">Campus 24h/7j</span>
             </div>
-            <p class="text-xs text-slate-400">Emploi du temps, scolarité, restos, examens & démarches</p>
+            <p class="text-xs text-slate-300">Emplois du temps, scolarité, restaurants, examens & démarches</p>
           </div>
         </div>
 
         <div class="flex items-center space-x-2">
           <!-- Text to speech toggle -->
-          <button id="tts-toggle-btn" onclick="toggleTTS()" class="p-2 text-slate-400 hover:text-cyan-400 rounded-lg hover:bg-slate-700/50 transition" title="Activer/Désactiver lecture vocale">
-            <i id="tts-icon" class="fa-solid fa-volume-xmark"></i>
+          <button id="tts-toggle-btn" onclick="toggleTTS()" class="p-2 text-slate-300 hover:text-emerald-300 rounded-lg transition" title="Activer/Désactiver lecture vocale">
+            <i id="tts-icon" class="fa-solid fa-volume-xmark text-sm"></i>
           </button>
           <!-- Restart conversation cleanly (US-003) -->
-          <button onclick="resetConversation()" class="flex items-center space-x-1.5 px-3 py-1.5 text-xs font-medium text-slate-300 hover:text-white bg-slate-700/70 hover:bg-slate-700 rounded-xl border border-slate-600 transition" title="Redémarrer la session">
-            <i class="fa-solid fa-rotate-right"></i>
-            <span class="hidden sm:inline">Recommencer</span>
+          <button onclick="resetConversation()" class="flex items-center space-x-1.5 px-3 py-1.5 text-xs font-semibold text-slate-200 hover:text-white rounded-lg border border-slate-600 bg-slate-800/80 hover:bg-slate-700 transition" title="Redémarrer la session">
+            <i class="fa-solid fa-rotate-right text-xs"></i>
+            <span class="hidden sm:inline">Nouvelle question</span>
           </button>
         </div>
       </div>
 
       <!-- Messages Scroll Area (US-002: session history) -->
-      <div id="chat-messages" class="flex-1 p-4 sm:p-6 overflow-y-auto space-y-4">
+      <div id="chat-messages" class="flex-1 p-4 sm:p-6 overflow-y-auto space-y-4" style="background-color: var(--esic-gris-tres-clair);">
+        
         <!-- Initial Welcome Message -->
         <div class="flex items-start space-x-3">
-          <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-sm shrink-0">
-            <i class="fa-solid fa-robot"></i>
+          <div class="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold text-white shrink-0 shadow-sm" style="background-color: var(--esic-sombre);">
+            <i class="fa-solid fa-graduation-cap"></i>
           </div>
-          <div class="bg-slate-750 text-slate-200 p-4 rounded-2xl rounded-tl-none max-w-xl border border-slate-700 shadow-md">
-            <p class="font-medium text-white mb-1">Bonjour et bienvenue sur l'assistant campus ESIC ! 👋</p>
-            <p class="text-sm text-slate-300">
-              Je suis là pour répondre à vos questions sur les emplois du temps, démarches de stage, services du campus et examens.
+          <div class="chat-bubble-bot">
+            <p class="font-bold mb-1" style="color: var(--esic-sombre);">Bonjour et bienvenue sur l'assistant campus ESIC ! 👋</p>
+            <p class="text-sm leading-relaxed" style="color: var(--esic-gris-fonce);">
+              Je suis à votre disposition pour vous renseigner sur vos emplois du temps, cours, examens, services de restauration et démarches administratives.
             </p>
-            <div class="mt-3 pt-3 border-t border-slate-700/60 flex flex-wrap gap-1.5">
-              <span class="text-xs text-slate-400 block w-full mb-1">Suggestions fréquentes :</span>
+            <div class="mt-3 pt-3 border-t flex flex-wrap gap-2" style="border-color: var(--esic-gris-clair);">
+              <span class="text-xs font-semibold block w-full mb-1" style="color: var(--esic-gris-fonce);">Suggestions rapides :</span>
               <button onclick="sendQuickQuery('À quelle heure ouvre la bibliothèque ?')" class="quick-pill">📚 Horaires BU</button>
+              <button onclick="sendQuickQuery('Quels sont les horaires de la scolarité ?')" class="quick-pill">🏢 Horaires Scolarité</button>
               <button onclick="sendQuickQuery('Je suis en Data Science 2e année, quand sont mes examens de machine learning ?')" class="quick-pill">📅 Examens Machine Learning DS2</button>
-              <button onclick="sendQuickQuery('Comment faire ma demande ?')" class="quick-pill">❓ Comment faire ma demande ?</button>
-              <button onclick="sendQuickQuery('C\'est inadmissible, j\'ai perdu mon stage à cause de votre retard !')" class="quick-pill">⚠️ Escalade Humain</button>
+              <button onclick="sendQuickQuery('Où manger le midi ?')" class="quick-pill">🍽️ Resto U ce midi</button>
             </div>
           </div>
         </div>
+
       </div>
 
       <!-- Quick Suggestion Bar (US-005) -->
-      <div id="quick-suggestions-bar" class="px-4 py-2 bg-slate-850 border-t border-slate-700/60 flex items-center space-x-2 overflow-x-auto text-xs">
-        <span class="text-slate-400 shrink-0 font-medium"><i class="fa-regular fa-lightbulb text-amber-400 mr-1"></i>Pense-bêtes :</span>
+      <div id="quick-suggestions-bar" class="px-4 py-2.5 border-t flex items-center space-x-2 overflow-x-auto text-xs bg-white" style="border-color: var(--esic-gris-clair);">
+        <span class="shrink-0 font-semibold flex items-center" style="color: var(--esic-gris-fonce);">
+          <i class="fa-regular fa-lightbulb text-amber-500 mr-1.5"></i>Pense-bêtes :
+        </span>
         <button onclick="sendQuickQuery('Quels sont les tarifs du resto U ?')" class="quick-pill shrink-0">🍽️ Tarifs Resto U</button>
         <button onclick="sendQuickQuery('Comment obtenir une convention de stage ?')" class="quick-pill shrink-0">🎓 Convention de stage</button>
         <button onclick="sendQuickQuery('Quel est le contact de Sophie Dubois ?')" class="quick-pill shrink-0">👤 Contact Sophie Dubois</button>
@@ -194,11 +284,11 @@
       </div>
 
       <!-- Input Bar (US-001, US-004, US-012, US-029) -->
-      <div class="p-3 sm:p-4 bg-slate-800 border-t border-slate-700/80">
-        <form id="chat-form" onsubmit="handleChatSubmit(event)" class="flex items-center space-x-2">
+      <div class="p-3 sm:p-4 bg-white border-t" style="border-color: var(--esic-gris-clair);">
+        <form id="chat-form" onsubmit="handleChatSubmit(event)" class="flex items-center space-x-2.5">
           
           <!-- Voice recognition button (Web Speech API) -->
-          <button type="button" id="voice-btn" onclick="toggleVoiceInput()" class="w-11 h-11 rounded-xl bg-slate-700 hover:bg-slate-600 text-slate-300 hover:text-cyan-400 flex items-center justify-center transition border border-slate-600 shrink-0" title="Parler au micro (Speech-to-Text)">
+          <button type="button" id="voice-btn" onclick="toggleVoiceInput()" class="w-11 h-11 rounded-lg border flex items-center justify-center transition shrink-0" style="border-color: var(--esic-gris-clair); background-color: var(--esic-gris-tres-clair); color: var(--esic-sombre);" title="Parler au micro (Speech-to-Text)">
             <i id="voice-icon" class="fa-solid fa-microphone text-base"></i>
           </button>
 
@@ -207,49 +297,53 @@
             <input
               type="text"
               id="chat-input"
-              placeholder="Posez votre question (ex: horaires BU, examens de Machine Learning, stage)..."
-              class="w-full bg-slate-900/90 text-white placeholder-slate-400 px-4 py-3 rounded-xl border border-slate-700 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 text-sm transition"
+              placeholder="Posez votre question (ex: horaires BU, examens de Machine Learning, scolarité, stage)..."
+              class="w-full bg-slate-50 text-slate-900 placeholder-slate-400 px-4 py-3 rounded-lg border text-sm transition focus:bg-white focus:outline-none"
+              style="border-color: var(--esic-gris-clair);"
               autocomplete="off"
             />
           </div>
 
-          <!-- Submit Button -->
-          <button type="submit" id="send-btn" class="w-11 h-11 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white flex items-center justify-center transition shadow-lg shadow-blue-500/20 shrink-0">
-            <i class="fa-solid fa-paper-plane text-base"></i>
+          <!-- Submit Button (ESIC Mint signature) -->
+          <button type="submit" id="send-btn" class="esic-btn-primary w-11 h-11 p-0 shrink-0 shadow-sm" title="Envoyer">
+            <i class="fa-solid fa-paper-plane text-base" style="color: var(--esic-sombre);"></i>
           </button>
         </form>
 
-        <div class="flex items-center justify-between mt-2 px-1 text-[11px] text-slate-400">
-          <span><i class="fa-solid fa-shield-check text-emerald-400 mr-1"></i>Sécurité active : Filtrage d'injections & Rate limiting (10 req/min)</span>
-          <span id="rate-counter">10 requêtes restantes</span>
+        <div class="flex items-center justify-between mt-2.5 px-1 text-[11px]" style="color: var(--esic-gris-fonce);">
+          <span class="flex items-center">
+            <i class="fa-solid fa-shield-halved text-emerald-600 mr-1.5"></i>
+            Protection active : Filtrage d'injections & Rate limiting (10 req/min)
+          </span>
+          <span id="rate-counter" class="font-semibold text-slate-500">10 requêtes restantes</span>
         </div>
       </div>
     </section>
 
-    <!-- ========================================================================= -->
+    <!-- ======================================================================= -->
     <!-- TAB 2 : SIMULATION BORNE TACTILE IOT (Sprint 3 - Epic 7) -->
-    <!-- ========================================================================= -->
+    <!-- ======================================================================= -->
     <section id="view-kiosk" class="hidden h-full flex flex-col max-w-5xl mx-auto">
       
-      <!-- Kiosk Physical Frame Simulator -->
-      <div class="bg-gradient-to-b from-slate-800 to-slate-900 border-4 border-slate-600 rounded-3xl p-4 sm:p-6 shadow-2xl flex-1 flex flex-col">
+      <!-- Kiosk Frame Simulator Styled with ESIC Deep Navy -->
+      <div class="rounded-3xl p-5 sm:p-6 shadow-2xl flex-1 flex flex-col text-white" style="background-color: var(--esic-sombre); border: 6px solid #0f3d6e;">
         
         <!-- Kiosk Header Bar -->
         <div class="flex items-center justify-between pb-4 border-b border-slate-700">
           <div class="flex items-center space-x-3">
-            <div class="px-3 py-1 bg-cyan-500/20 border border-cyan-500/30 rounded-lg text-cyan-300 text-xs font-bold uppercase tracking-wider flex items-center space-x-2">
-              <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-              <span>BORNE TACTILE 21" - BÂTIMENT A (HALL CENTRAL)</span>
+            <img src="/static/images/logo-esic.webp" alt="ESIC" class="h-9 w-auto brightness-200">
+            <div class="px-2.5 py-1 rounded-md text-[11px] font-bold uppercase tracking-wider flex items-center space-x-2" style="background-color: rgba(93, 190, 156, 0.2); color: #5eff95;">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span>BORNE TACTILE 21" - BÂTIMENT A (HALL ACCUEIL)</span>
             </div>
-            <span class="text-xs text-slate-400 hidden sm:inline">Dispositif IoT #BORNE-01</span>
           </div>
 
           <!-- Kiosk Controls & Mode Switchers -->
           <div class="flex items-center space-x-2">
-            <button onclick="setKioskMode('visiteur')" id="kiosk-mode-visiteur" class="kiosk-mode-btn active px-3 py-1 rounded-lg text-xs font-medium">Visiteur</button>
-            <button onclick="setKioskMode('etudiant')" id="kiosk-mode-etudiant" class="kiosk-mode-btn px-3 py-1 rounded-lg text-xs font-medium">Étudiant (Badge)</button>
-            <button onclick="setKioskMode('vocal')" id="kiosk-mode-vocal" class="kiosk-mode-btn px-3 py-1 rounded-lg text-xs font-medium">Vocal Mains-Libres</button>
-            <button onclick="toggleAccessibilityMode()" id="kiosk-mode-access" class="px-3 py-1 rounded-lg text-xs font-medium bg-amber-500/20 text-amber-300 border border-amber-500/30">
+            <button onclick="setKioskMode('visiteur')" id="kiosk-mode-visiteur" class="kiosk-mode-btn active px-3 py-1.5 rounded-lg text-xs">Visiteur</button>
+            <button onclick="setKioskMode('etudiant')" id="kiosk-mode-etudiant" class="kiosk-mode-btn px-3 py-1.5 rounded-lg text-xs">Étudiant (Badge)</button>
+            <button onclick="setKioskMode('vocal')" id="kiosk-mode-vocal" class="kiosk-mode-btn px-3 py-1.5 rounded-lg text-xs">Vocal Mains-Libres</button>
+            <button onclick="toggleAccessibilityMode()" id="kiosk-mode-access" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-400 text-slate-900 border border-amber-300">
               <i class="fa-solid fa-universal-access mr-1"></i>Accessibilité
             </button>
           </div>
@@ -260,96 +354,98 @@
           
           <!-- Mode 1 : Visiteur & Plan Campus Interactif -->
           <div id="kiosk-content-visiteur" class="space-y-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
               <!-- Quick Info Cards -->
-              <div onclick="kioskAskQuestion('Quelles sont les formations proposées ?')" class="kiosk-tile bg-blue-900/30 border border-blue-500/30 p-4 rounded-2xl cursor-pointer hover:bg-blue-900/50 transition">
-                <i class="fa-solid fa-book-open text-2xl text-cyan-400 mb-2"></i>
-                <h3 class="font-bold text-white text-sm">Formations & Admissions</h3>
-                <p class="text-xs text-slate-300 mt-1">Découvrez les filières Data Science, Cyber, Web & IA</p>
+              <div onclick="kioskAskQuestion('Quelles sont les formations proposées ?')" class="kiosk-tile text-left">
+                <i class="fa-solid fa-book-open text-2xl mb-2" style="color: var(--esic-accent);"></i>
+                <h3 class="font-bold text-sm" style="color: var(--esic-sombre);">Formations & Admissions</h3>
+                <p class="text-xs text-slate-500 mt-1">Data Science, Cyber, Web & Intelligence Artificielle</p>
               </div>
-              <div onclick="kioskAskQuestion('À quelle heure ouvre la bibliothèque ?')" class="kiosk-tile bg-indigo-900/30 border border-indigo-500/30 p-4 rounded-2xl cursor-pointer hover:bg-indigo-900/50 transition">
-                <i class="fa-solid fa-clock text-2xl text-indigo-400 mb-2"></i>
-                <h3 class="font-bold text-white text-sm">Horaires BU & Services</h3>
-                <p class="text-xs text-slate-300 mt-1">Bibliothèque, secrétariat, resto U et infirmerie</p>
+              <div onclick="kioskAskQuestion('Quels sont les horaires d\'ouverture de la scolarité et de la BU ?')" class="kiosk-tile text-left">
+                <i class="fa-solid fa-clock text-2xl mb-2" style="color: var(--esic-primaire-texte);"></i>
+                <h3 class="font-bold text-sm" style="color: var(--esic-sombre);">Horaires & Services</h3>
+                <p class="text-xs text-slate-500 mt-1">Scolarité (8h30-17h30), Bibliothèque BU (8h-20h), Resto U</p>
               </div>
-              <div onclick="kioskAskQuestion('Quel est le contact du service scolarité ?')" class="kiosk-tile bg-emerald-900/30 border border-emerald-500/30 p-4 rounded-2xl cursor-pointer hover:bg-emerald-900/50 transition">
-                <i class="fa-solid fa-address-book text-2xl text-emerald-400 mb-2"></i>
-                <h3 class="font-bold text-white text-sm">Contacts & Accueil</h3>
-                <p class="text-xs text-slate-300 mt-1">Sophie Dubois, enseignants et bureaux des filières</p>
+              <div onclick="kioskAskQuestion('Quel est le contact du service scolarité ?')" class="kiosk-tile text-left">
+                <i class="fa-solid fa-address-book text-2xl mb-2" style="color: var(--esic-secondaire-texte);"></i>
+                <h3 class="font-bold text-sm" style="color: var(--esic-sombre);">Secrétariat & Contacts</h3>
+                <p class="text-xs text-slate-500 mt-1">Sophie Dubois (Bât A, Bureau 102), infirmerie et IT</p>
               </div>
             </div>
 
             <!-- Campus Interactive Plan Map -->
-            <div class="bg-slate-800/90 border border-slate-700 rounded-2xl p-4">
-              <div class="flex items-center justify-between mb-2">
-                <h4 class="font-bold text-white text-sm"><i class="fa-solid fa-map-location-dot text-cyan-400 mr-2"></i>Plan Interactif du Campus ESIC</h4>
-                <span class="text-xs text-slate-400">Touchez un bâtiment pour voir ses services</span>
+            <div class="bg-white rounded-2xl p-4 border" style="border-color: var(--esic-gris-clair); color: var(--esic-sombre);">
+              <div class="flex items-center justify-between mb-3">
+                <h4 class="font-bold text-sm flex items-center" style="color: var(--esic-sombre);">
+                  <i class="fa-solid fa-map-location-dot text-emerald-600 mr-2"></i>Plan Interactif du Campus ESIC
+                </h4>
+                <span class="text-xs text-slate-500">Touchez un bâtiment pour afficher ses services</span>
               </div>
               <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
-                <div onclick="kioskShowBuilding('A')" class="bg-slate-700/60 hover:bg-blue-600/30 border border-slate-600 hover:border-blue-400 p-3 rounded-xl cursor-pointer transition">
-                  <span class="text-lg font-black text-blue-400">BÂTIMENT A</span>
-                  <p class="text-xs text-slate-200 font-semibold mt-1">Scolarité & Accueil</p>
-                  <p class="text-[10px] text-slate-400">Sophie Dubois (Bur 102)</p>
+                <div onclick="kioskShowBuilding('A')" class="p-3 rounded-xl cursor-pointer transition border hover:shadow-md" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
+                  <span class="text-base font-black" style="color: var(--esic-sombre);">BÂTIMENT A</span>
+                  <p class="text-xs font-bold mt-1 text-emerald-700">Scolarité & Accueil</p>
+                  <p class="text-[10px] text-slate-500">Sophie Dubois (Bur 102)</p>
                 </div>
-                <div onclick="kioskShowBuilding('B')" class="bg-slate-700/60 hover:bg-indigo-600/30 border border-slate-600 hover:border-indigo-400 p-3 rounded-xl cursor-pointer transition">
-                  <span class="text-lg font-black text-indigo-400">BÂTIMENT B</span>
-                  <p class="text-xs text-slate-200 font-semibold mt-1">Labos IA & Cyber</p>
-                  <p class="text-[10px] text-slate-400">Support IT (B-005)</p>
+                <div onclick="kioskShowBuilding('B')" class="p-3 rounded-xl cursor-pointer transition border hover:shadow-md" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
+                  <span class="text-base font-black" style="color: var(--esic-sombre);">BÂTIMENT B</span>
+                  <p class="text-xs font-bold mt-1 text-blue-700">Labos IA & Cyber</p>
+                  <p class="text-[10px] text-slate-500">Support IT (B-005)</p>
                 </div>
-                <div onclick="kioskShowBuilding('C')" class="bg-slate-700/60 hover:bg-cyan-600/30 border border-slate-600 hover:border-cyan-400 p-3 rounded-xl cursor-pointer transition">
-                  <span class="text-lg font-black text-cyan-400">BÂTIMENT C</span>
-                  <p class="text-xs text-slate-200 font-semibold mt-1">Bibliothèque (BU)</p>
-                  <p class="text-[10px] text-slate-400">15 000 livres & Box</p>
+                <div onclick="kioskShowBuilding('C')" class="p-3 rounded-xl cursor-pointer transition border hover:shadow-md" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
+                  <span class="text-base font-black" style="color: var(--esic-sombre);">BÂTIMENT C</span>
+                  <p class="text-xs font-bold mt-1 text-indigo-700">Bibliothèque (BU)</p>
+                  <p class="text-[10px] text-slate-500">15 000 livres & Box</p>
                 </div>
-                <div onclick="kioskShowBuilding('D')" class="bg-slate-700/60 hover:bg-emerald-600/30 border border-slate-600 hover:border-emerald-400 p-3 rounded-xl cursor-pointer transition">
-                  <span class="text-lg font-black text-emerald-400">BÂTIMENT D</span>
-                  <p class="text-xs text-slate-200 font-semibold mt-1">Resto U & Foyer BDE</p>
-                  <p class="text-[10px] text-slate-400">Repas étudiant 3,30€</p>
+                <div onclick="kioskShowBuilding('D')" class="p-3 rounded-xl cursor-pointer transition border hover:shadow-md" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
+                  <span class="text-base font-black" style="color: var(--esic-sombre);">BÂTIMENT D</span>
+                  <p class="text-xs font-bold mt-1 text-amber-700">Resto U & Foyer</p>
+                  <p class="text-[10px] text-slate-500">Repas étudiant 3,30€</p>
                 </div>
               </div>
-              <div id="building-detail-box" class="mt-3 p-3 bg-slate-900/80 rounded-xl text-xs text-slate-300 border border-slate-700 hidden"></div>
+              <div id="building-detail-box" class="mt-3 p-3 rounded-xl text-xs border hidden" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair); color: var(--esic-sombre);"></div>
             </div>
           </div>
 
           <!-- Mode 2 : Étudiant Authentification par Carte Sans Contact -->
           <div id="kiosk-content-etudiant" class="hidden space-y-4">
-            <div class="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 text-center max-w-lg mx-auto">
-              <div class="w-16 h-16 rounded-full bg-blue-600/20 border-2 border-blue-500 mx-auto flex items-center justify-center text-blue-400 text-2xl mb-3 animate-pulse">
+            <div class="bg-white rounded-2xl p-6 text-center max-w-lg mx-auto border" style="border-color: var(--esic-gris-clair); color: var(--esic-sombre);">
+              <div class="w-16 h-16 rounded-full mx-auto flex items-center justify-center text-2xl mb-3 shadow-inner" style="background-color: #e9f6f1; color: var(--esic-primaire-texte);">
                 <i class="fa-solid fa-id-badge"></i>
               </div>
-              <h3 class="font-bold text-white text-base">Lecteur NFC Sans Contact</h3>
-              <p class="text-xs text-slate-300 mt-1 mb-4">Passez votre carte étudiante ESIC sur la borne pour accéder à vos horaires et démarches.</p>
-              <div class="flex justify-center space-x-2">
-                <button onclick="kioskScanBadge('CARD-EMMA-01')" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-xl text-xs font-semibold text-white transition">
-                  Badger Emma Rousseau (DS2)
+              <h3 class="font-bold text-base" style="color: var(--esic-sombre);">Lecteur RFID / NFC Sans Contact</h3>
+              <p class="text-xs text-slate-500 mt-1 mb-4">Badgez votre carte étudiante ESIC pour consulter votre planning et démarches.</p>
+              <div class="flex justify-center space-x-2.5">
+                <button onclick="kioskScanBadge('CARD-EMMA-01')" class="esic-btn-primary text-xs py-2 px-3.5">
+                  Badger Emma (DS2)
                 </button>
-                <button onclick="kioskScanBadge('CARD-CARLOS-02')" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 rounded-xl text-xs font-semibold text-white transition">
-                  Badger Carlos Martinez (Erasmus)
+                <button onclick="kioskScanBadge('CARD-CARLOS-02')" class="esic-btn-secondary text-xs py-2 px-3.5">
+                  Badger Carlos (Erasmus)
                 </button>
               </div>
-              <div id="badge-scan-result" class="mt-4 p-3 bg-slate-900 rounded-xl border border-slate-700 text-left text-xs hidden"></div>
+              <div id="badge-scan-result" class="mt-4 p-3 bg-slate-50 rounded-xl border text-left text-xs hidden" style="border-color: var(--esic-gris-clair);"></div>
             </div>
           </div>
 
-          <!-- Mode 3 : Vocal Mains-Libres avec Synthèse Vocale -->
+          <!-- Mode 3 : Vocal Mains-Libres -->
           <div id="kiosk-content-vocal" class="hidden text-center py-8">
-            <div id="vocal-wave" class="w-24 h-24 rounded-full bg-cyan-600/20 border-4 border-cyan-400 mx-auto flex items-center justify-center text-cyan-300 text-3xl mb-4 animate-bounce">
+            <div id="vocal-wave" class="w-20 h-20 rounded-full mx-auto flex items-center justify-center text-3xl mb-3 animate-bounce shadow-lg" style="background-color: var(--esic-primaire); color: var(--esic-sombre);">
               <i class="fa-solid fa-microphone"></i>
             </div>
             <h3 class="font-bold text-white text-lg">Mode Vocal Mains-Libres</h3>
-            <p class="text-sm text-slate-300 max-w-md mx-auto mt-2">Dites par exemple : "À quelle heure ouvre la bibliothèque ?" ou "Quand sont mes examens de machine learning ?"</p>
-            <button onclick="toggleVoiceInput()" class="mt-4 px-6 py-2.5 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-xl text-white font-semibold text-sm shadow-lg shadow-cyan-500/20 hover:scale-105 transition">
+            <p class="text-xs text-slate-300 max-w-md mx-auto mt-2">Dites par exemple : "Quels sont les horaires de la scolarité ?" ou "Où manger ce midi ?"</p>
+            <button onclick="toggleVoiceInput()" class="mt-4 esic-btn-primary text-xs py-2 px-5">
               Activer le Microphone
             </button>
           </div>
 
-          <!-- Kiosk Terminal Chat Console Display -->
-          <div class="mt-4 bg-slate-950 rounded-2xl p-4 border border-slate-800 flex-1 flex flex-col justify-between min-h-[220px]">
+          <!-- Kiosk Terminal Dialogue Console Display -->
+          <div class="mt-4 bg-slate-950 rounded-2xl p-4 border border-slate-800 flex-1 flex flex-col justify-between min-h-[200px]">
             <div id="kiosk-dialogue-box" class="text-xs space-y-2 overflow-y-auto max-h-48 pr-2">
-              <div class="text-slate-400 italic">Borne prête. Touchez une option ou parlez pour commencer une interaction.</div>
+              <div class="text-slate-400 italic">Borne prête. Touchez une tuile ci-dessus ou badgez pour commencer.</div>
             </div>
             <div class="mt-2 pt-2 border-t border-slate-800 flex items-center justify-between text-[11px] text-slate-500">
-              <span>Batterie : 100% (Secteur) | Ping : 12ms</span>
+              <span>Batterie : 100% (Secteur) | Ping : 8ms</span>
               <span>Centrale ESIC : Connectée</span>
             </div>
           </div>
@@ -357,267 +453,345 @@
       </div>
     </section>
 
-    <!-- ========================================================================= -->
-    <!-- TAB 3 : DASHBOARD ANALYTICS (Sprint 2 - Epic 5) -->
-    <!-- ========================================================================= -->
+    <!-- ======================================================================= -->
+    <!-- TAB 3 : DASHBOARD ANALYTICS & ROI (Réservé Compte Administrateur) -->
+    <!-- ======================================================================= -->
     <section id="view-analytics" class="hidden h-full flex flex-col overflow-y-auto space-y-6 pb-8">
       
-      <!-- Realtime KPI Cards (10 Métriques Temps Réel) -->
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-        <div class="bg-slate-800/80 p-3.5 rounded-2xl border border-slate-700">
-          <span class="text-xs text-slate-400 block">Total Questions</span>
-          <span id="kpi-total" class="text-2xl font-black text-white mt-1 block">--</span>
-          <span class="text-[10px] text-blue-400">100% enregistrées</span>
+      <!-- Admin Authentication Lock Notice (Shown if unauthenticated) -->
+      <div id="analytics-admin-gate" class="esic-card p-8 text-center max-w-lg mx-auto my-auto space-y-4">
+        <div class="w-16 h-16 rounded-2xl mx-auto flex items-center justify-center text-3xl shadow-md" style="background-color: var(--esic-sombre); color: var(--esic-primaire);">
+          <i class="fa-solid fa-lock"></i>
         </div>
-        <div class="bg-slate-800/80 p-3.5 rounded-2xl border border-slate-700">
-          <span class="text-xs text-slate-400 block">Taux Résolution</span>
-          <span id="kpi-resolution" class="text-2xl font-black text-emerald-400 mt-1 block">--%</span>
-          <span class="text-[10px] text-emerald-500">Sans escalade humaine</span>
-        </div>
-        <div class="bg-slate-800/80 p-3.5 rounded-2xl border border-slate-700">
-          <span class="text-xs text-slate-400 block">Satisfaction</span>
-          <span id="kpi-satisfaction" class="text-2xl font-black text-amber-400 mt-1 block">-- / 5</span>
-          <span class="text-[10px] text-amber-500">Basé sur avis étudiants</span>
-        </div>
-        <div class="bg-slate-800/80 p-3.5 rounded-2xl border border-slate-700">
-          <span class="text-xs text-slate-400 block">Temps Réponse</span>
-          <span id="kpi-latency" class="text-2xl font-black text-cyan-400 mt-1 block">-- ms</span>
-          <span class="text-[10px] text-cyan-500">Objectif < 2s atteint</span>
-        </div>
-        <div class="bg-slate-800/80 p-3.5 rounded-2xl border border-slate-700">
-          <span class="text-xs text-slate-400 block">Temps Scolarité</span>
-          <span id="kpi-hours" class="text-2xl font-black text-indigo-400 mt-1 block">-- h</span>
-          <span class="text-[10px] text-indigo-500">Économisées ce mois</span>
-        </div>
-        <div class="bg-slate-800/80 p-3.5 rounded-2xl border border-slate-700">
-          <span class="text-xs text-slate-400 block">ROI Financier</span>
-          <span id="kpi-savings" class="text-2xl font-black text-purple-400 mt-1 block">-- €</span>
-          <span class="text-[10px] text-purple-500">Gains productivité</span>
+        <h2 class="text-xl font-bold" style="color: var(--esic-sombre);">Espace Réservé Administrateur</h2>
+        <p class="text-xs leading-relaxed" style="color: var(--esic-gris-fonce);">
+          L'accès aux données analytiques, aux 10 KPIs temps réel et au calcul du ROI est réservé au compte administrateur (Sophie Dubois / Direction ESIC).
+        </p>
+        <div class="pt-2 flex flex-col sm:flex-row gap-2.5 justify-center">
+          <button onclick="openAdminAuthModal('analytics')" class="esic-btn-primary text-xs py-2 px-4">
+            <i class="fa-solid fa-key mr-1"></i>Saisir mes identifiants Admin
+          </button>
+          <button onclick="quickLoginAdmin('analytics')" class="esic-btn-secondary text-xs py-2 px-4">
+            <i class="fa-solid fa-bolt mr-1 text-amber-500"></i>Connexion Rapide Démo Admin
+          </button>
         </div>
       </div>
 
-      <!-- Charts Section -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <!-- Realtime KPI Cards (Visible when Admin is Authenticated) -->
+      <div id="analytics-content-unlocked" class="space-y-6">
         
-        <!-- Hourly Volume Chart -->
-        <div class="bg-slate-800/80 p-4 rounded-2xl border border-slate-700">
-          <div class="flex items-center justify-between mb-3">
-            <h3 class="font-bold text-white text-sm"><i class="fa-solid fa-chart-area text-blue-400 mr-2"></i>Évolution du Volume de Questions (24h)</h3>
-            <span class="text-xs text-slate-400">Pic d'activité détecté</span>
+        <!-- Admin Header Banner -->
+        <div class="p-4 rounded-xl flex items-center justify-between border" style="background-color: #e9f6f1; border-color: #c7eadc; color: var(--esic-sombre);">
+          <div class="flex items-center space-x-3">
+            <span class="text-2xl">👑</span>
+            <div>
+              <h3 class="font-bold text-sm" style="color: var(--esic-sombre);">Plateforme Analytics & Décisionnelle ESIC</h3>
+              <p class="text-xs text-slate-600">Connecté en tant que <strong class="text-emerald-800">Sophie Dubois (Responsable Scolarité & Admin)</strong></p>
+            </div>
           </div>
-          <div class="h-60">
-            <canvas id="chart-hourly"></canvas>
+          <button onclick="logoutAdmin()" class="esic-btn-secondary text-xs py-1.5 px-3">
+            <i class="fa-solid fa-right-from-bracket mr-1"></i>Déconnexion Admin
+          </button>
+        </div>
+
+        <!-- 10 KPIs Cards -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+          <div class="esic-card p-3.5">
+            <span class="text-xs text-slate-500 block font-medium">Total Questions</span>
+            <span id="kpi-total" class="text-2xl font-black mt-1 block" style="color: var(--esic-sombre);">--</span>
+            <span class="text-[10px] font-semibold text-emerald-600">100% enregistrées</span>
+          </div>
+          <div class="esic-card p-3.5">
+            <span class="text-xs text-slate-500 block font-medium">Taux Résolution</span>
+            <span id="kpi-resolution" class="text-2xl font-black mt-1 block text-emerald-600">--%</span>
+            <span class="text-[10px] text-slate-500">Sans escalade humaine</span>
+          </div>
+          <div class="esic-card p-3.5">
+            <span class="text-xs text-slate-500 block font-medium">Satisfaction</span>
+            <span id="kpi-satisfaction" class="text-2xl font-black mt-1 block text-amber-500">-- / 5</span>
+            <span class="text-[10px] text-slate-500">Avis étudiants</span>
+          </div>
+          <div class="esic-card p-3.5">
+            <span class="text-xs text-slate-500 block font-medium">Temps Réponse</span>
+            <span id="kpi-latency" class="text-2xl font-black mt-1 block" style="color: var(--esic-secondaire-texte);">-- ms</span>
+            <span class="text-[10px] text-emerald-600">Objectif &lt; 2s atteint</span>
+          </div>
+          <div class="esic-card p-3.5">
+            <span class="text-xs text-slate-500 block font-medium">Temps Scolarité</span>
+            <span id="kpi-hours" class="text-2xl font-black mt-1 block" style="color: var(--esic-sombre);">-- h</span>
+            <span class="text-[10px] text-emerald-600">Économisées ce mois</span>
+          </div>
+          <div class="esic-card p-3.5">
+            <span class="text-xs text-slate-500 block font-medium">ROI Estimé</span>
+            <span id="kpi-savings" class="text-2xl font-black mt-1 block text-emerald-700">-- €</span>
+            <span class="text-[10px] text-slate-500">Gains productivité</span>
           </div>
         </div>
 
-        <!-- Intent Breakdown Doughnut Chart -->
-        <div class="bg-slate-800/80 p-4 rounded-2xl border border-slate-700">
-          <div class="flex items-center justify-between mb-3">
-            <h3 class="font-bold text-white text-sm"><i class="fa-solid fa-chart-pie text-cyan-400 mr-2"></i>Répartition par Catégorie (15 Classes NLP)</h3>
-            <span class="text-xs text-slate-400">Précision > 85%</span>
+        <!-- Charts Section -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="esic-card p-4">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="font-bold text-sm flex items-center" style="color: var(--esic-sombre);">
+                <i class="fa-solid fa-chart-area mr-2" style="color: var(--esic-secondaire);"></i>Évolution du Volume (24h)
+              </h3>
+              <span class="text-xs text-slate-400">Activité horaire</span>
+            </div>
+            <div class="h-60">
+              <canvas id="chart-hourly"></canvas>
+            </div>
           </div>
-          <div class="h-60">
-            <canvas id="chart-categories"></canvas>
+
+          <div class="esic-card p-4">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="font-bold text-sm flex items-center" style="color: var(--esic-sombre);">
+                <i class="fa-solid fa-chart-pie mr-2" style="color: var(--esic-primaire-texte);"></i>Répartition par Catégorie (15 Classes NLP)
+              </h3>
+              <span class="text-xs text-slate-400">Précision 100%</span>
+            </div>
+            <div class="h-60">
+              <canvas id="chart-categories"></canvas>
+            </div>
           </div>
+        </div>
+
+        <!-- Tables Section : Top Questions & Recommendations -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          
+          <!-- Top 10 Questions -->
+          <div class="esic-card p-4">
+            <h3 class="font-bold text-sm mb-3 flex items-center" style="color: var(--esic-sombre);">
+              <i class="fa-solid fa-ranking-star text-amber-500 mr-2"></i>Top 10 des Questions Fréquentes
+            </h3>
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-xs">
+                <thead class="border-b" style="border-color: var(--esic-gris-clair); color: var(--esic-gris-fonce);">
+                  <tr>
+                    <th class="pb-2">Question</th>
+                    <th class="pb-2 text-right">Volume</th>
+                  </tr>
+                </thead>
+                <tbody id="top-questions-tbody" class="divide-y divide-slate-100">
+                  <!-- Injected via JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Continuous Learning Recommendations -->
+          <div class="esic-card p-4">
+            <h3 class="font-bold text-sm mb-3 flex items-center" style="color: var(--esic-sombre);">
+              <i class="fa-solid fa-brain mr-2" style="color: var(--esic-accent);"></i>Amélioration Continue & Sujets Émergents
+            </h3>
+            <p class="text-xs text-slate-500 mb-3">Recommandations issues des requêtes non résolues et avis étudiants :</p>
+            <div id="recommendations-box" class="space-y-2 text-xs">
+              <!-- Injected via JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent User Feedbacks -->
+        <div class="esic-card p-4">
+          <h3 class="font-bold text-sm mb-3 flex items-center" style="color: var(--esic-sombre);">
+            <i class="fa-regular fa-comment-dots text-emerald-600 mr-2"></i>Derniers Avis et Évaluations Étudiantes
+          </h3>
+          <div id="recent-feedbacks-box" class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================= -->
+    <!-- TAB 4 : BASE DOCUMENTAIRE & GESTION KB (Réservé Compte Administrateur) -->
+    <!-- ======================================================================= -->
+    <section id="view-admin" class="hidden h-full flex flex-col overflow-y-auto space-y-6 pb-8">
+      
+      <!-- Admin Authentication Lock Notice for KB -->
+      <div id="admin-kb-gate" class="esic-card p-8 text-center max-w-lg mx-auto my-auto space-y-4">
+        <div class="w-16 h-16 rounded-2xl mx-auto flex items-center justify-center text-3xl shadow-md" style="background-color: var(--esic-sombre); color: var(--esic-primaire);">
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <h2 class="text-xl font-bold" style="color: var(--esic-sombre);">Gestion Documentaire Réservée Admin</h2>
+        <p class="text-xs leading-relaxed" style="color: var(--esic-gris-fonce);">
+          L'ajout de procédures, la mise à jour des emplois du temps et la synchronisation des connaissances campus sont protégés par un accès administrateur scolarité.
+        </p>
+        <div class="pt-2 flex flex-col sm:flex-row gap-2.5 justify-center">
+          <button onclick="openAdminAuthModal('admin')" class="esic-btn-primary text-xs py-2 px-4">
+            <i class="fa-solid fa-key mr-1"></i>Saisir mes identifiants Admin
+          </button>
+          <button onclick="quickLoginAdmin('admin')" class="esic-btn-secondary text-xs py-2 px-4">
+            <i class="fa-solid fa-bolt mr-1 text-amber-500"></i>Connexion Rapide Démo Admin
+          </button>
         </div>
       </div>
 
-      <!-- Tables Section : Top 10 Questions & Continuous Learning -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <!-- KB Content (Visible when Admin is Authenticated) -->
+      <div id="admin-kb-content-unlocked" class="space-y-6">
         
-        <!-- Top 10 Questions -->
-        <div class="bg-slate-800/80 p-4 rounded-2xl border border-slate-700">
-          <h3 class="font-bold text-white text-sm mb-3"><i class="fa-solid fa-ranking-star text-amber-400 mr-2"></i>Top 10 des Questions les Plus Posées</h3>
+        <!-- Summary Bar -->
+        <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
+          <div class="esic-card p-3 text-center">
+            <span class="text-xs text-slate-500 block">Créneaux EDT</span>
+            <span id="kb-schedules-count" class="text-lg font-bold block" style="color: var(--esic-sombre);">200</span>
+          </div>
+          <div class="esic-card p-3 text-center">
+            <span class="text-xs text-slate-500 block">Procédures Admin</span>
+            <span id="kb-procedures-count" class="text-lg font-bold block" style="color: var(--esic-sombre);">25</span>
+          </div>
+          <div class="esic-card p-3 text-center">
+            <span class="text-xs text-slate-500 block">Contacts Annuaire</span>
+            <span id="kb-contacts-count" class="text-lg font-bold block" style="color: var(--esic-sombre);">150</span>
+          </div>
+          <div class="esic-card p-3 text-center">
+            <span class="text-xs text-slate-500 block">FAQ Historique</span>
+            <span id="kb-faq-count" class="text-lg font-bold block" style="color: var(--esic-sombre);">300</span>
+          </div>
+          <div class="esic-card p-3 text-center">
+            <span class="text-xs text-slate-500 block">Fiches Dynamiques</span>
+            <span id="kb-dynamic-count" class="text-lg font-bold block text-emerald-600">--</span>
+          </div>
+        </div>
+
+        <!-- Add New Knowledge Form (Sophie Dubois) -->
+        <div class="esic-card p-5">
+          <h3 class="font-bold text-sm mb-3 flex items-center" style="color: var(--esic-sombre);">
+            <i class="fa-solid fa-plus-circle text-emerald-600 mr-2"></i>Enrichir la Base Documentaire (Sophie Dubois - Scolarité)
+          </h3>
+          <form onsubmit="handleAddKnowledge(event)" class="space-y-3">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-semibold mb-1" style="color: var(--esic-gris-fonce);">Catégorie</label>
+                <select id="new-kb-category" class="w-full bg-slate-50 border rounded-lg px-3 py-2 text-xs" style="border-color: var(--esic-gris-clair);">
+                  <option value="procedure_admin">Procédure Administrative</option>
+                  <option value="emploi_du_temps">Emploi du temps & Examens</option>
+                  <option value="service_campus">Services Campus & Horaires</option>
+                  <option value="contact">Contact & Secrétariat</option>
+                  <option value="reglement">Règlement & Vie Étudiante</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1" style="color: var(--esic-gris-fonce);">Mots-clés (séparés par des virgules)</label>
+                <input type="text" id="new-kb-keywords" placeholder="stage, soutenance, convention, remise" class="w-full bg-slate-50 border rounded-lg px-3 py-2 text-xs" style="border-color: var(--esic-gris-clair);" />
+              </div>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold mb-1" style="color: var(--esic-gris-fonce);">Question Fréquente ou Titre</label>
+              <input type="text" id="new-kb-question" required placeholder="Ex: Comment déclarer mon tuteur de stage entreprise ?" class="w-full bg-slate-50 border rounded-lg px-3 py-2 text-xs" style="border-color: var(--esic-gris-clair);" />
+            </div>
+            <div>
+              <label class="block text-xs font-semibold mb-1" style="color: var(--esic-gris-fonce);">Réponse Officielle du Bot</label>
+              <textarea id="new-kb-answer" required rows="3" placeholder="Saisissez la réponse officielle apportée par le service scolarité..." class="w-full bg-slate-50 border rounded-lg px-3 py-2 text-xs" style="border-color: var(--esic-gris-clair);"></textarea>
+            </div>
+            <button type="submit" class="esic-btn-primary text-xs py-2 px-4">
+              Enregistrer dans la base active
+            </button>
+          </form>
+        </div>
+
+        <!-- Kiosks Fleet Realtime Monitoring (US-031) -->
+        <div class="esic-card p-5">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="font-bold text-sm flex items-center" style="color: var(--esic-sombre);">
+              <i class="fa-solid fa-server mr-2" style="color: var(--esic-accent);"></i>Supervision Bornes IoT Campus
+            </h3>
+            <span class="esic-badge esic-badge-mint text-[10px]">Heartbeat 60s Actif</span>
+          </div>
           <div class="overflow-x-auto">
             <table class="w-full text-left text-xs">
-              <thead class="text-slate-400 border-b border-slate-700">
+              <thead class="border-b" style="border-color: var(--esic-gris-clair); color: var(--esic-gris-fonce);">
                 <tr>
-                  <th class="pb-2">Question Fréquente</th>
-                  <th class="pb-2 text-right">Volume</th>
+                  <th class="pb-2">ID Borne</th>
+                  <th class="pb-2">Emplacement</th>
+                  <th class="pb-2">Statut</th>
+                  <th class="pb-2">Batterie</th>
+                  <th class="pb-2">Interactions</th>
+                  <th class="pb-2">Mode Actif</th>
+                  <th class="pb-2 text-right">Dernier Ping</th>
                 </tr>
               </thead>
-              <tbody id="top-questions-tbody" class="divide-y divide-slate-750 text-slate-200">
+              <tbody id="kiosks-monitoring-tbody" class="divide-y divide-slate-100">
                 <!-- Injected via JS -->
               </tbody>
             </table>
           </div>
         </div>
 
-        <!-- Continuous Learning Recommendations -->
-        <div class="bg-slate-800/80 p-4 rounded-2xl border border-slate-700">
-          <h3 class="font-bold text-white text-sm mb-3"><i class="fa-solid fa-brain text-purple-400 mr-2"></i>Amélioration Continue & Sujets Émergents</h3>
-          <p class="text-xs text-slate-400 mb-3">Suggestions automatisées issues des questions non résolues et feedbacks négatifs :</p>
-          <div id="recommendations-box" class="space-y-2 text-xs">
-            <!-- Injected via JS -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Recent User Feedbacks -->
-      <div class="bg-slate-800/80 p-4 rounded-2xl border border-slate-700">
-        <h3 class="font-bold text-white text-sm mb-3"><i class="fa-regular fa-comment-dots text-emerald-400 mr-2"></i>Derniers Avis et Évaluations Étudiantes</h3>
-        <div id="recent-feedbacks-box" class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-          <!-- Injected via JS -->
-        </div>
       </div>
     </section>
 
-    <!-- ========================================================================= -->
-    <!-- TAB 4 : BASE DE CONNAISSANCES & ADMIN (Sprint 1 & Sprint 2 - Epic 6) -->
-    <!-- ========================================================================= -->
-    <section id="view-admin" class="hidden h-full flex flex-col overflow-y-auto space-y-6 pb-8">
-      
-      <!-- Summary Bar -->
-      <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
-        <div class="bg-slate-800 p-3 rounded-xl border border-slate-700 text-center">
-          <span class="text-xs text-slate-400">Créneaux EDT</span>
-          <span id="kb-schedules-count" class="text-lg font-bold text-white block">200</span>
-        </div>
-        <div class="bg-slate-800 p-3 rounded-xl border border-slate-700 text-center">
-          <span class="text-xs text-slate-400">Procédures Admin</span>
-          <span id="kb-procedures-count" class="text-lg font-bold text-white block">25</span>
-        </div>
-        <div class="bg-slate-800 p-3 rounded-xl border border-slate-700 text-center">
-          <span class="text-xs text-slate-400">Contacts Annuaire</span>
-          <span id="kb-contacts-count" class="text-lg font-bold text-white block">150</span>
-        </div>
-        <div class="bg-slate-800 p-3 rounded-xl border border-slate-700 text-center">
-          <span class="text-xs text-slate-400">FAQ Historique</span>
-          <span id="kb-faq-count" class="text-lg font-bold text-white block">300</span>
-        </div>
-        <div class="bg-slate-800 p-3 rounded-xl border border-slate-700 text-center">
-          <span class="text-xs text-slate-400">Fiches Dynamiques</span>
-          <span id="kb-dynamic-count" class="text-lg font-bold text-emerald-400 block">--</span>
-        </div>
-      </div>
-
-      <!-- Add New Knowledge Form -->
-      <div class="bg-slate-800/80 p-5 rounded-2xl border border-slate-700">
-        <h3 class="font-bold text-white text-sm mb-3"><i class="fa-solid fa-plus-circle text-blue-400 mr-2"></i>Enrichir la Base de Connaissances (Sophie Dubois - Scolarité)</h3>
-        <form onsubmit="handleAddKnowledge(event)" class="space-y-3">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div>
-              <label class="block text-xs font-medium text-slate-300 mb-1">Catégorie</label>
-              <select id="new-kb-category" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white">
-                <option value="procedure_admin">Procédure Administrative</option>
-                <option value="emploi_du_temps">Emploi du temps & Examens</option>
-                <option value="service_campus">Services Campus & Horaires</option>
-                <option value="contact">Contact & Secrétariat</option>
-                <option value="reglement">Règlement & Vie Étudiante</option>
-              </select>
-            </div>
-            <div>
-              <label class="block text-xs font-medium text-slate-300 mb-1">Mots-clés (séparés par des virgules)</label>
-              <input type="text" id="new-kb-keywords" placeholder="stage, soutenance, convention, remise" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white" />
-            </div>
-          </div>
-          <div>
-            <label class="block text-xs font-medium text-slate-300 mb-1">Question Fréquente ou Titre</label>
-            <input type="text" id="new-kb-question" required placeholder="Ex: Comment déclarer mon tuteur de stage entreprise ?" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white" />
-          </div>
-          <div>
-            <label class="block text-xs font-medium text-slate-300 mb-1">Réponse détaillée du Bot</label>
-            <textarea id="new-kb-answer" required rows="3" placeholder="Saisissez la réponse officielle apportée par le service scolarité..." class="w-full bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white"></textarea>
-          </div>
-          <button type="submit" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-xl text-xs font-semibold text-white transition">
-            Ajouter à la base active
-          </button>
-        </form>
-      </div>
-
-      <!-- Kiosks Fleet Realtime Monitoring (US-031) -->
-      <div class="bg-slate-800/80 p-5 rounded-2xl border border-slate-700">
-        <div class="flex items-center justify-between mb-3">
-          <h3 class="font-bold text-white text-sm"><i class="fa-solid fa-server text-cyan-400 mr-2"></i>Supervision Flotte de Bornes IoT Campus en Temps Réel</h3>
-          <span class="text-xs text-emerald-400 font-medium">Heartbeat 60s actif</span>
-        </div>
-        <div class="overflow-x-auto">
-          <table class="w-full text-left text-xs">
-            <thead class="text-slate-400 border-b border-slate-700">
-              <tr>
-                <th class="pb-2">ID Borne</th>
-                <th class="pb-2">Nom & Emplacement</th>
-                <th class="pb-2">Statut</th>
-                <th class="pb-2">Batterie</th>
-                <th class="pb-2">Interactions</th>
-                <th class="pb-2">Mode Actif</th>
-                <th class="pb-2 text-right">Dernier Heartbeat</th>
-              </tr>
-            </thead>
-            <tbody id="kiosks-monitoring-tbody" class="divide-y divide-slate-750 text-slate-200">
-              <!-- Injected via JS -->
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========================================================================= -->
+    <!-- ======================================================================= -->
     <!-- TAB 5 : PORTAIL ENT SSO (Sprint 3 - Epic 8) -->
-    <!-- ========================================================================= -->
+    <!-- ======================================================================= -->
     <section id="view-ent" class="hidden h-full flex flex-col overflow-y-auto space-y-6 pb-8">
       
-      <div class="bg-gradient-to-r from-blue-900/60 to-indigo-900/60 p-6 rounded-3xl border border-blue-500/30 flex items-center justify-between">
+      <!-- Student ENT Card (ESIC branded) -->
+      <div class="p-6 rounded-2xl flex items-center justify-between text-white shadow-lg" style="background-color: var(--esic-sombre);">
         <div class="flex items-center space-x-4">
-          <div class="w-16 h-16 rounded-2xl bg-blue-600/30 border border-blue-400 flex items-center justify-center text-3xl">
+          <div class="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shadow-inner" style="background-color: rgba(93, 190, 156, 0.25);">
             <span id="ent-avatar">👩‍🎓</span>
           </div>
           <div>
             <h2 id="ent-name" class="text-xl font-bold text-white">Emma Rousseau</h2>
-            <p id="ent-subtitle" class="text-xs text-blue-300">Étudiante en Data Science 2e année | N° ESIC-2024-DS-042</p>
+            <p id="ent-subtitle" class="text-xs text-slate-300">Étudiante en Data Science 2e année | N° ESIC-2024-DS-042</p>
             <div class="flex items-center space-x-2 mt-2">
-              <span class="px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 text-[10px] font-semibold border border-emerald-500/30">Single Sign-On (SSO) Validé</span>
-              <span class="text-xs text-slate-400">Session active</span>
+              <span class="esic-badge esic-badge-mint text-[10px]">Single Sign-On (SSO) Actif</span>
+              <span class="text-xs text-slate-400">Campus ESIC Paris</span>
             </div>
           </div>
         </div>
 
-        <button onclick="switchTab('chat')" class="px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold rounded-xl shadow-lg shadow-blue-500/20 transition">
-          Ouvrir l'Assistant Dédié
+        <button onclick="switchTab('chat')" class="esic-btn-primary text-xs py-2 px-4 shadow">
+          Ouvrir le Chatbot Dédié
         </button>
       </div>
 
-      <!-- Enrolled Modules & Upcoming Exams Widget -->
+      <!-- Modules & Upcoming Exams Widget -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="bg-slate-800/80 p-5 rounded-2xl border border-slate-700">
-          <h3 class="font-bold text-white text-sm mb-3"><i class="fa-solid fa-graduation-cap text-cyan-400 mr-2"></i>Modules Actuels (Semestre 2)</h3>
-          <ul class="space-y-2 text-xs text-slate-300">
-            <li class="p-2.5 bg-slate-900/70 rounded-xl flex justify-between items-center border border-slate-750">
+        <div class="esic-card p-5">
+          <h3 class="font-bold text-sm mb-3 flex items-center" style="color: var(--esic-sombre);">
+            <i class="fa-solid fa-graduation-cap text-emerald-600 mr-2"></i>Modules Actuels (Semestre 2)
+          </h3>
+          <ul class="space-y-2.5 text-xs">
+            <li class="p-3 rounded-xl flex justify-between items-center border" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
               <div>
-                <span class="font-semibold text-white block">Machine Learning Avancé</span>
-                <span class="text-[10px] text-slate-400">M. Joel Banka • Salle 201</span>
+                <span class="font-bold block" style="color: var(--esic-sombre);">Machine Learning Avancé</span>
+                <span class="text-[11px] text-slate-500">M. Joel Banka • Salle 201</span>
               </div>
-              <span class="text-xs text-blue-400 font-bold">6 ECTS</span>
+              <span class="esic-badge esic-badge-mint">6 ECTS</span>
             </li>
-            <li class="p-2.5 bg-slate-900/70 rounded-xl flex justify-between items-center border border-slate-750">
+            <li class="p-3 rounded-xl flex justify-between items-center border" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
               <div>
-                <span class="font-semibold text-white block">Deep Learning & Vision</span>
-                <span class="text-[10px] text-slate-400">Mme Claire Martin • Lab IA</span>
+                <span class="font-bold block" style="color: var(--esic-sombre);">Deep Learning & Vision</span>
+                <span class="text-[11px] text-slate-500">Mme Claire Martin • Lab IA</span>
               </div>
-              <span class="text-xs text-blue-400 font-bold">5 ECTS</span>
+              <span class="esic-badge esic-badge-mint">5 ECTS</span>
             </li>
-            <li class="p-2.5 bg-slate-900/70 rounded-xl flex justify-between items-center border border-slate-750">
+            <li class="p-3 rounded-xl flex justify-between items-center border" style="background-color: var(--esic-gris-tres-clair); border-color: var(--esic-gris-clair);">
               <div>
-                <span class="font-semibold text-white block">Architecture Big Data</span>
-                <span class="text-[10px] text-slate-400">M. Alexandre Petit • Amphi B</span>
+                <span class="font-bold block" style="color: var(--esic-sombre);">Architecture Big Data</span>
+                <span class="text-[11px] text-slate-500">M. Alexandre Petit • Amphi B</span>
               </div>
-              <span class="text-xs text-blue-400 font-bold">5 ECTS</span>
+              <span class="esic-badge esic-badge-mint">5 ECTS</span>
             </li>
           </ul>
         </div>
 
-        <div class="bg-slate-800/80 p-5 rounded-2xl border border-slate-700">
-          <h3 class="font-bold text-white text-sm mb-3"><i class="fa-solid fa-calendar-check text-amber-400 mr-2"></i>Calendrier Examens Confirmés</h3>
-          <ul class="space-y-2 text-xs text-slate-300">
-            <li class="p-2.5 bg-amber-500/10 border border-amber-500/20 rounded-xl">
-              <span class="font-bold text-amber-300 block">Examen Écrit : Machine Learning</span>
-              <span class="text-[11px] text-slate-300">📅 Vendredi 15 mars • 14h-17h • Amphi B</span>
-              <span class="text-[10px] text-slate-400 block mt-0.5">Surveillant : M. Joel Banka</span>
+        <div class="esic-card p-5">
+          <h3 class="font-bold text-sm mb-3 flex items-center" style="color: var(--esic-sombre);">
+            <i class="fa-solid fa-calendar-check text-amber-500 mr-2"></i>Calendrier Examens Confirmés
+          </h3>
+          <ul class="space-y-2.5 text-xs">
+            <li class="p-3 rounded-xl border" style="background-color: #fff9f0; border-color: #fed29d;">
+              <span class="font-bold text-amber-900 block">Examen Écrit : Machine Learning</span>
+              <span class="text-[11px] text-amber-800">📅 Vendredi 15 mars • 14h-17h • Amphi B</span>
+              <span class="text-[10px] text-amber-700 block mt-0.5">Surveillant : M. Joel Banka</span>
             </li>
-            <li class="p-2.5 bg-blue-500/10 border border-blue-500/20 rounded-xl">
-              <span class="font-bold text-blue-300 block">Soutenance Projet : Machine Learning</span>
-              <span class="text-[11px] text-slate-300">📋 Semaine du 22 mars • Lab IA</span>
-              <span class="text-[10px] text-slate-400 block mt-0.5">Planning individuel par binôme</span>
+            <li class="p-3 rounded-xl border" style="background-color: #e9f6f1; border-color: #c7eadc;">
+              <span class="font-bold text-emerald-900 block">Soutenance Projet : Machine Learning</span>
+              <span class="text-[11px] text-emerald-800">📋 Semaine du 22 mars • Lab IA</span>
+              <span class="text-[10px] text-emerald-700 block mt-0.5">Planning individuel par binôme</span>
             </li>
           </ul>
         </div>
@@ -626,44 +800,169 @@
 
   </main>
 
-  <!-- RGPD & DATA PRIVACY MODAL (US-011, US-012, RGPD) -->
-  <div id="rgpd-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
-    <div class="bg-slate-800 border border-slate-700 max-w-lg w-full rounded-2xl p-6 shadow-2xl">
-      <div class="flex items-center justify-between pb-3 border-b border-slate-700">
-        <h3 class="font-bold text-white text-base flex items-center space-x-2">
-          <i class="fa-solid fa-shield-halved text-cyan-400"></i>
+  <!-- ========================================================================= -->
+  <!-- 5. ESIC OFFICIAL FOOTER (Exact replica of esic.fr footer) -->
+  <!-- ========================================================================= -->
+  <footer style="background-color: var(--esic-sombre); color: rgba(255, 255, 255, 0.85);" class="mt-auto pt-12 pb-6 border-t border-slate-800 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-8 pb-10 border-b border-slate-800">
+        
+        <!-- Col 1: Formations -->
+        <div>
+          <h4 class="font-bold text-white text-sm mb-3">Formations</h4>
+          <ul class="space-y-2 text-slate-300">
+            <li><a href="https://www.esic.fr/" class="hover:text-emerald-400 transition">Data Science & IA</a></li>
+            <li><a href="https://www.esic.fr/" class="hover:text-emerald-400 transition">Cybersécurité</a></li>
+            <li><a href="https://www.esic.fr/" class="hover:text-emerald-400 transition">Développement Web</a></li>
+            <li><a href="https://www.esic.fr/" class="hover:text-emerald-400 transition">Réseaux & Cloud</a></li>
+            <li><a href="https://www.esic.fr/" class="hover:text-emerald-400 transition">Commerce & Digital</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 2: Alternance -->
+        <div>
+          <h4 class="font-bold text-white text-sm mb-3">Alternance</h4>
+          <ul class="space-y-2 text-slate-300">
+            <li><a href="https://www.esic.fr/contrat-dapprentissage" class="hover:text-emerald-400 transition">Contrat d'apprentissage</a></li>
+            <li><a href="https://www.esic.fr/contrat-de-professionnalisation" class="hover:text-emerald-400 transition">Contrat de pro</a></li>
+            <li><a href="https://www.esic.fr/Convention-de-stage-alterne" class="hover:text-emerald-400 transition">Stage alterné</a></li>
+            <li><a href="https://www.esic.fr/financements" class="hover:text-emerald-400 transition">Financement</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: L'école -->
+        <div>
+          <h4 class="font-bold text-white text-sm mb-3">L'école</h4>
+          <ul class="space-y-2 text-slate-300">
+            <li><a href="https://www.esic.fr/a-propos" class="hover:text-emerald-400 transition">Qui sommes-nous</a></li>
+            <li><a href="https://www.esic.fr/pedagogie" class="hover:text-emerald-400 transition">Notre pédagogie</a></li>
+            <li><a href="https://www.esic.fr/indicateur-de-reussite" class="hover:text-emerald-400 transition">Indicateurs réussite</a></li>
+            <li><a href="https://www.esic.fr/nous-trouver" class="hover:text-emerald-400 transition">Campus Paris & Lyon</a></li>
+            <li><a href="https://www.esic.fr/inscription-jpo" class="hover:text-emerald-400 transition">Journées Portes Ouvertes</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Entreprises -->
+        <div>
+          <h4 class="font-bold text-white text-sm mb-3">Entreprises</h4>
+          <ul class="space-y-2 text-slate-300">
+            <li><a href="https://www.esic.fr/contact" class="hover:text-emerald-400 transition">Recruter un alternant</a></li>
+            <li><a href="https://www.esic.fr/contact" class="hover:text-emerald-400 transition">Déposer une offre</a></li>
+            <li><a href="https://www.esic.fr/vae" class="hover:text-emerald-400 transition">VAE & Formation pro</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 5: Documents & Scolarité -->
+        <div>
+          <h4 class="font-bold text-white text-sm mb-3">Scolarité</h4>
+          <ul class="space-y-2 text-slate-300">
+            <li><a href="https://app.esic.fr/" class="hover:text-emerald-400 transition">Espace candidat</a></li>
+            <li><a href="#view-ent" onclick="switchTab('ent')" class="hover:text-emerald-400 transition">Portail ENT</a></li>
+            <li><button onclick="openRgpdModal()" class="hover:text-emerald-400 transition text-left">Charte RGPD</button></li>
+            <li><span class="text-slate-400">Tél : 01.53.90.15.20</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Legal footer bar -->
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-400">
+        <p>© 2026 ESIC. École Supérieure d'Informatique et de Commerce. Tous droits réservés.</p>
+        <div class="flex items-center space-x-4 mt-2 sm:mt-0">
+          <a href="https://www.esic.fr/mentions-legales" target="_blank" class="hover:text-white transition">Mentions légales</a>
+          <a href="https://www.esic.fr/privacy-policy" target="_blank" class="hover:text-white transition">Confidentialité</a>
+          <a href="https://www.esic.fr/cookie-policy" target="_blank" class="hover:text-white transition">Cookies</a>
+          <button onclick="openAdminAuthModal('analytics')" class="text-emerald-400 font-semibold hover:underline">Accès Admin</button>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- 6. MODALS: ADMIN LOGIN, RGPD, FEEDBACK -->
+  <!-- ========================================================================= -->
+
+  <!-- ADMIN AUTHENTICATION CHALLENGE MODAL -->
+  <div id="admin-auth-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white max-w-md w-full rounded-2xl p-6 shadow-2xl border" style="border-color: var(--esic-gris-clair);">
+      <div class="flex items-center justify-between pb-3 border-b" style="border-color: var(--esic-gris-clair);">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-8 h-8 rounded-lg flex items-center justify-center text-white" style="background-color: var(--esic-sombre);">
+            <i class="fa-solid fa-user-shield text-sm"></i>
+          </div>
+          <h3 class="font-bold text-sm" style="color: var(--esic-sombre);">Connexion Espace Administrateur</h3>
+        </div>
+        <button onclick="closeAdminAuthModal()" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+
+      <div class="py-4 space-y-3.5">
+        <p class="text-xs text-slate-600 leading-relaxed">
+          Veuillez vous authentifier pour accéder aux <strong>Analytics</strong>, aux métriques temps réel et à la <strong>Gestion Documentaire</strong> du campus.
+        </p>
+
+        <form id="admin-login-form" onsubmit="handleAdminLoginSubmit(event)" class="space-y-3">
+          <div>
+            <label class="block text-xs font-semibold mb-1" style="color: var(--esic-gris-fonce);">Identifiant ou Email Admin</label>
+            <input type="text" id="admin-login-username" required placeholder="admin@esic.fr ou admin" class="w-full bg-slate-50 border rounded-lg px-3 py-2 text-xs" style="border-color: var(--esic-gris-clair);" value="sophie.dubois@esic.fr" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold mb-1" style="color: var(--esic-gris-fonce);">Mot de passe</label>
+            <input type="password" id="admin-login-password" required placeholder="••••••••" class="w-full bg-slate-50 border rounded-lg px-3 py-2 text-xs" style="border-color: var(--esic-gris-clair);" value="esic2026" />
+          </div>
+          <div id="admin-login-error" class="text-xs text-red-600 hidden font-medium"></div>
+
+          <div class="pt-2 flex flex-col gap-2">
+            <button type="submit" class="esic-btn-primary w-full text-xs py-2.5">
+              Se connecter en tant qu'Administrateur
+            </button>
+            <button type="button" onclick="quickLoginAdmin()" class="esic-btn-secondary w-full text-xs py-2">
+              <i class="fa-solid fa-bolt text-amber-500 mr-1"></i>Connexion Rapide Démo (Sophie Dubois)
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- RGPD MODAL -->
+  <div id="rgpd-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white max-w-lg w-full rounded-2xl p-6 shadow-2xl border" style="border-color: var(--esic-gris-clair);">
+      <div class="flex items-center justify-between pb-3 border-b" style="border-color: var(--esic-gris-clair);">
+        <h3 class="font-bold text-base flex items-center space-x-2" style="color: var(--esic-sombre);">
+          <i class="fa-solid fa-shield-halved text-emerald-600"></i>
           <span>Protection des Données & Conformité RGPD</span>
         </h3>
-        <button onclick="closeRgpdModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-xmark text-lg"></i></button>
+        <button onclick="closeRgpdModal()" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark text-lg"></i></button>
       </div>
-      <div class="space-y-3 py-4 text-xs text-slate-300">
-        <p>• <strong>Minimisation</strong> : Seules les requêtes textuelles sans données personnelles sont conservées à des fins d'analyse statistique de la vie de campus.</p>
-        <p>• <strong>Anonymisation</strong> : Les adresses emails, téléphones et données sensibles sont systématiquement masqués avant stockage.</p>
-        <p>• <strong>Durée de rétention</strong> : Les données analytics sont purgées automatiquement après 6 mois.</p>
-        <p>• <strong>Droit à l'oubli</strong> : Vous pouvez supprimer l'intégralité de vos échanges immédiatement.</p>
+      <div class="space-y-3 py-4 text-xs text-slate-600 leading-relaxed">
+        <p>• <strong>Minimisation</strong> : Seules les requêtes textuelles sans données personnelles sont conservées pour les analyses de flux campus.</p>
+        <p>• <strong>Anonymisation</strong> : Les numéros de téléphone et emails sont systématiquement obfusqués avant enregistrement.</p>
+        <p>• <strong>Droit d'accès et d'oubli</strong> : Vous pouvez exporter vos échanges ou les effacer immédiatement de la base locale.</p>
       </div>
-      <div class="pt-3 border-t border-slate-700 flex justify-between space-x-2">
-        <button onclick="exportMyData()" class="px-3 py-2 bg-slate-700 hover:bg-slate-600 rounded-xl text-xs font-semibold text-slate-200 transition">
+      <div class="pt-3 border-t flex justify-between space-x-2" style="border-color: var(--esic-gris-clair);">
+        <button onclick="exportMyData()" class="esic-btn-secondary text-xs py-1.5 px-3">
           <i class="fa-solid fa-file-export mr-1"></i>Exporter mes données (JSON)
         </button>
-        <button onclick="purgeMyData()" class="px-3 py-2 bg-rose-600 hover:bg-rose-500 rounded-xl text-xs font-semibold text-white transition">
+        <button onclick="purgeMyData()" class="px-3 py-1.5 bg-rose-600 hover:bg-rose-500 rounded-lg text-xs font-semibold text-white transition">
           <i class="fa-solid fa-trash-can mr-1"></i>Supprimer mes données
         </button>
       </div>
     </div>
   </div>
 
-  <!-- FEEDBACK MODAL (US-024) -->
-  <div id="feedback-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
-    <div class="bg-slate-800 border border-slate-700 max-w-sm w-full rounded-2xl p-5 shadow-2xl">
-      <h3 class="font-bold text-white text-sm mb-2">Votre avis compte pour nous ! 💬</h3>
-      <p class="text-xs text-slate-300 mb-3">Aidez le service scolarité à perfectionner les réponses du campus :</p>
+  <!-- FEEDBACK MODAL -->
+  <div id="feedback-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white max-w-sm w-full rounded-2xl p-5 shadow-2xl border" style="border-color: var(--esic-gris-clair);">
+      <h3 class="font-bold text-sm mb-2" style="color: var(--esic-sombre);">Votre avis compte pour nous ! 💬</h3>
+      <p class="text-xs text-slate-600 mb-3">Aidez la scolarité à améliorer la qualité des réponses de l'assistant :</p>
       <input type="hidden" id="feedback-interaction-id" />
       <input type="hidden" id="feedback-rating-val" />
-      <textarea id="feedback-comment" rows="3" placeholder="Commentaire optionnel..." class="w-full bg-slate-900 border border-slate-700 rounded-xl p-2.5 text-xs text-white mb-3"></textarea>
+      <textarea id="feedback-comment" rows="3" placeholder="Commentaire optionnel..." class="w-full bg-slate-50 border rounded-lg p-2.5 text-xs text-slate-800 mb-3" style="border-color: var(--esic-gris-clair);"></textarea>
       <div class="flex justify-end space-x-2">
-        <button onclick="closeFeedbackModal()" class="px-3 py-1.5 bg-slate-700 rounded-lg text-xs text-slate-300">Annuler</button>
-        <button onclick="submitFeedbackComment()" class="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-lg text-xs">Envoyer</button>
+        <button onclick="closeFeedbackModal()" class="esic-btn-secondary text-xs py-1.5 px-3">Annuler</button>
+        <button onclick="submitFeedbackComment()" class="esic-btn-primary text-xs py-1.5 px-3">Envoyer</button>
       </div>
     </div>
   </div>

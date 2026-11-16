@@ -38,3 +38,7 @@ class NotificationCreate(BaseModel):
     message: str
     category: str
     priority: str = "info"
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str
