@@ -1,0 +1,801 @@
+phrase,entite,type
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE
+Début du stage le 1er juin,1er juin,DATE
+Vacances à partir de demain,demain,DATE
+Passer à la scolarité pour ma convention,scolarité,SERVICE
+Emprunter un livre à la bibliothèque,bibliothèque,SERVICE
+Manger au resto U avec mes amis,resto U,SERVICE
+Contacter le bureau des stages,bureau des stages,SERVICE
+Voir le service médical pour un justificatif,service médical,SERVICE
+Contacter Sophie Dubois dès que possible,Sophie Dubois,PERSONNE
+Rendez-vous avec M. Joel Banka,Joel Banka,PERSONNE
+Question pour Mme Claire Martin,Claire Martin,PERSONNE
+M. Alexandre Petit pour la cybersécurité,Alexandre Petit,PERSONNE
+Cours en salle 201 cet après-midi,salle 201,LIEU
+Examen prévu en Amphi B à 14h,Amphi B,LIEU
+Rendez-vous au Bâtiment A pour l'accueil,bâtiment A,LIEU
+Travaux pratiques au Laboratoire IA,laboratoire IA,LIEU
+Retrouvons-nous sur le campus central,campus,LIEU
+Je suis en Data Science 2e année,Data Science,FORMATION
+Je suis en Cybersécurité 1re année,Cybersécurité,FORMATION
+Quand sont les examens de Développement Web ?,Développement Web,FORMATION
+Cours d'Intelligence Artificielle ce matin,Intelligence Artificielle,FORMATION
+Filière Réseaux & Cloud,Réseaux & Cloud,FORMATION
+Rendez-vous vendredi 15 mars pour l'examen,vendredi 15 mars,DATE
+Projet soutenance semaine du 22 mars,semaine du 22 mars,DATE
+Cours prévu lundi prochain à 14h,lundi prochain,DATE

@@ -1,0 +1,370 @@
+- id: PROC-01
+  titre: Demande de convention de stage
+  categorie: stage_alternance
+  description: Procédure d'obtention et de signature d'une convention de stage obligatoire
+    ou optionnelle.
+  etapes:
+  - Trouver une entreprise d'accueil et faire valider la fiche de mission par le responsable
+    pédagogique.
+  - Remplir le formulaire en ligne sur le portail ESIC ENT (rubrique 'Stages & Conventions').
+  - Télécharger le document généré et le faire signer par l'entreprise d'accueil et
+    le tuteur.
+  - Déposer la convention signée au moins 15 jours avant la date de début de stage
+    auprès de Sophie Dubois (Scolarité).
+  - Récupérer l'exemplaire signé par la direction de l'école.
+  delai: 5 jours ouvrés
+  contact: sophie.dubois@esic.fr
+  documents_requis:
+  - Attestation d'assurance responsabilité civile
+  - Fiche de mission signée
+  - Coordonnées du tuteur
+- id: PROC-02
+  titre: Candidature et contrat d'alternance
+  categorie: stage_alternance
+  description: Mise en place d'un contrat de professionnalisation ou d'apprentissage.
+  etapes:
+  - Obtenir une promesse d'embauche ou accord de principe de l'OPCO.
+  - Transmettre le CERFA pré-rempli et la fiche de poste au bureau des relations entreprises.
+  - Validation pédagogique du calendrier d'alternance par le responsable de formation.
+  - Signature électronique tripartite (Étudiant, Entreprise, ESIC).
+  - Transmission à l'OPCO pour financement.
+  delai: 10 jours ouvrés
+  contact: alternance@esic.fr
+  documents_requis:
+  - Fiche de poste
+  - RIB entreprise
+  - Numéro SIRET et convention collective
+- id: PROC-03
+  titre: Demande de certificat de scolarité
+  categorie: certificats
+  description: Obtention de l'attestation officielle d'inscription pour l'année en
+    cours.
+  etapes:
+  - Se connecter à l'espace étudiant ENT ESIC.
+  - Accéder à la section 'Documents administratifs'.
+  - Cliquer sur 'Générer mon certificat de scolarité' (format PDF signé électroniquement).
+  - Si besoin d'un tampon physique original, se présenter au guichet scolarité Bâtiment
+    A bureau 102.
+  delai: Immédiat en ligne / 24h au guichet
+  contact: scolarite@esic.fr
+  documents_requis:
+  - Dossier d'inscription complet et frais de scolarité à jour
+- id: PROC-04
+  titre: Relevé de notes officiel et duplicata
+  categorie: certificats
+  description: Demande de relevés de notes de semestres passés ou attestations de
+    réussite.
+  etapes:
+  - Faire la demande par mail à scolarite@esic.fr en précisant l'année et la formation.
+  - Indiquer le motif (candidature externe, visa, dossier d'embauche).
+  - Le document certifié est envoyé sous format numérique sécurisé avec QR code de
+    vérification.
+  delai: 48 à 72 heures ouvrées
+  contact: scolarite@esic.fr
+  documents_requis:
+  - Numéro étudiant
+  - Pièce d'identité
+- id: PROC-05
+  titre: Inscription pédagogique et choix d'options
+  categorie: inscriptions
+  description: Choix des électifs, modules optionnels et langues vivantes.
+  etapes:
+  - Consulter le catalogue des cours au début de chaque semestre.
+  - Valider le formulaire de vœux sur l'ENT avant la date limite communiquée par la
+    scolarité.
+  - Confirmation des groupes et affectations publiée sous 7 jours.
+  delai: Avant le 15 septembre (S1) / 15 janvier (S2)
+  contact: pedagogie@esic.fr
+  documents_requis:
+  - Fiche de vœux ENT validée
+- id: PROC-06
+  titre: Aménagement d'études (Tiers-temps / Sportif / Salarié)
+  categorie: amenagements
+  description: Aménagement des examens et dispenses d'assiduité pour situations spécifiques.
+  etapes:
+  - Prendre rendez-vous avec le service médical ou la mission handicap du campus.
+  - Fournir le certificat médical MDPH ou contrat de travail justificatif.
+  - Dossier examiné par la commission pédagogique.
+  - Notification écrite des aménagements accordés (temps majoré, secrétaire d'examen,
+    etc.).
+  delai: À déposer au moins 1 mois avant la première session d'examens
+  contact: sante-handicap@esic.fr
+  documents_requis:
+  - Dossier médical sous pli confidentiel ou contrat de travail > 15h/semaine
+- id: PROC-07
+  titre: Demande de bourse sur critères sociaux et aides d'urgence
+  categorie: aides_sociales
+  description: Accompagnement financier et aides du fond de solidarité étudiant ESIC.
+  etapes:
+  - Constituer le Dossier Social Étudiant (DSE) sur le portail Crous pour les bourses
+    d'État.
+  - 'Pour le Fonds d''Urgence ESIC : prendre RDV avec l''assistante sociale du campus.'
+  - Dépôt du dossier de détresse financière avec relevés bancaires récents.
+  - Commission d'attribution mensuelle pour versement d'une aide ponctuelle.
+  delai: Commission tous les premiers jeudis du mois
+  contact: action-sociale@esic.fr
+  documents_requis:
+  - Avis d'imposition N-1
+  - Justificatifs de charges / loyer
+  - Relevés de compte
+- id: PROC-08
+  titre: Césure académique ou professionnelle
+  categorie: cursus
+  description: Suspension temporaire des études pour projet personnel ou professionnel.
+  etapes:
+  - Rédiger une lettre de motivation décrivant le projet (engagement civique, entrepreneuriat,
+    etc.).
+  - Déposer la demande avant le 30 mai pour le semestre d'automne ou le 30 novembre
+    pour le printemps.
+  - Entretien avec le responsable de filière.
+  - Signature de la convention de césure garantissant la réintégration.
+  delai: Réponse sous 3 semaines
+  contact: direction-etudes@esic.fr
+  documents_requis:
+  - Projet détaillé
+  - Calendrier prévisionnel
+- id: PROC-09
+  titre: Rattrapages et contestation de notes
+  categorie: examens
+  description: Modalités de réclamation de note et inscription aux sessions de rattrapage.
+  etapes:
+  - Consulter les notes publiées sur l'ENT.
+  - En cas d'erreur matérielle, formuler une demande écrite à pedagogie@esic.fr sous
+    10 jours ouvrés.
+  - Consultation possible de la copie d'examen auprès de l'enseignant responsable.
+  - Si note < 10/20 non compensée, inscription automatique aux rattrapages de fin
+    d'année.
+  delai: 10 jours suivant la publication des résultats
+  contact: pedagogie@esic.fr
+  documents_requis:
+  - Relevé de notes ENT
+  - Exposé motivé de la réclamation
+- id: PROC-10
+  titre: Changement de filière ou de spécialité
+  categorie: cursus
+  description: Demande de réorientation interne entre filières du campus.
+  etapes:
+  - Prendre RDV avec le conseiller d'orientation du campus.
+  - Remplir le dossier de passerelle interne.
+  - Entretien pédagogique avec le responsable de la filière ciblée.
+  - Validation sous réserve des places disponibles et des prérequis académiques.
+  delai: À déposer avant la fin du 1er mois de rentrée
+  contact: orientation@esic.fr
+  documents_requis:
+  - Notes du bac / études antérieures
+  - Lettre de projet
+- id: PROC-11
+  titre: Perte ou renouvellement de carte étudiante
+  categorie: vie_campus
+  description: Remplacement du badge multi-services d'accès au campus.
+  etapes:
+  - Signaler la perte au guichet d'accueil Bâtiment A pour désactiver l'ancien badge.
+  - Payer les frais de réédition de 10€ à l'intendance ou en ligne.
+  - Récupération de la nouvelle carte imprimée sur place en 10 minutes.
+  delai: Immédiat au guichet
+  contact: accueil-campus@esic.fr
+  documents_requis:
+  - Pièce d'identité
+  - Quittance des frais de réédition
+- id: PROC-12
+  titre: Demande de logement étudiant (Résidences partenaires)
+  categorie: logement
+  description: Accès aux chambres et studios conventionnés ESIC / Crous.
+  etapes:
+  - Accéder au portail logement étudiant ESIC.
+  - Consulter la liste des résidences partenaires à proximité du campus.
+  - Déposer le dossier locatif en ligne avec garant (Garantme, Visale ou personne
+    physique).
+  - Attribution des logements selon critères sociaux et date de dépôt.
+  delai: Traitement sous 15 jours
+  contact: logement@esic.fr
+  documents_requis:
+  - Certificat de scolarité
+  - Garantie Visale / Garant
+  - Pièce d'identité
+- id: PROC-13
+  titre: Mobilité internationale et échange Erasmus+
+  categorie: international
+  description: Candidature pour un semestre ou une année d'échange à l'étranger.
+  etapes:
+  - Participer à la réunion d'information internationale en octobre.
+  - Sélectionner jusqu'à 3 universités partenaires compatibles avec le cursus.
+  - Passer le test de langue requis (TOEFL, IELTS ou DELE).
+  - Déposer le dossier complet avant le 15 décembre.
+  delai: Résultats d'affectation en février
+  contact: international@esic.fr
+  documents_requis:
+  - Relevés de notes universitaires
+  - Score linguistique officiel
+  - Lettre de motivation
+- id: PROC-14
+  titre: Accueil et démarches des étudiants internationaux
+  categorie: international
+  description: Accompagnement titre de séjour, validation visa VLS-TS et sécurité
+    sociale.
+  etapes:
+  - Prendre contact avec le Welcome Desk International dès l'arrivée en France.
+  - Valider en ligne le visa VLS-TS sur le site de l'ANEF.
+  - S'inscrire sur ameli.fr (sécurité sociale étudiante gratuite).
+  - Ouverture d'un compte bancaire français auprès d'une banque partenaire.
+  delai: Dans les 3 mois suivant l'arrivée
+  contact: international-support@esic.fr
+  documents_requis:
+  - Passeport avec visa
+  - Attestation d'hébergement
+  - Certificat de scolarité
+- id: PROC-15
+  titre: Justification d'absence à un cours ou examen
+  categorie: scolarite
+  description: Règles de validation des absences imprévues ou médicales.
+  etapes:
+  - Prévenir le secrétariat pédagogique par mail le jour même de l'absence.
+  - Transmettre le justificatif médical ou officiel sous 48 heures maximum.
+  - Les absences injustifiées peuvent entraîner l'exclusion des épreuves d'examen.
+  delai: 48 heures maximum après l'absence
+  contact: absences@esic.fr
+  documents_requis:
+  - Certificat médical original ou convocation officielle (concours, justice)
+- id: PROC-16
+  titre: Création ou renouvellement d'une association étudiante
+  categorie: vie_etudiante
+  description: Déclaration d'un club ou association et demande de subventions de projet.
+  etapes:
+  - Constituer un bureau d'au moins 2 étudiants ESIC (Président et Trésorier).
+  - Rédiger les statuts loi 1901 et déposer en préfecture.
+  - Présenter le dossier au Bureau de la Vie Étudiante pour agrément campus.
+  - Demande de subvention sur le Fonds de Solidarité et de Développement des Initiatives
+    Étudiantes (FSDIE).
+  delai: Appel à projet deux fois par an (octobre et février)
+  contact: vie-associative@esic.fr
+  documents_requis:
+  - Statuts déposés
+  - Récépissé de préfecture
+  - Budget prévisionnel
+- id: PROC-17
+  titre: Prêt d'ordinateurs et matériel informatique
+  categorie: aide_technique
+  description: Prêt gratuit de PC portables longue durée et licences logicielles pour
+    étudiants en difficulté.
+  etapes:
+  - Remplir la demande sur le portail Helpdesk IT.
+  - Fournir l'avis d'échelon de bourse ou attestation sur l'honneur de précarité numérique.
+  - Retrait du matériel configuré au service informatique Bâtiment B bureau 005.
+  - Restitution en fin d'année académique.
+  delai: 48h sous réserve de stock disponible
+  contact: support-it@esic.fr
+  documents_requis:
+  - Chèque de caution non encaissé de 300€
+  - Pièce d'identité
+  - Charte informatique signée
+- id: PROC-18
+  titre: Accès au FabLab et réservation d'imprimantes 3D
+  categorie: services_campus
+  description: Utilisation des machines de prototypage rapide (découpe laser, 3D).
+  etapes:
+  - Suivre la session d'initiation sécurité obligatoire d'une heure.
+  - Réserver un créneau machine sur l'application FabLab ESIC.
+  - Apporter ses consommables ou acheter les matières premières au FabLab.
+  - Projets étudiants prioritaires sur projets personnels.
+  delai: Réservation 48h à l'avance
+  contact: fablab@esic.fr
+  documents_requis:
+  - Badge étudiant validé sécurité
+- id: PROC-19
+  titre: Prêt inter-bibliothèques et réservation de salles de travail
+  categorie: services_campus
+  description: Accès aux espaces de travail de groupe à la bibliothèque universitaire.
+  etapes:
+  - Télécharger l'application BU ESIC ou se rendre sur le site de la bibliothèque.
+  - Sélectionner un box de travail (capacité 4 à 8 personnes) pour 2h maximum par
+    jour.
+  - Valider sa présence à la borne d'accueil du bâtiment BU à l'heure du créneau.
+  delai: Réservation jusqu'à 7 jours à l'avance
+  contact: bibliotheque@esic.fr
+  documents_requis:
+  - Numéro de compte lecteur BU
+- id: PROC-20
+  titre: Paiement échelonné des frais de scolarité
+  categorie: comptabilite
+  description: Mise en place d'un échéancier de règlement en 3, 5 ou 8 fois.
+  etapes:
+  - Contacter le service comptabilité étudiant par mail à compta@esic.fr.
+  - Proposer un calendrier de prélèvement mensuel adapté.
+  - Signer l'autorisation de prélèvement SEPA et fournir un RIB valide.
+  delai: Validation sous 5 jours
+  contact: compta@esic.fr
+  documents_requis:
+  - Mandat de prélèvement SEPA
+  - RIB
+- id: PROC-21
+  titre: Demande de diplôme officiel et attestation de réussite
+  categorie: diplome
+  description: Retrait du parchemin officiel de diplôme après validation du jury.
+  etapes:
+  - Attendre l'avis de disponibilité par email officiel après la cérémonie de remise.
+  - Retrait en main propre sur présentation d'une pièce d'identité.
+  - Envoi postal en recommandé possible sur envoi d'une enveloppe affranchie 50g et
+    lettre de procuration.
+  delai: Disponible 4 mois après la session de jury
+  contact: diplomes@esic.fr
+  documents_requis:
+  - Pièce d'identité officielle
+  - Quitus de la bibliothèque
+- id: PROC-22
+  titre: Procédure de signalement harcèlement ou discrimination
+  categorie: signalement
+  description: Cellule d'écoute et de veille contre les violences sexistes, sexuelles
+    et discriminations.
+  etapes:
+  - Saisine confidentielle via le formulaire anonyme en ligne ou par email direct.
+  - Prise en charge par un membre formé de la cellule d'écoute sous 24h.
+  - Entretien bienveillant, proposition d'aide psychologique et juridique.
+  - Mesures conservatoires et enquête interne si nécessaire.
+  delai: Prise en charge sous 24 heures
+  contact: ecoute-egalite@esic.fr
+  documents_requis:
+  - Tout élément d'information sans obligation formelle
+- id: PROC-23
+  titre: Accès au réseau WiFi Eduroam et VPN Campus
+  categorie: aide_technique
+  description: Configuration de la connexion réseau sécurisée sur ordinateur et smartphone.
+  etapes:
+  - Sélectionner le SSID 'eduroam' ou 'ESIC-Secure'.
+  - Saisir son identifiant sous la forme prenom.nom@esic.fr et son mot de passe ENT.
+  - Accepter le certificat de sécurité campus.
+  - 'Pour le VPN externe : télécharger le client OpenVPN et le profil depuis le portail
+    IT.'
+  delai: Immédiat
+  contact: support-it@esic.fr
+  documents_requis:
+  - Identifiants ENT actifs
+- id: PROC-24
+  titre: Inscription au sport universitaire et tournois
+  categorie: sports
+  description: Accès aux activités sportives de l'association sportive (SUAPS).
+  etapes:
+  - Fournir un certificat médical d'aptitude à la pratique du sport de moins de 3
+    mois.
+  - Choisir les créneaux d'entraînement (football, basket, musculation, danse, escalade).
+  - Payer la cotisation annuelle de 25€ ouvrant l'accès à tous les sports.
+  delai: Inscriptions ouvertes toute l'année
+  contact: sports@esic.fr
+  documents_requis:
+  - Certificat médical
+  - Attestation d'assurance sportive
+- id: PROC-25
+  titre: Remboursement du pass Navigo Imagine-R et transport
+  categorie: transports
+  description: Attestation pour prise en charge employeur en alternance ou subvention
+    départementale.
+  etapes:
+  - Télécharger l'attestation d'inscription scolaire depuis l'ENT.
+  - 'Pour les alternants : déposer l''attestation annuelle Navigo au service RH de
+    l''entreprise (prise en charge 50%).'
+  - 'Pour les boursiers : demander le formulaire de subvention transport départemental
+    au secrétariat.'
+  delai: Traitement mensuel par les employeurs
+  contact: scolarite@esic.fr
+  documents_requis:
+  - Facture annuelle Imagine-R
+  - RIB

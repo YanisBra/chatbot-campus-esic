@@ -1,0 +1,900 @@
+Q: À quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Quels sont les horaires d'ouverture de la BU ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Quels sont les tarifs du resto U ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Quand ont lieu les examens de Data Science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Comment réinitialiser mon mot de passe ENT ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Où se trouve le FabLab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: Puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Comment contacter Sophie Dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Dis-moi à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Question : quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: S'il vous plaît, quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: S'il vous plaît, à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Bonjour, quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Dis-moi existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: J'aimerais savoir existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: J'aimerais savoir où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: Bonjour, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: S'il vous plaît, puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Pouvez-vous me dire où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Question : comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Bonjour, quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Pouvez-vous me dire à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Bonjour, où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: S'il vous plaît, comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Dis-moi quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Dis-moi quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Dis-moi quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Dis-moi quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Question : à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Question : quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Bonjour, quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Est-ce que vous savez comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Pouvez-vous me dire puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Est-ce que vous savez comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Est-ce que vous savez quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Est-ce que vous savez comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Bonjour, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Pouvez-vous me dire où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: J'aimerais savoir quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Bonjour, comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Question : où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Bonjour, quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Pouvez-vous me dire quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Pouvez-vous me dire quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Dis-moi quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Dis-moi à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Dis-moi quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Bonjour, comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Pouvez-vous me dire comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: S'il vous plaît, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: J'aimerais savoir comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Bonjour, quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Pouvez-vous me dire à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Pouvez-vous me dire où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Pouvez-vous me dire comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Question : quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Pouvez-vous me dire quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Bonjour, quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Pouvez-vous me dire où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Dis-moi à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: S'il vous plaît, quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Bonjour, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: S'il vous plaît, quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: S'il vous plaît, quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: J'aimerais savoir quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Question : puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Pouvez-vous me dire quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Pouvez-vous me dire quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: J'aimerais savoir comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Dis-moi comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Pouvez-vous me dire comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: J'aimerais savoir à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Est-ce que vous savez comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Bonjour, comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Est-ce que vous savez existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Est-ce que vous savez à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: S'il vous plaît, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Question : comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Est-ce que vous savez quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Pouvez-vous me dire quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Bonjour, quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Question : quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Pouvez-vous me dire où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Dis-moi à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: S'il vous plaît, quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Est-ce que vous savez quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: J'aimerais savoir où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: S'il vous plaît, comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: S'il vous plaît, quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Bonjour, quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: J'aimerais savoir où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Pouvez-vous me dire comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Est-ce que vous savez quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Bonjour, à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Est-ce que vous savez comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Question : comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: J'aimerais savoir comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Dis-moi existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Question : où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: S'il vous plaît, quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Est-ce que vous savez existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Bonjour, quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: J'aimerais savoir quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: S'il vous plaît, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Bonjour, où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: Bonjour, quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Question : quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: S'il vous plaît, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Bonjour, puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Question : comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Pouvez-vous me dire où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Bonjour, quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Bonjour, quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: J'aimerais savoir quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Question : comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: J'aimerais savoir comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Question : puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Pouvez-vous me dire quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Pouvez-vous me dire puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Est-ce que vous savez quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Bonjour, quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Question : existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Dis-moi puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Est-ce que vous savez quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Est-ce que vous savez à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Dis-moi quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: J'aimerais savoir quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Question : à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: J'aimerais savoir puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Bonjour, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Est-ce que vous savez comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Est-ce que vous savez quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: S'il vous plaît, à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Question : quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: J'aimerais savoir quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Dis-moi existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Bonjour, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Est-ce que vous savez existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Dis-moi comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Est-ce que vous savez quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: J'aimerais savoir quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Dis-moi quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Dis-moi où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: Dis-moi comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Est-ce que vous savez quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Question : comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Est-ce que vous savez où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Bonjour, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Bonjour, comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Pouvez-vous me dire quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: S'il vous plaît, comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: J'aimerais savoir quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Pouvez-vous me dire quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Question : quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Bonjour, quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Question : quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Pouvez-vous me dire comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Pouvez-vous me dire comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Pouvez-vous me dire quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Bonjour, comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Bonjour, quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Question : quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Dis-moi comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Dis-moi comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: S'il vous plaît, quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Pouvez-vous me dire à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: S'il vous plaît, quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Dis-moi où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Est-ce que vous savez quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Dis-moi où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: Question : quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Pouvez-vous me dire quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: S'il vous plaît, puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Pouvez-vous me dire où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Est-ce que vous savez comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: J'aimerais savoir quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Question : puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Bonjour, quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Dis-moi puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: J'aimerais savoir quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Pouvez-vous me dire quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: J'aimerais savoir comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Dis-moi comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: J'aimerais savoir comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: S'il vous plaît, quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Pouvez-vous me dire à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Question : quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Question : quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: J'aimerais savoir existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Pouvez-vous me dire comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: S'il vous plaît, quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: S'il vous plaît, quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: S'il vous plaît, où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Est-ce que vous savez existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: S'il vous plaît, quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Dis-moi comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: J'aimerais savoir où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: J'aimerais savoir où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: J'aimerais savoir où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: S'il vous plaît, où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: Pouvez-vous me dire quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Pouvez-vous me dire à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: S'il vous plaît, où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: Pouvez-vous me dire quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: J'aimerais savoir quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: J'aimerais savoir comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Dis-moi quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: J'aimerais savoir à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Bonjour, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Dis-moi comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Est-ce que vous savez quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: S'il vous plaît, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Question : comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: J'aimerais savoir comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Question : comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: S'il vous plaît, où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Pouvez-vous me dire puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: J'aimerais savoir quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Question : comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Bonjour, quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: S'il vous plaît, quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Question : quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: J'aimerais savoir puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: Bonjour, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Bonjour, quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Question : à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Dis-moi quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Bonjour, où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Est-ce que vous savez quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Dis-moi comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Dis-moi comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Est-ce que vous savez quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Bonjour, comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Est-ce que vous savez comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Dis-moi quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Question : quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: J'aimerais savoir comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: J'aimerais savoir quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Dis-moi quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: J'aimerais savoir comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Question : quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Dis-moi quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Pouvez-vous me dire où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: Pouvez-vous me dire puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: J'aimerais savoir quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: S'il vous plaît, comment justifier une absence ?
+R: Vous devez prévenir votre secrétariat pédagogique par mail le jour même et déposer votre justificatif médical ou officiel sous 48 heures au bureau de la scolarité.
+---
+Q: Bonjour, à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Bonjour, quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Dis-moi comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Pouvez-vous me dire quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Bonjour, où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Est-ce que vous savez quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Est-ce que vous savez quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: Bonjour, quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Question : où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Est-ce que vous savez quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: S'il vous plaît, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Est-ce que vous savez comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Bonjour, où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: S'il vous plaît, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Pouvez-vous me dire quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: Question : quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Question : où se trouve le fablab ?
+R: Le FabLab se situe au rez-de-chaussée du Bâtiment C. Des imprimantes 3D et découpeuses laser y sont disponibles sur réservation.
+---
+Q: J'aimerais savoir quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Bonjour, à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Est-ce que vous savez quels sont les horaires d'ouverture de la bu ?
+R: La bibliothèque universitaire vous accueille du lundi au vendredi de 8h00 à 20h00 et le samedi de 9h00 à 17h00.
+---
+Q: Dis-moi quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: S'il vous plaît, quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Dis-moi quand ont lieu les examens de data science 2e année ?
+R: Pour la formation Data Science 2e année, l'examen écrit de Machine Learning a lieu le Vendredi 15 mars de 14h à 17h en Amphi B, et les soutenances de projet la semaine du 22 mars.
+---
+Q: S'il vous plaît, quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Dis-moi où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: Bonjour, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Dis-moi quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Pouvez-vous me dire quels sont les tarifs du resto u ?
+R: Le repas complet au Resto U coûte 3,30 € pour le tarif étudiant standard, et 1,00 € pour les étudiants boursiers. Paiement par carte étudiante Izly ou CB.
+---
+Q: Dis-moi comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: S'il vous plaît, existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Bonjour, quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Est-ce que vous savez comment obtenir une convention de stage ?
+R: Pour obtenir votre convention de stage, remplissez le formulaire sur l'ENT (rubrique Stages & Conventions), faites-le valider par votre responsable pédagogique, puis transmettez-le à Sophie Dubois au service scolarité.
+---
+Q: Est-ce que vous savez quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Bonjour, quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Bonjour, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: Est-ce que vous savez puis-je emprunter un ordinateur portable ?
+R: Oui, le service informatique prête des PC portables pour l'année académique aux étudiants boursiers ou en difficulté. Renseignez-vous au bureau IT B-005.
+---
+Q: J'aimerais savoir quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Pouvez-vous me dire à quelle heure ouvre la bibliothèque ?
+R: La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h. Elle est fermée le dimanche.
+---
+Q: Pouvez-vous me dire quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: S'il vous plaît, où se trouve le service scolarité ?
+R: Le service scolarité est situé dans le Bâtiment A, au rez-de-chaussée, bureau 102.
+---
+Q: S'il vous plaît, comment contacter sophie dubois ?
+R: Sophie Dubois, Responsable Scolarité, est joignable à sophie.dubois@esic.fr ou par téléphone au 01.53.90.15.20. Son bureau est le 102 dans le Bâtiment A.
+---
+Q: S'il vous plaît, comment réinitialiser mon mot de passe ent ?
+R: Pour réinitialiser votre mot de passe ENT, rendez-vous sur le portail de connexion et cliquez sur 'Mot de passe oublié', ou contactez le support IT à support-it@esic.fr (Bâtiment B, salle B-005).
+---
+Q: Est-ce que vous savez existe-t-il un accompagnement psychologique ?
+R: Oui, une permanence psychologique gratuite et strictement confidentielle est assurée les lundis et mercredis au service médical (Bâtiment B, bureau 012). RDV à sante-etudiants@esic.fr.
+---
+Q: Dis-moi quelles formations sont proposées à l'école ?
+R: L'ESIC propose des formations d'excellence : Data Science, Cybersécurité, Développement Web & Cloud, et Intelligence Artificielle (niveaux Bachelor et Master/Bac+5).
+---
+Q: J'aimerais savoir quel est le contact du service scolarité ?
+R: Le service scolarité est joignable par email à sophie.dubois@esic.fr ou scolarite@esic.fr, et par téléphone au 01.53.90.15.20 (Bâtiment A, Bureau 102).
+---
+Q: Question : quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---
+Q: Pouvez-vous me dire quelles sont les dates des vacances de printemps ?
+R: Les vacances de printemps se déroulent du samedi 12 avril au lundi 28 avril pour l'ensemble des filières.
+---

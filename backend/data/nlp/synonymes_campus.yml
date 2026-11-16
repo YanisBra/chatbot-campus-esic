@@ -1,0 +1,68 @@
+scolarite:
+- scola
+- secretariat
+- administration
+- bureau des etudes
+- registraire
+emploi_du_temps:
+- edt
+- planning
+- horaires
+- calendrier
+- cours
+- agenda
+examen:
+- partiel
+- eval
+- evaluation
+- rattrapage
+- soutenance
+- controle continu
+- cc
+bibliotheque:
+- bu
+- learning center
+- biblio
+- centre de doc
+- cdi
+restaurant:
+- resto u
+- cantine
+- cafet
+- cafeteria
+- ru
+- crous
+stage:
+- convention
+- alternance
+- apprentissage
+- contrat pro
+- mission pro
+logement:
+- chambre
+- residence
+- foyer
+- crous logement
+- appart
+bourse:
+- crous bourse
+- dse
+- aide financiere
+- aide sociale
+- allocations
+reclamation:
+- plainte
+- probleme
+- inadmissible
+- scandale
+- mecontent
+- retard
+- litige
+urgence:
+- urgent
+- secours
+- panique
+- blessure
+- malaise
+- aide immediat
+- alerte

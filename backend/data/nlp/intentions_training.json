@@ -1,0 +1,6002 @@
+[
+  {
+    "text": "Est-ce que tu peux m'aider avec quelles sont les sanctions en cas de plagiat  pour cette année?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Procédure en cas de passage en conseil de discipline au campus ESIC.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment adhérer au Bureau des Étudiants (BDE)  rapidement?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'ai besoin de savoir peux-tu m'aider à faire mon code de jeu vidéo perso  merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Dis-moi procédure en cas de passage en conseil de discipline svp.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je me demande à quelle heure se termine la journée de cours  s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'aimerais savoir : aide personnalisée au logement (APL) pour étudiants d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "À propos de : j'ai oublié mon mot de passe ENT, que faire  pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Peux-tu m'indiquer numéro d'urgence sécurité du campus pour cette année?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Accident dans les escaliers du bâtiment B svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Info sur : comment s'inscrire pour la rentrée prochaine  svp.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce possible de savoir comment participer au hackathon annuel de l'école  rapidement?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Salut, résidences étudiantes recommandées à proximité de l'école pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Peux-tu m'indiquer y a-t-il une journée portes ouvertes prochainement ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Peux-tu m'indiquer quelle est l'adresse exacte du campus  rapidement?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Dis-moi c'est inadmissible, vous n'avez toujours pas validé ma convention  rapidement.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'aimerais savoir : où se trouve le bureau de Claire Martin  dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Pouvez-vous me dire quelle est la recette de la tarte aux pommes  dès maintenant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Comment demander un aménagement tiers-temps ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Pouvez-vous me dire comment emprunter des livres à la bibliothèque  svp?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Renseignements : le campus est-il ouvert pendant les jours fériés  pour cette année.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce possible de savoir aide personnalisée au logement (APL) pour étudiants d'avance merci?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Est-ce possible de savoir numéro de téléphone du standard de l'école s'il vous plaît?",
+    "intent": "contact"
+  },
+  {
+    "text": "Salut, comment réserver une salle de travail à la BU  au campus ESIC.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Dis-moi que puis-je faire après ma licence informatique  rapidement.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Bonjour, peut-on réserver un box de travail en groupe  au campus ESIC.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Renseignements : salut s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Excusez-moi, puis-je manger dans les salles informatiques  pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "J'aimerais savoir : annuaire téléphonique des professeurs s'il vous plaît.",
+    "intent": "contact"
+  },
+  {
+    "text": "J'aimerais savoir : je veux porter plainte contre l'organisation des examens s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce possible de savoir donne-moi le cours du Bitcoin aujourd'hui dès maintenant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'aimerais savoir : où se trouve l'infirmerie du campus  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je me demande bonjour pour un étudiant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Bonjour, quels sont les droits et devoirs des étudiants  svp.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je cherche des infos sur est-il possible de faire une passerelle vers le développement web  au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Une question rapide : procédure pour faire une césure d'un an rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Peux-tu m'indiquer quelqu'un a fait un malaise en salle de cours au campus ESIC?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Une question rapide : y a-t-il un club de jeux vidéo ou d'échecs  rapidement.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "S'il vous plaît, je demande un remboursement immédiat de mes frais.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Renseignements : dates des examens de machine learning pour cette année.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Pouvez-vous me dire donne-moi le cours du Bitcoin aujourd'hui dès maintenant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "À propos de : quels sont les critères d'admission en Data Science  s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "À propos de : quelles sont les stations de métro les plus proches  svp.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Comment réserver une salle de travail à la BU  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Excusez-moi, numéro de téléphone du standard de l'école s'il vous plaît.",
+    "intent": "contact"
+  },
+  {
+    "text": "Comment demander un aménagement tiers-temps  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Une question rapide : quel niveau de mathématiques est requis en IA .",
+    "intent": "orientation"
+  },
+  {
+    "text": "Excusez-moi, alerte intrusion ou danger grave s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Dis-moi combien d'absences injustifiées sont autorisées  pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "À propos de : je voudrais me réorienter vers la cybersécurité merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Excusez-moi, quelles sont les stations de métro les plus proches  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Dis-moi j'exige de parler au directeur immédiatement  pour cette année.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Dis-moi où est ma salle de cours ce matin  rapidement.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Dis-moi horaires des cours demain matin merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande comment obtenir une convention de stage  pour cette année.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Dis-moi quels sont les droits et devoirs des étudiants  s'il vous plaît.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, où se déroulent les soirées d'intégration  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "S'il vous plaît, où se trouve le bureau de Claire Martin  au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "S'il vous plaît, comment contacter l'assistante sociale du campus  svp.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Une question rapide : bonjour ESIC bot pour un étudiant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Une question rapide : parlez-moi du master Data Science pour un étudiant.",
+    "intent": "formation"
+  },
+  {
+    "text": "Pouvez-vous me dire quel niveau de mathématiques est requis en IA  rapidement?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Une question rapide : combien de crédits ECTS faut-il pour valider l'année  pour un étudiant.",
+    "intent": "formation"
+  },
+  {
+    "text": "Une question rapide : je demande un remboursement immédiat de mes frais pour cette année.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "S'il vous plaît, à plus tard au campus ESIC.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Renseignements : y a-t-il des micro-ondes pour réchauffer mon repas  pour un étudiant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'ai besoin de savoir à quelle heure se termine la journée de cours  dès maintenant.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande comment venir en transports en commun  rapidement.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "À propos de : urgence vitale, aidez-moi tout de suite  pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce possible de savoir tarifs du repas pour les étudiants boursiers?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Excusez-moi, quelles sont les dates de rentrée universitaire  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut, je suis furieux, personne ne répond à la scolarité dès maintenant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "S'il vous plaît, il y a un départ de feu dans le couloir pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Appelez les secours immédiatement !",
+    "intent": "urgence"
+  },
+  {
+    "text": "Peux-tu m'indiquer coucou chatbot au campus ESIC?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce possible de savoir où trouver ma clé de licence JetBrains étudiante  rapidement?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Excusez-moi, comment s'inscrire pour la rentrée prochaine  au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Numéro d'urgence du campus",
+    "intent": "contact"
+  },
+  {
+    "text": "Peux-tu m'indiquer quel est le calendrier universitaire officiel  pour cette année?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'aimerais savoir : quelles sont les démarches pour obtenir la garantie Visale  pour cette année.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Une question rapide : contact du responsable de la filière Cyber pour un étudiant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Renseignements : quels sont les tournois sportifs organisés sur le campus  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'aimerais savoir : je souhaite renouveler ma carte étudiante perdue rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je cherche des infos sur quels sont les prérequis pour intégrer l'Intelligence Artificielle  svp.",
+    "intent": "formation"
+  },
+  {
+    "text": "J'exige de parler au directeur immédiatement !",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Excusez-moi, appelez les secours immédiatement .",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : quels sont les droits et devoirs des étudiants  dès maintenant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "S'il vous plaît, urgence vitale, aidez-moi tout de suite  merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "À propos de : quelles sont les dates de rentrée universitaire  pour cette année.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Comment justifier une absence pour motif médical  pour un étudiant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "À propos de : est-ce que la cafétéria est ouverte le samedi  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Dis-moi puis-je manger dans les salles informatiques  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Mon badge d'accès ne fonctionne plus sur les portes",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Quelqu'un a fait un malaise en salle de cours",
+    "intent": "urgence"
+  },
+  {
+    "text": "S'il vous plaît, hello s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Pouvez-vous me dire horaires d'ouverture de l'accueil central merci?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Comment faire une demande de logement Crous ?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'aimerais savoir : le campus est-il ouvert pendant les jours fériés  d'avance merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Dis-moi comment déposer ma fiche de mission de stage  rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Pouvez-vous me dire prendre rendez-vous avec un conseiller d'orientation pour un étudiant?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Dis-moi c'est honteux, mes notes n'ont pas été enregistrées pour cette année.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Dis-moi quelle est l'adresse exacte du campus  au campus ESIC.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut, comment obtenir une convention de stage  pour cette année.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Dis-moi quels sont les horaires de la bibliothèque  rapidement.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Peux-tu m'indiquer règlement intérieur concernant le tabac et le vapotage?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, votre système ne marche jamais, c'est inacceptable au campus ESIC.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Renseignements : écris-moi un poème sur les fleurs dès maintenant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je cherche des infos sur urgence vitale, aidez-moi tout de suite  s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Une question rapide : que puis-je faire après ma licence informatique  pour un étudiant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir où se trouve le bureau de Claire Martin  merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "S'il vous plaît, que penses-tu du film Interstellar  dès maintenant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Hey !",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce possible de savoir que penses-tu du film Interstellar  dès maintenant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Info sur : parlez-moi du master Data Science.",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec comment télécharger mon relevé de notes  d'avance merci?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'ai besoin de savoir je demande un remboursement immédiat de mes frais merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Peux-tu m'indiquer email du bureau d'accueil des étudiants internationaux rapidement?",
+    "intent": "contact"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quel temps fait-il à New York  dès maintenant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Bonsoir !",
+    "intent": "salutation"
+  },
+  {
+    "text": "Peux-tu m'indiquer activités culturelles et tarifs réduits pour étudiants svp?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Dis-moi quand a lieu le cours de cybersécurité  svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Une question rapide : je suis furieux, personne ne répond à la scolarité pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Bonjour, est-ce que le cours de mathématiques est annulé  au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Où se trouve la salle de sport du campus ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Où est situé le bureau des stages ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Procédure pour changer de groupe de TD",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Peux-tu m'indiquer merci beaucoup pour votre aide pour cette année?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je cherche des infos sur planning de la promo Cybersécurité au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande je rencontre des difficultés financières urgentes pour mon loyer s'il vous plaît.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Renseignements : urgence médicale sur le campus .",
+    "intent": "urgence"
+  },
+  {
+    "text": "Bonjour ESIC bot pour un étudiant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi bonne journée  au campus ESIC.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je cherche des infos sur comment créer ma propre association étudiante  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Excusez-moi, quelle est la capitale de l'Australie  svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'aimerais savoir : appelez les secours immédiatement  dès maintenant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Salut, quelqu'un a fait un malaise en salle de cours.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Info sur : comment contester une note d'examen  s'il vous plaît.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je cherche des infos sur comment demander un aménagement tiers-temps  rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Une question rapide : merci beaucoup pour votre aide d'avance merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "J'ai besoin de savoir alerte intrusion ou danger grave d'avance merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Dis-moi je n'arrive pas à accéder à ma boîte mail étudiante rapidement.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Quel est le calendrier universitaire officiel ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'ai besoin de savoir comment se connecter au WiFi Eduroam  d'avance merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "J'aimerais savoir : quels sont les tournois sportifs organisés sur le campus  s'il vous plaît.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Est-ce possible de savoir proposez-vous des formations en alternance  d'avance merci?",
+    "intent": "formation"
+  },
+  {
+    "text": "Renseignements : je suis extrêmement mécontent du délai de traitement d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Quels sont les droits et devoirs des étudiants ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment faire une demande de logement Crous  d'avance merci?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Excusez-moi, horaires des cours demain matin rapidement.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec démarche pour demander une aide financière d'urgence svp?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Bonjour, quelles sont les démarches pour obtenir la garantie Visale  dès maintenant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je cherche des infos sur j'ai perdu mon stage à cause de votre retard  d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Peux-tu m'indiquer coucou chatbot pour cette année?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Peux-tu m'indiquer problème d'impression sur les imprimantes du campus svp?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Pouvez-vous me dire numéro d'urgence du campus s'il vous plaît?",
+    "intent": "contact"
+  },
+  {
+    "text": "Dis-moi afficher mon emploi du temps du jour.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Donne-moi le cours du Bitcoin aujourd'hui",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir activités culturelles et tarifs réduits pour étudiants svp?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "S'il vous plaît, comment contacter l'assistante sociale du campus  pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Montant des bourses sur critères sociaux",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Renseignements : existe-t-il des résidences partenaires proches du campus .",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "À propos de : y a-t-il un distributeur automatique sur le campus  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'aimerais savoir : urgence vitale, aidez-moi tout de suite .",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec accident dans les escaliers du bâtiment B dès maintenant?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Renseignements : dépôt de dossier pour le fonds de solidarité étudiant au campus ESIC.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Est-ce possible de savoir est-ce que la présence aux travaux pratiques est obligatoire  svp?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Excusez-moi, votre système ne marche jamais, c'est inacceptable d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Je n'arrive pas à accéder à ma boîte mail étudiante svp.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce possible de savoir au revoir et merci pour un étudiant?",
+    "intent": "salutation"
+  },
+  {
+    "text": "J'ai besoin de savoir quels sont les critères d'admission en Data Science  dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Où se déroulent les soirées d'intégration  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "S'il vous plaît, comment s'inscrire pour la rentrée prochaine  dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Renseignements : prendre rendez-vous avec un conseiller d'orientation pour un étudiant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce que la cafétéria est ouverte le samedi ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Peux-tu m'indiquer où est le défibrillateur le plus proche  pour cette année?",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'ai besoin de savoir problème d'impression sur les imprimantes du campus pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Une question rapide : quels sont les prérequis pour intégrer l'Intelligence Artificielle  pour cette année.",
+    "intent": "formation"
+  },
+  {
+    "text": "Excusez-moi, parlez-moi du master Data Science svp.",
+    "intent": "formation"
+  },
+  {
+    "text": "J'aimerais savoir : le campus est-il ouvert pendant les jours fériés  dès maintenant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Peux-tu m'indiquer j'ai perdu mon stage à cause de votre retard  s'il vous plaît?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Renseignements : quelle est l'adresse exacte du campus  svp.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Je me demande programme des animations du campus cette semaine d'avance merci.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'ai besoin de savoir numéro d'urgence du campus rapidement.",
+    "intent": "contact"
+  },
+  {
+    "text": "Une question rapide : est-ce que les téléphones sont autorisés en salle d'examen  pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je me demande où se trouve l'infirmerie du campus  au campus ESIC.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je me demande combien d'absences injustifiées sont autorisées  d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, prise en charge de la caution de logement rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Le campus est-il ouvert pendant les jours fériés ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'aimerais savoir : où se déroule la soutenance de projet  pour cette année.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Bonjour, comment s'organisent les cours en filière Réseaux & Cloud  pour un étudiant.",
+    "intent": "formation"
+  },
+  {
+    "text": "Peux-tu m'indiquer où trouver le plan détaillé des bâtiments  rapidement?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Quelles sont les démarches pour obtenir la garantie Visale ?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Salut, y a-t-il un club de jeux vidéo ou d'échecs .",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Renseignements : email du bureau d'accueil des étudiants internationaux pour un étudiant.",
+    "intent": "contact"
+  },
+  {
+    "text": "À propos de : c'est honteux, mes notes n'ont pas été enregistrées d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Aide personnalisée au logement (APL) pour étudiants",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Dis-moi quels sont les critères d'admission en Data Science  dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir comment s'inscrire pour la rentrée prochaine  au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je me demande montant des bourses sur critères sociaux d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Pouvez-vous me dire puis-je manger dans les salles informatiques ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec bonjour svp?",
+    "intent": "salutation"
+  },
+  {
+    "text": "À propos de : je suis furieux, personne ne répond à la scolarité s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Excusez-moi, hello dès maintenant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Renseignements : prendre rendez-vous avec un conseiller d'orientation s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir qui a gagné la coupe du monde 1998  pour cette année.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je cherche des infos sur où se trouve la salle de repos ou foyer étudiant  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : horaires des cours demain matin.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Comment contacter l'assistante sociale du campus ?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je me demande quels sont les critères d'admission en Data Science  svp.",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'aimerais savoir : que puis-je faire après ma licence informatique  merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Bonjour, existe-t-il un salon étudiant où rencontrer l'école  dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir existe-t-il des doubles diplômes internationaux .",
+    "intent": "formation"
+  },
+  {
+    "text": "Puis-je manger dans les salles informatiques ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Peux-tu m'indiquer bonjour ESIC bot pour un étudiant?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je cherche des infos sur bonne journée  s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce possible de savoir est-ce que la cafétéria est ouverte le samedi  dès maintenant?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Excusez-moi, quels sont les droits et devoirs des étudiants  d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Une question rapide : y a-t-il un parking pour les vélos et trottinettes  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Dates des examens de machine learning",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Peux-tu m'indiquer je voudrais me réorienter vers la cybersécurité dès maintenant?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Peux-tu m'indiquer charte informatique et usage des ordinateurs du campus pour un étudiant?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où trouver ma clé de licence JetBrains étudiante  pour un étudiant?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "À propos de : comment joindre le secrétariat pédagogique  merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Salut, je n'arrive pas à accéder à ma boîte mail étudiante rapidement.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande existe-t-il des doubles diplômes internationaux  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec support informatique pour PC en panne s'il vous plaît?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "J'aimerais savoir : comment obtenir une convention de stage .",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Renseignements : urgence médicale sur le campus  pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Renseignements : comment configurer la double authentification ENT  pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande quelles sont les formations proposées à l'ESIC .",
+    "intent": "formation"
+  },
+  {
+    "text": "À propos de : le campus est-il ouvert pendant les jours fériés  pour un étudiant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "À propos de : montant des bourses sur critères sociaux d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Dis-moi je veux porter plainte contre l'organisation des examens dès maintenant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce possible de savoir quel est l'email de Sophie Dubois  pour un étudiant?",
+    "intent": "contact"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec donne-moi le cours du Bitcoin aujourd'hui s'il vous plaît?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Excusez-moi, je me sens très mal, j'ai besoin d'une aide médicale pour cette année.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Une question rapide : comment contacter l'assistante sociale du campus  d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Est-ce possible de savoir au revoir et merci svp?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi y a-t-il un distributeur automatique sur le campus  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Urgence vitale, aidez-moi tout de suite  s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Info sur : quels sont les prérequis pour intégrer l'Intelligence Artificielle .",
+    "intent": "formation"
+  },
+  {
+    "text": "Renseignements : afficher mon emploi du temps du jour s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'ai besoin de savoir contact du responsable de la filière Cyber dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur horaires d'ouverture de l'accueil central d'avance merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Bonjour, existe-t-il des clubs associatifs sur le campus  d'avance merci.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Quand ont lieu les vacances de Noël ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut, comment configurer la double authentification ENT  svp.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Bonjour, quelles sont les dates de rentrée universitaire  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut, comment faire une demande de logement Crous  pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Peux-tu m'indiquer j'ai perdu mon stage à cause de votre retard  rapidement?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "À propos de : quel est le calendrier universitaire officiel  au campus ESIC.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce possible de savoir existe-t-il des doubles diplômes internationaux ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Je me demande comment faire une demande de logement Crous  rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'ai besoin de savoir où se trouve la salle de repos ou foyer étudiant  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Excusez-moi, à quelle heure commence mon cours de machine learning  dès maintenant.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Renseignements : où se déroulent les soirées d'intégration  s'il vous plaît.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Numéro de téléphone du standard de l'école au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "Pouvez-vous me dire règles d'assiduité en cours magistral pour un étudiant?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Excusez-moi, urgence vitale, aidez-moi tout de suite  rapidement.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Excusez-moi, contact du responsable de la filière Cyber merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Renseignements : aide personnalisée au logement (APL) pour étudiants d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je cherche des infos sur existe-t-il des clubs associatifs sur le campus  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Bonjour, le campus est-il ouvert pendant les jours fériés  svp.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Info sur : y a-t-il un distributeur automatique sur le campus  dès maintenant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire urgence vitale, aidez-moi tout de suite  svp?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Je souhaite renouveler ma carte étudiante perdue",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Dis-moi à plus tard dès maintenant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je me sens très mal, j'ai besoin d'une aide médicale",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec écris-moi un poème sur les fleurs s'il vous plaît?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Dis-moi que penses-tu du film Interstellar  pour cette année.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je suis furieux, personne ne répond à la scolarité",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'aimerais savoir : quel temps fait-il à New York  pour cette année.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Une question rapide : comment s'organisent les cours en filière Réseaux & Cloud  au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "Quel est l'emploi du temps de la semaine prochaine ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Renseignements : quelles sont les sanctions en cas de plagiat  d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Quels sont mes cours du vendredi après-midi ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Salut, alerte intrusion ou danger grave pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : j'ai oublié mon mot de passe ENT, que faire  rapidement.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Dis-moi procédure en cas de passage en conseil de discipline.",
+    "intent": "reglement"
+  },
+  {
+    "text": "À propos de : support informatique pour PC en panne d'avance merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Dis-moi quelles sont les stations de métro les plus proches  d'avance merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut, bonjour, comment allez-vous  au campus ESIC.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Comment réserver une salle de travail à la BU ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'aimerais savoir : comment réserver une salle de travail à la BU  rapidement.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Dis-moi quelle est la recette de la tarte aux pommes  au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Une question rapide : je veux porter plainte contre l'organisation des examens pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Une question rapide : comment télécharger mon relevé de notes  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "S'il vous plaît, raconte-moi une blague merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Pouvez-vous me dire y a-t-il une journée portes ouvertes prochainement  d'avance merci?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'ai besoin de savoir quels sont les droits et devoirs des étudiants  svp.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Excusez-moi, proposez-vous des formations en alternance  merci.",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce possible de savoir que puis-je faire après ma licence informatique  svp?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Excusez-moi, où se déroulent les soirées d'intégration  pour cette année.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Est-ce possible de savoir combien de crédits ECTS faut-il pour valider l'année  svp?",
+    "intent": "formation"
+  },
+  {
+    "text": "Charte informatique et usage des ordinateurs du campus",
+    "intent": "reglement"
+  },
+  {
+    "text": "Quel est le programme du cursus Développement Web ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Y a-t-il un distributeur automatique sur le campus ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire quelle est l'adresse exacte du campus  pour cette année?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce possible de savoir dates des examens de machine learning merci?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'ai besoin de savoir je rencontre des difficultés financières urgentes pour mon loyer rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je me demande comment se connecter au WiFi Eduroam  merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Bonjour, comment créer ma propre association étudiante  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande y a-t-il un distributeur automatique sur le campus  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire existe-t-il des résidences partenaires proches du campus  pour un étudiant?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'ai besoin de savoir il y a un départ de feu dans le couloir pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec appelez les secours immédiatement  pour un étudiant?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Où est situé le bureau des stages  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire règlement intérieur concernant le tabac et le vapotage au campus ESIC?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Excusez-moi, quelle est la recette de la tarte aux pommes  au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Peux-tu m'indiquer salut merci?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi quel est le programme du cursus Développement Web  rapidement.",
+    "intent": "formation"
+  },
+  {
+    "text": "Peux-tu m'indiquer qui est le président de l'Italie  d'avance merci?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Peux-tu m'indiquer y a-t-il un club de jeux vidéo ou d'échecs  d'avance merci?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Hello.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je cherche des infos sur numéro d'urgence sécurité du campus pour cette année.",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : bonne journée  d'avance merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi programme des animations du campus cette semaine pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Bonjour, montant des bourses sur critères sociaux rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'ai besoin de savoir bonjour ESIC bot s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "À propos de : quels sont les tournois sportifs organisés sur le campus  au campus ESIC.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Info sur : je suis extrêmement mécontent du délai de traitement pour cette année.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Une question rapide : y a-t-il un distributeur automatique sur le campus  rapidement.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je cherche des infos sur quels sont les droits et devoirs des étudiants  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce que la présence aux travaux pratiques est obligatoire ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "À plus tard",
+    "intent": "salutation"
+  },
+  {
+    "text": "J'aimerais savoir : mon compte Microsoft Office 365 est bloqué s'il vous plaît.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec à quelle heure se termine la journée de cours  merci?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Excusez-moi, quelle est l'adresse exacte du campus  dès maintenant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec afficher mon emploi du temps du jour?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce possible de savoir montant des bourses sur critères sociaux rapidement?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Renseignements : comment déposer ma fiche de mission de stage  pour un étudiant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'ai besoin de savoir quels sont les critères d'admission en Data Science  pour cette année.",
+    "intent": "orientation"
+  },
+  {
+    "text": "S'il vous plaît, procédure en cas de passage en conseil de discipline pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Le comportement du surveillant était déplacé et abusif",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Quels documents fournir pour la bourse Crous ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je me demande où se déroule la soutenance de projet  pour cette année.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Renseignements : annuaire téléphonique des professeurs pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "S'il vous plaît, email du bureau d'accueil des étudiants internationaux s'il vous plaît.",
+    "intent": "contact"
+  },
+  {
+    "text": "Excusez-moi, comment configurer la double authentification ENT  dès maintenant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Renseignements : y a-t-il un parking pour les vélos et trottinettes .",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Comment contester une note d'examen ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'aimerais savoir : qui a gagné la coupe du monde 1998  svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je me demande quel temps fait-il à New York  svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je me demande où est le défibrillateur le plus proche  s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Pouvez-vous me dire problème d'impression sur les imprimantes du campus pour un étudiant?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "J'aimerais savoir : existe-t-il des clubs associatifs sur le campus  d'avance merci.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande existe-t-il des doubles diplômes internationaux  d'avance merci.",
+    "intent": "formation"
+  },
+  {
+    "text": "Pouvez-vous me dire urgence vitale, aidez-moi tout de suite  rapidement?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Comment joindre le secrétariat pédagogique ?",
+    "intent": "contact"
+  },
+  {
+    "text": "Renseignements : comment justifier une absence pour motif médical  pour un étudiant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Procédure pour changer de groupe de TD s'il vous plaît.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je me demande résidences étudiantes recommandées à proximité de l'école au campus ESIC.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Info sur : est-ce que les téléphones sont autorisés en salle d'examen  s'il vous plaît.",
+    "intent": "reglement"
+  },
+  {
+    "text": "J'aimerais savoir : bonjour dès maintenant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Bonjour, je suis furieux, personne ne répond à la scolarité d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Bonjour, quelle est la recette de la tarte aux pommes  au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Que risque-t-on en cas de fraude à un examen ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce possible de savoir quels métiers après le cursus Intelligence Artificielle  d'avance merci?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Salut, prendre rendez-vous avec un conseiller d'orientation pour cette année.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce possible de savoir quels sont les horaires de la bibliothèque  svp?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "S'il vous plaît, quel est le calendrier universitaire officiel  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce possible de savoir le campus est-il ouvert pendant les jours fériés  s'il vous plaît?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Bonjour, à plus tard s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Salut, comment participer au hackathon annuel de l'école  rapidement.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Bonjour ESIC bot",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je dois modifier mon inscription pédagogique svp.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce possible de savoir mon badge d'accès ne fonctionne plus sur les portes svp?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande comment configurer la double authentification ENT .",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Dis-moi hello pour cette année.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Où se déroule la soutenance de projet  s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Salut, support informatique pour PC en panne merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Comment contacter le service scolarité ?",
+    "intent": "contact"
+  },
+  {
+    "text": "Pouvez-vous me dire y a-t-il un club de jeux vidéo ou d'échecs  svp?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande je rencontre des difficultés financières urgentes pour mon loyer dès maintenant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Au revoir et merci",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je me demande écris-moi un poème sur les fleurs pour un étudiant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "S'il vous plaît, montant des bourses sur critères sociaux pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'aimerais savoir : que risque-t-on en cas de fraude à un examen  merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Bonjour, comment demander un aménagement tiers-temps .",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'aimerais savoir : quelles sont les sanctions en cas de plagiat  merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "S'il vous plaît, votre système ne marche jamais, c'est inacceptable svp.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'ai besoin de savoir combien d'absences injustifiées sont autorisées  pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, comment s'organisent les cours en filière Réseaux & Cloud  svp.",
+    "intent": "formation"
+  },
+  {
+    "text": "Peux-tu m'indiquer le campus est-il ouvert pendant les jours fériés  pour cette année?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Bonjour, planning des cours pour les Data Science 2 dès maintenant.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "À propos de : quels métiers après le cursus Intelligence Artificielle  pour cette année.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Pouvez-vous me dire comment contacter le service scolarité  pour un étudiant?",
+    "intent": "contact"
+  },
+  {
+    "text": "J'ai besoin de savoir hey  au campus ESIC.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Bonjour, mon compte Microsoft Office 365 est bloqué d'avance merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Comment demander un aménagement tiers-temps .",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "S'il vous plaît, que puis-je faire après ma licence informatique  rapidement.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce possible de savoir mon compte Microsoft Office 365 est bloqué?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce possible de savoir à quelle heure se termine la journée de cours ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'aimerais savoir : quand ont lieu les vacances de Noël  au campus ESIC.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quels sont les débouchés après la filière Cybersécurité  svp?",
+    "intent": "formation"
+  },
+  {
+    "text": "À quelle heure se termine la journée de cours ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Salut, à plus tard pour un étudiant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Bonjour, procédure pour faire une césure d'un an au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Bonjour, bonjour, comment allez-vous  au campus ESIC.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Une question rapide : calendrier des épreuves et examens rapidement.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "S'il vous plaît, j'ai oublié mon mot de passe ENT, que faire  s'il vous plaît.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "À propos de : email du bureau d'accueil des étudiants internationaux au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment justifier une absence pour motif médical  merci?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'ai besoin de savoir appelez les secours immédiatement  d'avance merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Quels métiers après le cursus Intelligence Artificielle ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai oublié mon mot de passe ENT, que faire ?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "J'ai besoin de savoir où trouver ma clé de licence JetBrains étudiante  merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Info sur : où se déroulent les soirées d'intégration  au campus ESIC.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je voudrais me réorienter vers la cybersécurité pour cette année.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Pouvez-vous me dire quelles sont les démarches pour obtenir la garantie Visale  dès maintenant?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "S'il vous plaît, planning des cours pour les Data Science 2 merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Activités culturelles et tarifs réduits pour étudiants",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "S'il vous plaît, comment s'inscrire pour la rentrée prochaine  au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Renseignements : comment obtenir une convention de stage  pour cette année.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Bonjour, je me sens très mal, j'ai besoin d'une aide médicale s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "À propos de : le campus est-il ouvert pendant les jours fériés  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Bonjour, quelqu'un a fait un malaise en salle de cours dès maintenant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Dis-moi aide personnalisée au logement (APL) pour étudiants s'il vous plaît.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Renseignements : quelle est l'adresse exacte du campus  pour cette année.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Horaires des cours demain matin",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'ai besoin de savoir comment déposer ma fiche de mission de stage  rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'aimerais savoir : comment faire une demande de logement Crous  svp.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Quels sont les prérequis pour intégrer l'Intelligence Artificielle ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Comment s'inscrire pour la rentrée prochaine ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Bonjour, je voudrais un certificat de scolarité au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Bonjour, quel est le programme du cursus Développement Web  svp.",
+    "intent": "formation"
+  },
+  {
+    "text": "Pouvez-vous me dire où trouver ma clé de licence JetBrains étudiante  rapidement?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "J'ai besoin de savoir procédure en cas de passage en conseil de discipline s'il vous plaît.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Info sur : quel est l'email de Sophie Dubois .",
+    "intent": "contact"
+  },
+  {
+    "text": "Bonjour, adresse mail de Joel Banka d'avance merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur j'ai perdu mon stage à cause de votre retard  rapidement.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Une question rapide : adresse mail de Joel Banka s'il vous plaît.",
+    "intent": "contact"
+  },
+  {
+    "text": "Peux-tu m'indiquer salut d'avance merci?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi comment obtenir une convention de stage  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment joindre le secrétariat pédagogique  au campus ESIC?",
+    "intent": "contact"
+  },
+  {
+    "text": "Bonjour, bonsoir  d'avance merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "J'ai besoin de savoir calendrier des épreuves et examens au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande comment faire une demande de logement Crous  pour cette année.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Dis-moi comment participer au hackathon annuel de l'école  svp.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : où se trouve la salle de repos ou foyer étudiant  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Que se passe-t-il si j'arrive en retard à un partiel ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Excusez-moi, c'est honteux, mes notes n'ont pas été enregistrées dès maintenant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Une question rapide : que se passe-t-il si j'arrive en retard à un partiel  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je cherche des infos sur planning de la promo Cybersécurité s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "S'il vous plaît, afficher mon emploi du temps du jour dès maintenant.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je cherche des infos sur bonjour ESIC bot pour cette année.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi quelqu'un a fait un malaise en salle de cours d'avance merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Peux-tu m'indiquer j'exige de parler au directeur immédiatement  dès maintenant?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Excusez-moi, aide personnalisée au logement (APL) pour étudiants d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Une question rapide : quelle est la capitale de l'Australie  merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "S'il vous plaît, comment faire une demande de logement Crous  pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "S'il vous plaît, merci beaucoup pour votre aide dès maintenant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "S'il vous plaît, montant des bourses sur critères sociaux d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Où se trouve la salle de repos ou foyer étudiant ?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Peux-tu m'indiquer est-il possible de faire une passerelle vers le développement web  dès maintenant?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je cherche des infos sur activités culturelles et tarifs réduits pour étudiants dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande quelles sont les formations proposées à l'ESIC  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "Bonjour, le campus est-il ouvert pendant les jours fériés  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "S'il vous plaît, quand ont lieu les vacances de Noël  dès maintenant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Peux-tu m'indiquer c'est inadmissible, vous n'avez toujours pas validé ma convention  rapidement?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce possible de savoir quels sont mes cours du vendredi après-midi  au campus ESIC?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Pouvez-vous me dire peux-tu m'aider à faire mon code de jeu vidéo perso  svp?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je rencontre des difficultés financières urgentes pour mon loyer",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Peux-tu m'aider à faire mon code de jeu vidéo perso ?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir comment s'inscrire pour la rentrée prochaine  pour cette année?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Dis-moi donne-moi le cours du Bitcoin aujourd'hui pour cette année.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir où trouver ma clé de licence JetBrains étudiante ?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Dis-moi y a-t-il des micro-ondes pour réchauffer mon repas .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce possible de savoir je demande un remboursement immédiat de mes frais?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Comment installer le VPN du campus ?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Excusez-moi, y a-t-il une journée portes ouvertes prochainement .",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'aimerais savoir : mon compte Microsoft Office 365 est bloqué pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande règlement intérieur concernant le tabac et le vapotage pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Dis-moi bonjour d'avance merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je me demande quel est l'emploi du temps de la semaine prochaine  au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Une question rapide : démarche pour demander une aide financière d'urgence au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Peux-tu m'indiquer numéro d'urgence du campus rapidement?",
+    "intent": "contact"
+  },
+  {
+    "text": "Bonjour, comment demander un aménagement tiers-temps  rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "S'il vous plaît, comment participer au hackathon annuel de l'école  s'il vous plaît.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Démarche pour demander une aide financière d'urgence merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'ai besoin de savoir urgence médicale sur le campus  merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Bonjour, comment faire une demande de logement Crous  rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Une question rapide : quel est l'email de Sophie Dubois .",
+    "intent": "contact"
+  },
+  {
+    "text": "Peux-tu m'indiquer où se déroulent les soirées d'intégration  d'avance merci?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je cherche des infos sur écris-moi un poème sur les fleurs.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec comment s'organisent les cours en filière Réseaux & Cloud  dès maintenant?",
+    "intent": "formation"
+  },
+  {
+    "text": "Salut, je voudrais un certificat de scolarité pour un étudiant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Proposez-vous des formations en alternance ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Salut, il y a un départ de feu dans le couloir svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "S'il vous plaît, planning des cours pour les Data Science 2 au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Règlement intérieur concernant le tabac et le vapotage",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec programme des animations du campus cette semaine s'il vous plaît?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'ai besoin de savoir numéro d'urgence sécurité du campus.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce possible de savoir comment contacter l'assistante sociale du campus  pour un étudiant?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Où envoyer mon contrat d'apprentissage signé  au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Info sur : numéro d'urgence du campus.",
+    "intent": "contact"
+  },
+  {
+    "text": "Salut, où se trouve la salle de repos ou foyer étudiant  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'aimerais savoir : quels sont les critères d'admission en Data Science  s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Y a-t-il un club de jeux vidéo ou d'échecs ?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : raconte-moi une blague pour un étudiant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Quels sont les horaires de la bibliothèque ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'ai besoin de savoir quelqu'un a fait un malaise en salle de cours svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Excusez-moi, quels sont les débouchés après la filière Cybersécurité .",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec existe-t-il des doubles diplômes internationaux  svp?",
+    "intent": "formation"
+  },
+  {
+    "text": "Excusez-moi, à quelle heure commence mon cours de machine learning  svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Merci beaucoup pour votre aide",
+    "intent": "salutation"
+  },
+  {
+    "text": "À propos de : numéro d'urgence sécurité du campus au campus ESIC.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Combien de crédits ECTS faut-il pour valider l'année  svp.",
+    "intent": "formation"
+  },
+  {
+    "text": "Renseignements : résidences étudiantes recommandées à proximité de l'école d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je me demande numéro de téléphone du standard de l'école au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "À propos de : comment s'organisent les cours en filière Réseaux & Cloud  pour un étudiant.",
+    "intent": "formation"
+  },
+  {
+    "text": "À propos de : comment contacter le service scolarité  svp.",
+    "intent": "contact"
+  },
+  {
+    "text": "Salut, mon compte Microsoft Office 365 est bloqué.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je cherche des infos sur où est situé le bureau des stages .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Dis-moi existe-t-il des doubles diplômes internationaux  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "Contact du responsable de la filière Cyber au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur bonsoir  rapidement.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Peux-tu m'indiquer quelle est la démarche pour valider mon alternance  svp?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Info sur : comment justifier une absence pour motif médical  au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je me demande quels sont les critères d'admission en Data Science  s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "S'il vous plaît, comment contester une note d'examen  svp.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "À propos de : y a-t-il un club de jeux vidéo ou d'échecs  au campus ESIC.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Renseignements : urgence médicale sur le campus  svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Il y a un départ de feu dans le couloir s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Y a-t-il un parking pour les vélos et trottinettes ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Je me demande où est le défibrillateur le plus proche  pour cette année.",
+    "intent": "urgence"
+  },
+  {
+    "text": "À quelle heure ouvre le restaurant universitaire ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je suis furieux, personne ne répond à la scolarité pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Comment justifier une absence pour motif médical ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je cherche des infos sur c'est honteux, mes notes n'ont pas été enregistrées s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Info sur : peux-tu m'aider à faire mon code de jeu vidéo perso  d'avance merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir où se déroulent les soirées d'intégration  dès maintenant?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'ai besoin de savoir est-ce que le cours de mathématiques est annulé  au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Une question rapide : je n'arrive pas à accéder à ma boîte mail étudiante pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Salut, annuaire téléphonique des professeurs dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Alerte intrusion ou danger grave s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'ai besoin de savoir comment se connecter au WiFi Eduroam  dès maintenant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande combien d'absences injustifiées sont autorisées .",
+    "intent": "reglement"
+  },
+  {
+    "text": "Excusez-moi, horaires des cours demain matin merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Peux-tu m'indiquer quelles sont les démarches pour obtenir la garantie Visale  s'il vous plaît?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je me demande je suis extrêmement mécontent du délai de traitement.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Renseignements : où se trouve le bureau de Claire Martin  pour un étudiant.",
+    "intent": "contact"
+  },
+  {
+    "text": "J'aimerais savoir : comment contacter le service scolarité  d'avance merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Votre système ne marche jamais, c'est inacceptable.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "S'il vous plaît, quels sont les droits et devoirs des étudiants  merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Une question rapide : je suis furieux, personne ne répond à la scolarité pour cette année.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où se trouve le bureau de Claire Martin  svp?",
+    "intent": "contact"
+  },
+  {
+    "text": "Une question rapide : au revoir et merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi il y a un départ de feu dans le couloir pour cette année.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Info sur : comment se connecter au WiFi Eduroam  pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "S'il vous plaît, existe-t-il des résidences partenaires proches du campus  au campus ESIC.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "S'il vous plaît, c'est inadmissible, vous n'avez toujours pas validé ma convention  merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Quels sont les débouchés après la filière Cybersécurité ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Renseignements : je demande un remboursement immédiat de mes frais s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Une question rapide : à quelle heure se termine la journée de cours  au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Quels documents fournir pour la bourse Crous  svp.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "S'il vous plaît, quels métiers après le cursus Intelligence Artificielle  dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Info sur : comment joindre le secrétariat pédagogique  svp.",
+    "intent": "contact"
+  },
+  {
+    "text": "Existe-t-il des clubs associatifs sur le campus ?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Est-ce possible de savoir alerte intrusion ou danger grave rapidement?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Comment joindre le secrétariat pédagogique  merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Procédure en cas de passage en conseil de discipline",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce que les téléphones sont autorisés en salle d'examen ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, c'est honteux, mes notes n'ont pas été enregistrées merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Pouvez-vous me dire qui a gagné la coupe du monde 1998  au campus ESIC?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec je demande un remboursement immédiat de mes frais pour un étudiant?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce possible de savoir bonsoir  rapidement?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Info sur : contact du responsable de la filière Cyber au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "S'il vous plaît, quand ont lieu les vacances de Noël  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec y a-t-il un club de jeux vidéo ou d'échecs  d'avance merci?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : le campus est-il ouvert pendant les jours fériés  rapidement.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce possible de savoir bonjour ESIC bot dès maintenant?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Règles d'assiduité en cours magistral",
+    "intent": "reglement"
+  },
+  {
+    "text": "Bonjour",
+    "intent": "salutation"
+  },
+  {
+    "text": "Numéro d'urgence sécurité du campus",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : où se déroulent les soirées d'intégration  svp.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Renseignements : où se déroule la soutenance de projet  rapidement.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande quelles sont les formations proposées à l'ESIC  au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "À propos de : bonjour, comment allez-vous  pour un étudiant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce possible de savoir aide personnalisée au logement (APL) pour étudiants dès maintenant?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Renseignements : support informatique pour PC en panne svp.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "À propos de : existe-t-il un salon étudiant où rencontrer l'école  dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Peux-tu m'indiquer quelles sont les formations proposées à l'ESIC  au campus ESIC?",
+    "intent": "formation"
+  },
+  {
+    "text": "Je voudrais un certificat de scolarité",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce possible de savoir quand a lieu le cours de cybersécurité  dès maintenant?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quelle est la recette de la tarte aux pommes  au campus ESIC?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je cherche des infos sur comment configurer la double authentification ENT  pour cette année.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Bonjour, où se trouve la salle de repos ou foyer étudiant  pour cette année.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : quelles sont les formations proposées à l'ESIC .",
+    "intent": "formation"
+  },
+  {
+    "text": "Planning de la promo Cybersécurité",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Peux-tu m'indiquer est-il possible de faire une passerelle vers le développement web  merci?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Pouvez-vous me dire je suis furieux, personne ne répond à la scolarité s'il vous plaît?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Renseignements : à plus tard.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec adresse mail de Joel Banka pour cette année?",
+    "intent": "contact"
+  },
+  {
+    "text": "Dis-moi planning des cours pour les Data Science 2 merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Une question rapide : existe-t-il un salon étudiant où rencontrer l'école  merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec je voudrais me réorienter vers la cybersécurité?",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir je suis extrêmement mécontent du délai de traitement s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "À propos de : qui est le président de l'Italie  au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Pouvez-vous me dire quels sont les débouchés après la filière Cybersécurité  merci?",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce que la cafétéria est ouverte le samedi  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Peux-tu m'indiquer je rencontre des difficultés financières urgentes pour mon loyer pour cette année?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'ai besoin de savoir peut-on réserver un box de travail en groupe  rapidement.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Annuaire téléphonique des professeurs au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "Renseignements : où se déroule la soutenance de projet  merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Bonjour, prendre rendez-vous avec un conseiller d'orientation s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "S'il vous plaît, quel est le calendrier universitaire officiel  au campus ESIC.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Quelles sont les spécialités de 2e année ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Renseignements : quand ont lieu les vacances de Noël  pour un étudiant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Dis-moi je suis furieux, personne ne répond à la scolarité d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Je me demande quel est le programme du cursus Développement Web  dès maintenant.",
+    "intent": "formation"
+  },
+  {
+    "text": "Votre système ne marche jamais, c'est inacceptable dès maintenant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Dis-moi quelles sont les spécialités de 2e année .",
+    "intent": "formation"
+  },
+  {
+    "text": "S'il vous plaît, raconte-moi une blague pour cette année.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'aimerais savoir : comment s'inscrire pour la rentrée prochaine  d'avance merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "À propos de : est-ce que les téléphones sont autorisés en salle d'examen  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je cherche des infos sur comment contester une note d'examen  pour un étudiant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "S'il vous plaît, bonjour ESIC bot pour cette année.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi je suis extrêmement mécontent du délai de traitement pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "S'il vous plaît, quelles sont les formations proposées à l'ESIC .",
+    "intent": "formation"
+  },
+  {
+    "text": "Renseignements : planning des cours pour les Data Science 2 svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Dis-moi adresse mail de Joel Banka rapidement.",
+    "intent": "contact"
+  },
+  {
+    "text": "Pouvez-vous me dire je voudrais un certificat de scolarité s'il vous plaît?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Bonjour, mon badge d'accès ne fonctionne plus sur les portes rapidement.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Pouvez-vous me dire comment venir en transports en commun  svp?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Je me demande contact du responsable de la filière Cyber merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Renseignements : comment joindre le secrétariat pédagogique .",
+    "intent": "contact"
+  },
+  {
+    "text": "Dis-moi où est ma salle de cours ce matin  svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande bonsoir  rapidement.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Excusez-moi, quels sont les prérequis pour intégrer l'Intelligence Artificielle  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "Comment déposer ma fiche de mission de stage ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Renseignements : je souhaite renouveler ma carte étudiante perdue.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je me demande procédure pour changer de groupe de TD.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Existe-t-il des résidences partenaires proches du campus ?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Bonjour, accident dans les escaliers du bâtiment B svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Info sur : comment adhérer au Bureau des Étudiants (BDE)  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "À quelle heure ouvre le restaurant universitaire  dès maintenant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce possible de savoir conditions pour postuler en tant que candidat étranger au campus ESIC?",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir je suis extrêmement mécontent du délai de traitement dès maintenant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment déposer ma fiche de mission de stage  pour un étudiant?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Pouvez-vous me dire règles d'assiduité en cours magistral s'il vous plaît?",
+    "intent": "reglement"
+  },
+  {
+    "text": "À propos de : que se passe-t-il si j'arrive en retard à un partiel  d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, quels sont les critères d'admission en Data Science  rapidement.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Renseignements : que penses-tu du film Interstellar  merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Peux-tu m'indiquer combien d'absences injustifiées sont autorisées  s'il vous plaît?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Bonjour, support informatique pour PC en panne dès maintenant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Bonjour, y a-t-il un parking pour les vélos et trottinettes  rapidement.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce possible de savoir accident dans les escaliers du bâtiment B au campus ESIC?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Dis-moi quel est l'email de Sophie Dubois  rapidement.",
+    "intent": "contact"
+  },
+  {
+    "text": "Est-ce possible de savoir y a-t-il un distributeur automatique sur le campus  merci?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec comment adhérer au Bureau des Étudiants (BDE)  rapidement?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Excusez-moi, à quelle heure se termine la journée de cours  pour cette année.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je cherche des infos sur où est situé le bureau des stages  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Peux-tu m'indiquer prise en charge de la caution de logement d'avance merci?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Une question rapide : comment adhérer au Bureau des Étudiants (BDE)  merci.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'ai besoin de savoir comment joindre le secrétariat pédagogique  au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "Pouvez-vous me dire y a-t-il des micro-ondes pour réchauffer mon repas  au campus ESIC?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Bonjour, comment installer le VPN du campus  merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce possible de savoir urgence médicale sur le campus  svp?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Pouvez-vous me dire que risque-t-on en cas de fraude à un examen ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je cherche des infos sur existe-t-il des doubles diplômes internationaux  svp.",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce possible de savoir je rencontre des difficultés financières urgentes pour mon loyer d'avance merci?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je cherche des infos sur afficher mon emploi du temps du jour svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quelles sont les spécialités de 2e année ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Quels sont les services médicaux disponibles ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Bonjour, peux-tu m'aider à faire mon code de jeu vidéo perso  rapidement.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Excusez-moi, peut-on réserver un box de travail en groupe  merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Une question rapide : comment participer au hackathon annuel de l'école  pour cette année.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "À propos de : je rencontre des difficultés financières urgentes pour mon loyer dès maintenant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Info sur : peut-on réserver un box de travail en groupe  pour un étudiant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'aimerais savoir : quelle est la démarche pour valider mon alternance  s'il vous plaît.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je me demande prise en charge de la caution de logement rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Pouvez-vous me dire que penses-tu du film Interstellar  au campus ESIC?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'aimerais savoir : parlez-moi du master Data Science pour cette année.",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce que la cafétéria est ouverte le samedi  au campus ESIC.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Existe-t-il des doubles diplômes internationaux ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Une question rapide : bonsoir .",
+    "intent": "salutation"
+  },
+  {
+    "text": "Bonjour, quelle est l'adresse exacte du campus  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut, contact du responsable de la filière Cyber dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Une question rapide : tarifs du repas pour les étudiants boursiers pour un étudiant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je veux porter plainte contre l'organisation des examens",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'aimerais savoir : quelle est la démarche pour valider mon alternance  dès maintenant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce possible de savoir quelles sont les sanctions en cas de plagiat  merci?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Comment créer ma propre association étudiante ?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Info sur : où se trouve le bureau de Claire Martin .",
+    "intent": "contact"
+  },
+  {
+    "text": "Une question rapide : existe-t-il des résidences partenaires proches du campus  pour cette année.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec comment configurer la double authentification ENT  pour un étudiant?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Pouvez-vous me dire que risque-t-on en cas de fraude à un examen  merci?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce possible de savoir quels sont les débouchés après la filière Cybersécurité  dès maintenant?",
+    "intent": "formation"
+  },
+  {
+    "text": "Excusez-moi, dates des examens de machine learning au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'aimerais savoir : comment configurer la double authentification ENT  rapidement.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce possible de savoir activités culturelles et tarifs réduits pour étudiants pour un étudiant?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Dis-moi est-il possible de faire une passerelle vers le développement web  au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce possible de savoir urgence médicale sur le campus  dès maintenant?",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : est-ce que les téléphones sont autorisés en salle d'examen  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "S'il vous plaît, comment réserver une salle de travail à la BU  rapidement.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je cherche des infos sur comment demander un aménagement tiers-temps  pour cette année.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'ai besoin de savoir y a-t-il des micro-ondes pour réchauffer mon repas  pour un étudiant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire comment créer ma propre association étudiante  d'avance merci?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec proposez-vous des formations en alternance  svp?",
+    "intent": "formation"
+  },
+  {
+    "text": "Info sur : hey  rapidement.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je me demande existe-t-il des résidences partenaires proches du campus .",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Prise en charge de la caution de logement",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Dis-moi prendre rendez-vous avec un conseiller d'orientation s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où se trouve le bureau de Claire Martin  s'il vous plaît?",
+    "intent": "contact"
+  },
+  {
+    "text": "Pouvez-vous me dire y a-t-il un distributeur automatique sur le campus  pour cette année?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Une question rapide : j'ai oublié mon mot de passe ENT, que faire  d'avance merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Où envoyer mon contrat d'apprentissage signé ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Une question rapide : quels sont les services médicaux disponibles .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Comment adhérer au Bureau des Étudiants (BDE) ?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "S'il vous plaît, comment se connecter au WiFi Eduroam  dès maintenant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Salut, quels sont mes cours du vendredi après-midi  d'avance merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Email du bureau d'accueil des étudiants internationaux",
+    "intent": "contact"
+  },
+  {
+    "text": "Bonjour, comment s'organisent les cours en filière Réseaux & Cloud  pour cette année.",
+    "intent": "formation"
+  },
+  {
+    "text": "Salut, tarifs du repas pour les étudiants boursiers merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "À propos de : à plus tard rapidement.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Pouvez-vous me dire quelles sont les dates de rentrée universitaire  pour cette année?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Bonjour, le comportement du surveillant était déplacé et abusif au campus ESIC.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Pouvez-vous me dire y a-t-il une journée portes ouvertes prochainement  au campus ESIC?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Dis-moi urgence médicale sur le campus  s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Peux-tu m'indiquer où se trouve le bureau de Claire Martin  pour cette année?",
+    "intent": "contact"
+  },
+  {
+    "text": "J'aimerais savoir : comment contacter le service scolarité  pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur quels sont les droits et devoirs des étudiants  au campus ESIC.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Renseignements : puis-je manger dans les salles informatiques  s'il vous plaît.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Peux-tu m'indiquer prendre rendez-vous avec un conseiller d'orientation s'il vous plaît?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je cherche des infos sur est-ce que la cafétéria est ouverte le samedi .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Existe-t-il un salon étudiant où rencontrer l'école ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Info sur : quelles sont les formations proposées à l'ESIC  dès maintenant.",
+    "intent": "formation"
+  },
+  {
+    "text": "À propos de : hey  d'avance merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi bonjour ESIC bot s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Salut, quelle est la recette de la tarte aux pommes  merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir prendre rendez-vous avec un conseiller d'orientation pour un étudiant?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec planning de la promo Cybersécurité?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Info sur : écris-moi un poème sur les fleurs rapidement.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Dis-moi procédure pour changer de groupe de TD au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec je voudrais un certificat de scolarité dès maintenant?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec dépôt de dossier pour le fonds de solidarité étudiant?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Salut, comment déposer ma fiche de mission de stage  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Salut, quelles sont les sanctions en cas de plagiat  svp.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Y a-t-il une journée portes ouvertes prochainement ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Pouvez-vous me dire quand a lieu le cours de cybersécurité  pour un étudiant?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "À propos de : quel est l'emploi du temps de la semaine prochaine  rapidement.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je suis extrêmement mécontent du délai de traitement",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec comment installer le VPN du campus ?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je cherche des infos sur je veux porter plainte contre l'organisation des examens pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "S'il vous plaît, raconte-moi une blague au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Comment obtenir une convention de stage ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "À propos de : quels sont les prérequis pour intégrer l'Intelligence Artificielle  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "À propos de : combien de crédits ECTS faut-il pour valider l'année  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "Dis-moi peux-tu m'aider à faire mon code de jeu vidéo perso  svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Excusez-moi, comment créer ma propre association étudiante .",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Horaires d'ouverture de l'accueil central d'avance merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Excusez-moi, quelles sont les spécialités de 2e année  dès maintenant.",
+    "intent": "formation"
+  },
+  {
+    "text": "Donne-moi le cours du Bitcoin aujourd'hui dès maintenant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Dis-moi bonjour ESIC bot dès maintenant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec peux-tu m'aider à faire mon code de jeu vidéo perso  svp?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Info sur : où est situé le bureau des stages  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Renseignements : y a-t-il des micro-ondes pour réchauffer mon repas  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Urgence vitale, aidez-moi tout de suite !",
+    "intent": "urgence"
+  },
+  {
+    "text": "Quel niveau de mathématiques est requis en IA  s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment joindre le secrétariat pédagogique  s'il vous plaît?",
+    "intent": "contact"
+  },
+  {
+    "text": "J'aimerais savoir : je rencontre des difficultés financières urgentes pour mon loyer dès maintenant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Une question rapide : c'est honteux, mes notes n'ont pas été enregistrées rapidement.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Excusez-moi, quels sont les prérequis pour intégrer l'Intelligence Artificielle  rapidement.",
+    "intent": "formation"
+  },
+  {
+    "text": "Renseignements : je demande un remboursement immédiat de mes frais pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Je cherche des infos sur il y a un départ de feu dans le couloir au campus ESIC.",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : quand sont les partiels du semestre 2  s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Peux-tu m'indiquer est-ce que les téléphones sont autorisés en salle d'examen  pour un étudiant?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Info sur : que puis-je faire après ma licence informatique  pour un étudiant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "S'il vous plaît, qui est le président de l'Italie  au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Info sur : quelqu'un a fait un malaise en salle de cours pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "S'il vous plaît, existe-t-il des clubs associatifs sur le campus  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Info sur : quel est le programme du cursus Développement Web  pour cette année.",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce possible de savoir programme des animations du campus cette semaine d'avance merci?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Excusez-moi, comment configurer la double authentification ENT  pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "J'aimerais savoir : y a-t-il un club de jeux vidéo ou d'échecs  au campus ESIC.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Salut, comment télécharger mon relevé de notes  rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Pouvez-vous me dire calendrier des épreuves et examens d'avance merci?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Pouvez-vous me dire j'ai oublié mon mot de passe ENT, que faire  au campus ESIC?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Info sur : coucou chatbot svp.",
+    "intent": "salutation"
+  },
+  {
+    "text": "À propos de : quelle est la recette de la tarte aux pommes  svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je me demande est-il possible de faire une passerelle vers le développement web  d'avance merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Info sur : quels sont les services médicaux disponibles  pour un étudiant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Comment s'organisent les cours en filière Réseaux & Cloud ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce possible de savoir quelle est la recette de la tarte aux pommes  pour un étudiant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'ai besoin de savoir adresse mail de Joel Banka s'il vous plaît.",
+    "intent": "contact"
+  },
+  {
+    "text": "Une question rapide : bonjour ESIC bot pour cette année.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce possible de savoir numéro d'urgence du campus?",
+    "intent": "contact"
+  },
+  {
+    "text": "Renseignements : quel est le calendrier universitaire officiel  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Renseignements : alerte intrusion ou danger grave svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce possible de savoir mon compte Microsoft Office 365 est bloqué pour cette année?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "J'ai besoin de savoir comment s'inscrire pour la rentrée prochaine  svp.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Peux-tu m'indiquer email du bureau d'accueil des étudiants internationaux s'il vous plaît?",
+    "intent": "contact"
+  },
+  {
+    "text": "À propos de : numéro d'urgence du campus pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec dépôt de dossier pour le fonds de solidarité étudiant d'avance merci?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Dis-moi peux-tu m'aider à faire mon code de jeu vidéo perso  rapidement.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'aimerais savoir : parlez-moi du master Data Science dès maintenant.",
+    "intent": "formation"
+  },
+  {
+    "text": "S'il vous plaît, quelle est l'adresse exacte du campus .",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'aimerais savoir : annuaire téléphonique des professeurs pour un étudiant.",
+    "intent": "contact"
+  },
+  {
+    "text": "J'ai besoin de savoir peut-on réserver un box de travail en groupe  d'avance merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Comment télécharger mon relevé de notes ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je cherche des infos sur j'ai oublié mon mot de passe ENT, que faire  rapidement.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "S'il vous plaît, quelles sont les stations de métro les plus proches .",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut",
+    "intent": "salutation"
+  },
+  {
+    "text": "Numéro de téléphone du standard de l'école",
+    "intent": "contact"
+  },
+  {
+    "text": "À propos de : quels sont mes cours du vendredi après-midi  svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Bonjour, je veux porter plainte contre l'organisation des examens pour cette année.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Info sur : j'exige de parler au directeur immédiatement  au campus ESIC.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce possible de savoir quels sont les débouchés après la filière Cybersécurité ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Bonjour, bonsoir  merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "À propos de : proposez-vous des formations en alternance  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "À propos de : je n'arrive pas à accéder à ma boîte mail étudiante d'avance merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Dis-moi raconte-moi une blague au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Comment se connecter au WiFi Eduroam ?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Renseignements : bonne journée .",
+    "intent": "salutation"
+  },
+  {
+    "text": "Excusez-moi, adresse mail de Joel Banka dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Quelles sont les sanctions en cas de plagiat ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où se trouve la salle de repos ou foyer étudiant  merci?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'aimerais savoir : raconte-moi une blague s'il vous plaît.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Bonjour, je demande un remboursement immédiat de mes frais au campus ESIC.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Info sur : quel temps fait-il à New York  dès maintenant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec le comportement du surveillant était déplacé et abusif svp?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'ai besoin de savoir quand ont lieu les vacances de Noël  dès maintenant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Je me demande je voudrais un certificat de scolarité s'il vous plaît.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "À propos de : activités culturelles et tarifs réduits pour étudiants s'il vous plaît.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : où se déroulent les soirées d'intégration  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'ai perdu mon stage à cause de votre retard .",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'ai besoin de savoir existe-t-il des résidences partenaires proches du campus .",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Salut, y a-t-il un parking pour les vélos et trottinettes  au campus ESIC.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Une question rapide : il y a un départ de feu dans le couloir s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Peux-tu m'indiquer qui a gagné la coupe du monde 1998  pour un étudiant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Info sur : raconte-moi une blague svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'aimerais savoir : je me sens très mal, j'ai besoin d'une aide médicale merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Une question rapide : où se trouve la salle de repos ou foyer étudiant  svp.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Salut, quels sont les débouchés après la filière Cybersécurité  d'avance merci.",
+    "intent": "formation"
+  },
+  {
+    "text": "Que puis-je faire après ma licence informatique ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Une question rapide : coucou chatbot pour un étudiant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce possible de savoir quels sont les horaires de la bibliothèque  pour cette année?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je cherche des infos sur alerte intrusion ou danger grave au campus ESIC.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Excusez-moi, résidences étudiantes recommandées à proximité de l'école pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Excusez-moi, comment venir en transports en commun  svp.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Je me demande comment contester une note d'examen  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Salut, coucou chatbot.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Peux-tu m'indiquer je souhaite renouveler ma carte étudiante perdue d'avance merci?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'aimerais savoir : que puis-je faire après ma licence informatique  au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Bonjour, comment contacter l'assistante sociale du campus  pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Salut, mon badge d'accès ne fonctionne plus sur les portes pour cette année.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Problème d'impression sur les imprimantes du campus",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Bonjour, quels métiers après le cursus Intelligence Artificielle  svp.",
+    "intent": "orientation"
+  },
+  {
+    "text": "C'est inadmissible, vous n'avez toujours pas validé ma convention  svp.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "À propos de : où se trouve la salle de sport du campus  merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce possible de savoir comment contacter l'assistante sociale du campus  svp?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Bonjour, quel temps fait-il à New York  s'il vous plaît.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Dis-moi combien de crédits ECTS faut-il pour valider l'année  svp.",
+    "intent": "formation"
+  },
+  {
+    "text": "Pouvez-vous me dire comment obtenir une convention de stage  dès maintenant?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je cherche des infos sur je suis furieux, personne ne répond à la scolarité d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Salut, quel temps fait-il à New York  d'avance merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "À propos de : comment contacter l'assistante sociale du campus  s'il vous plaît.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Est-ce possible de savoir bonjour au campus ESIC?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Une question rapide : problème d'impression sur les imprimantes du campus.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Bonjour, comment réserver une salle de travail à la BU .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "S'il vous plaît, quelles sont les spécialités de 2e année  au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "Pouvez-vous me dire quels sont les critères d'admission en Data Science  s'il vous plaît?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec existe-t-il des résidences partenaires proches du campus  dès maintenant?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Excusez-moi, comment participer au hackathon annuel de l'école  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'aimerais savoir : je demande un remboursement immédiat de mes frais rapidement.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce possible de savoir quelle est l'adresse exacte du campus  merci?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'ai besoin de savoir où trouver le plan détaillé des bâtiments  svp.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Contact du responsable de la filière Cyber",
+    "intent": "contact"
+  },
+  {
+    "text": "Peux-tu m'indiquer est-ce que le cours de mathématiques est annulé  s'il vous plaît?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Excusez-moi, comment joindre le secrétariat pédagogique  merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "S'il vous plaît, support informatique pour PC en panne.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "À propos de : où se trouve la salle de repos ou foyer étudiant  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "À propos de : comment emprunter des livres à la bibliothèque  pour un étudiant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Info sur : comment participer au hackathon annuel de l'école  pour cette année.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Info sur : existe-t-il des clubs associatifs sur le campus  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "À propos de : où se déroule la soutenance de projet  svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Bonne journée !",
+    "intent": "salutation"
+  },
+  {
+    "text": "Bonjour, quand ont lieu les vacances de Noël  au campus ESIC.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Une question rapide : merci beaucoup pour votre aide.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Bonjour, comment allez-vous ?",
+    "intent": "salutation"
+  },
+  {
+    "text": "J'ai besoin de savoir qui a gagné la coupe du monde 1998  pour un étudiant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'aimerais savoir : j'exige de parler au directeur immédiatement  svp.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Excusez-moi, où se trouve le bureau de Claire Martin .",
+    "intent": "contact"
+  },
+  {
+    "text": "J'ai besoin de savoir accident dans les escaliers du bâtiment B s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Bonjour, y a-t-il un distributeur automatique sur le campus  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je me demande j'ai perdu mon stage à cause de votre retard .",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Une question rapide : comment se connecter au WiFi Eduroam  rapidement.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec hey  merci?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi y a-t-il un club de jeux vidéo ou d'échecs  rapidement.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Est-ce possible de savoir je veux porter plainte contre l'organisation des examens rapidement?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Excusez-moi, bonjour, comment allez-vous .",
+    "intent": "salutation"
+  },
+  {
+    "text": "Pouvez-vous me dire où se trouve la salle de repos ou foyer étudiant  pour cette année?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : quel niveau de mathématiques est requis en IA  pour cette année.",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir proposez-vous des formations en alternance  rapidement.",
+    "intent": "formation"
+  },
+  {
+    "text": "Peux-tu m'indiquer c'est inadmissible, vous n'avez toujours pas validé ma convention  d'avance merci?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment adhérer au Bureau des Étudiants (BDE)  dès maintenant?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Info sur : quelle est la capitale de l'Australie  svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Bonjour, y a-t-il un parking pour les vélos et trottinettes  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Qui est le président de l'Italie ?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Une question rapide : où se déroulent les soirées d'intégration  rapidement.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Bonjour, est-ce que la présence aux travaux pratiques est obligatoire  merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "S'il vous plaît, proposez-vous des formations en alternance  au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "J'aimerais savoir : qui a gagné la coupe du monde 1998 .",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "S'il vous plaît, je veux porter plainte contre l'organisation des examens s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'ai besoin de savoir support informatique pour PC en panne s'il vous plaît.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Renseignements : quelle est la recette de la tarte aux pommes  dès maintenant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Peux-tu m'indiquer mon compte Microsoft Office 365 est bloqué dès maintenant?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "À propos de : quels documents fournir pour la bourse Crous  au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Peut-on réserver un box de travail en groupe ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je cherche des infos sur comment faire une demande de logement Crous  d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Dis-moi le comportement du surveillant était déplacé et abusif dès maintenant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Info sur : procédure pour faire une césure d'un an svp.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Dis-moi que risque-t-on en cas de fraude à un examen  dès maintenant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "J'ai besoin de savoir dates des examens de machine learning au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je cherche des infos sur annuaire téléphonique des professeurs pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où se trouve la salle de sport du campus  s'il vous plaît?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Mon compte Microsoft Office 365 est bloqué.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je cherche des infos sur quand sont les partiels du semestre 2  au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Bonjour, quand ont lieu les vacances de Noël  pour un étudiant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Dis-moi écris-moi un poème sur les fleurs au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je voudrais me réorienter vers la cybersécurité",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quel est le programme du cursus Développement Web  svp?",
+    "intent": "formation"
+  },
+  {
+    "text": "Info sur : comment installer le VPN du campus  d'avance merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Peux-tu m'indiquer où est le défibrillateur le plus proche  s'il vous plaît?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce possible de savoir comment adhérer au Bureau des Étudiants (BDE)  svp?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Info sur : quand ont lieu les vacances de Noël  d'avance merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "À propos de : bonjour merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Quand sont les partiels du semestre 2 ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Excusez-moi, votre système ne marche jamais, c'est inacceptable pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "S'il vous plaît, hey  au campus ESIC.",
+    "intent": "salutation"
+  },
+  {
+    "text": "S'il vous plaît, le campus est-il ouvert pendant les jours fériés .",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Renseignements : je n'arrive pas à accéder à ma boîte mail étudiante s'il vous plaît.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec support informatique pour PC en panne?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande adresse mail de Joel Banka dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Je me demande je suis furieux, personne ne répond à la scolarité merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Excusez-moi, est-ce que le cours de mathématiques est annulé  pour un étudiant.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Combien d'absences injustifiées sont autorisées ?",
+    "intent": "reglement"
+  },
+  {
+    "text": "J'ai besoin de savoir urgence vitale, aidez-moi tout de suite  rapidement.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Je cherche des infos sur peux-tu m'aider à faire mon code de jeu vidéo perso  d'avance merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "S'il vous plaît, le campus est-il ouvert pendant les jours fériés  rapidement.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Où trouver le plan détaillé des bâtiments ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Combien coûte un repas au resto U ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où trouver ma clé de licence JetBrains étudiante  rapidement?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Renseignements : j'ai perdu mon stage à cause de votre retard .",
+    "intent": "reclamation"
+  },
+  {
+    "text": "À propos de : mon compte Microsoft Office 365 est bloqué dès maintenant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Où est situé le bureau des stages  dès maintenant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire quel est le calendrier universitaire officiel ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "S'il vous plaît, numéro d'urgence du campus rapidement.",
+    "intent": "contact"
+  },
+  {
+    "text": "Raconte-moi une blague svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Excusez-moi, quels sont les horaires de la bibliothèque  dès maintenant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Salut, est-ce que la cafétéria est ouverte le samedi  d'avance merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Une question rapide : conditions pour postuler en tant que candidat étranger dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Accident dans les escaliers du bâtiment B",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : numéro d'urgence sécurité du campus dès maintenant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Que se passe-t-il si j'arrive en retard à un partiel  d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "J'aimerais savoir : qui est le président de l'Italie  dès maintenant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir urgence médicale sur le campus ?",
+    "intent": "urgence"
+  },
+  {
+    "text": "À propos de : est-il possible de faire une passerelle vers le développement web .",
+    "intent": "orientation"
+  },
+  {
+    "text": "Peux-tu m'indiquer à quelle heure ouvre le restaurant universitaire  pour un étudiant?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Bonjour, combien de crédits ECTS faut-il pour valider l'année  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "J'ai perdu mon stage à cause de votre retard !",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Quand a lieu le cours de cybersécurité  merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Renseignements : support informatique pour PC en panne pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Pouvez-vous me dire comment demander un aménagement tiers-temps  rapidement?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Bonjour, hey  d'avance merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Annuaire téléphonique des professeurs",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur combien d'absences injustifiées sont autorisées  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Une question rapide : où trouver ma clé de licence JetBrains étudiante .",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Pouvez-vous me dire je n'arrive pas à accéder à ma boîte mail étudiante svp?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce possible de savoir le campus est-il ouvert pendant les jours fériés  rapidement?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Bonjour, procédure pour faire une césure d'un an merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je cherche des infos sur quelles sont les sanctions en cas de plagiat  s'il vous plaît.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Renseignements : que risque-t-on en cas de fraude à un examen  svp.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je me demande comment demander un aménagement tiers-temps  rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce possible de savoir est-il possible de faire une passerelle vers le développement web ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce possible de savoir est-ce que la présence aux travaux pratiques est obligatoire  d'avance merci?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où est le défibrillateur le plus proche  merci?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Salut, je n'arrive pas à accéder à ma boîte mail étudiante pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Dis-moi résidences étudiantes recommandées à proximité de l'école rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Comment participer au hackathon annuel de l'école ?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'ai besoin de savoir quelle est la capitale de l'Australie  au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Une question rapide : coucou chatbot merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi adresse mail de Joel Banka d'avance merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Bonjour, proposez-vous des formations en alternance  merci.",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec règles d'assiduité en cours magistral pour un étudiant?",
+    "intent": "reglement"
+  },
+  {
+    "text": "J'aimerais savoir : numéro d'urgence du campus s'il vous plaît.",
+    "intent": "contact"
+  },
+  {
+    "text": "Où se déroule la soutenance de projet ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'aimerais savoir : puis-je manger dans les salles informatiques  merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce possible de savoir quels sont les prérequis pour intégrer l'Intelligence Artificielle  au campus ESIC?",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce possible de savoir quels sont les critères d'admission en Data Science  pour cette année?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Adresse mail de Joel Banka",
+    "intent": "contact"
+  },
+  {
+    "text": "Excusez-moi, quelles sont les spécialités de 2e année  svp.",
+    "intent": "formation"
+  },
+  {
+    "text": "Salut, où se déroule la soutenance de projet  d'avance merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Une question rapide : support informatique pour PC en panne merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande où se trouve le bureau de Claire Martin .",
+    "intent": "contact"
+  },
+  {
+    "text": "J'ai besoin de savoir salut s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "S'il vous plaît, salut rapidement.",
+    "intent": "salutation"
+  },
+  {
+    "text": "S'il vous plaît, quelles sont les sanctions en cas de plagiat  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Peux-tu m'indiquer horaires d'ouverture de l'accueil central svp?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je demande un remboursement immédiat de mes frais",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec règlement intérieur concernant le tabac et le vapotage d'avance merci?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Pouvez-vous me dire où trouver le plan détaillé des bâtiments  svp?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Résidences étudiantes recommandées à proximité de l'école",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Bonjour, quel est l'email de Sophie Dubois  au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "J'ai besoin de savoir comment venir en transports en commun  au campus ESIC.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Info sur : c'est inadmissible, vous n'avez toujours pas validé ma convention  d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Bonjour, comment installer le VPN du campus  au campus ESIC.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Salut, où est le défibrillateur le plus proche  dès maintenant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Je me demande comment demander un aménagement tiers-temps  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce possible de savoir urgence vitale, aidez-moi tout de suite  merci?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Dis-moi au revoir et merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Pouvez-vous me dire existe-t-il des doubles diplômes internationaux  pour cette année?",
+    "intent": "formation"
+  },
+  {
+    "text": "À propos de : comment déposer ma fiche de mission de stage  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec qui est le président de l'Italie  dès maintenant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Salut svp.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je veux porter plainte contre l'organisation des examens svp.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Où est le défibrillateur le plus proche  d'avance merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Une question rapide : tarifs du repas pour les étudiants boursiers pour cette année.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire problème d'impression sur les imprimantes du campus pour cette année?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce que la présence aux travaux pratiques est obligatoire  pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Info sur : quand ont lieu les vacances de Noël  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Pouvez-vous me dire email du bureau d'accueil des étudiants internationaux merci?",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur comment joindre le secrétariat pédagogique  pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur numéro d'urgence du campus merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Quel est l'email de Sophie Dubois ?",
+    "intent": "contact"
+  },
+  {
+    "text": "Pouvez-vous me dire urgence vitale, aidez-moi tout de suite  au campus ESIC?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Renseignements : votre système ne marche jamais, c'est inacceptable svp.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "S'il vous plaît, quels métiers après le cursus Intelligence Artificielle  au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce possible de savoir qui a gagné la coupe du monde 1998  pour cette année?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Excusez-moi, comment demander un aménagement tiers-temps  pour cette année.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Une question rapide : existe-t-il un salon étudiant où rencontrer l'école  d'avance merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Pouvez-vous me dire je souhaite renouveler ma carte étudiante perdue pour cette année?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'ai besoin de savoir horaires des cours demain matin rapidement.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce possible de savoir adresse mail de Joel Banka au campus ESIC?",
+    "intent": "contact"
+  },
+  {
+    "text": "Renseignements : comment s'inscrire pour la rentrée prochaine  d'avance merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Dis-moi merci beaucoup pour votre aide.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Il y a un départ de feu dans le couloir pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce possible de savoir quand ont lieu les vacances de Noël  au campus ESIC?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'ai besoin de savoir où est situé le bureau des stages  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'aimerais savoir : quels métiers après le cursus Intelligence Artificielle  pour cette année.",
+    "intent": "orientation"
+  },
+  {
+    "text": "C'est honteux, mes notes n'ont pas été enregistrées",
+    "intent": "reclamation"
+  },
+  {
+    "text": "À propos de : quelqu'un a fait un malaise en salle de cours svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : comment faire une demande de logement Crous  pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où est le défibrillateur le plus proche  dès maintenant?",
+    "intent": "urgence"
+  },
+  {
+    "text": "S'il vous plaît, quels métiers après le cursus Intelligence Artificielle  d'avance merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce possible de savoir prise en charge de la caution de logement pour cette année?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Bonjour, existe-t-il des doubles diplômes internationaux  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "J'aimerais savoir : bonsoir  rapidement.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Excusez-moi, prise en charge de la caution de logement rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Comment configurer la double authentification ENT ?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Info sur : qui est le président de l'Italie  s'il vous plaît.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "S'il vous plaît, quel est l'emploi du temps de la semaine prochaine .",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Une question rapide : est-ce que la présence aux travaux pratiques est obligatoire  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Pouvez-vous me dire quelles sont les démarches pour obtenir la garantie Visale  pour cette année?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Où se déroulent les soirées d'intégration ?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "À propos de : existe-t-il un salon étudiant où rencontrer l'école  merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Peux-tu m'indiquer quels sont les tournois sportifs organisés sur le campus  d'avance merci?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je cherche des infos sur où se trouve l'infirmerie du campus .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je me demande procédure en cas de passage en conseil de discipline dès maintenant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Une question rapide : comment obtenir une convention de stage  dès maintenant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Le comportement du surveillant était déplacé et abusif s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Peux-tu m'indiquer est-ce que la présence aux travaux pratiques est obligatoire  pour cette année?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, bonjour ESIC bot.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi numéro d'urgence sécurité du campus pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "S'il vous plaît, je souhaite renouveler ma carte étudiante perdue d'avance merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Renseignements : combien coûte un repas au resto U  d'avance merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Comment venir en transports en commun ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Je me demande combien de crédits ECTS faut-il pour valider l'année .",
+    "intent": "formation"
+  },
+  {
+    "text": "J'ai besoin de savoir parlez-moi du master Data Science au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "Je cherche des infos sur quels documents fournir pour la bourse Crous  pour un étudiant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Bonjour, horaires des cours demain matin s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Dis-moi salut pour cette année.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je me demande quels sont les droits et devoirs des étudiants  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, raconte-moi une blague d'avance merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Info sur : quelles sont les formations proposées à l'ESIC  au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "Pouvez-vous me dire comment installer le VPN du campus  pour un étudiant?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Info sur : comment s'organisent les cours en filière Réseaux & Cloud  au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "Info sur : activités culturelles et tarifs réduits pour étudiants rapidement.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Salut, qui a gagné la coupe du monde 1998  rapidement.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Urgence médicale sur le campus  rapidement.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Dis-moi comment s'inscrire pour la rentrée prochaine  pour un étudiant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je cherche des infos sur je souhaite renouveler ma carte étudiante perdue svp.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Pouvez-vous me dire dépôt de dossier pour le fonds de solidarité étudiant d'avance merci?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Salut, écris-moi un poème sur les fleurs rapidement.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je n'arrive pas à accéder à ma boîte mail étudiante",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Info sur : quels sont mes cours du vendredi après-midi  pour cette année.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce possible de savoir règles d'assiduité en cours magistral au campus ESIC?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Peux-tu m'indiquer urgence médicale sur le campus  pour un étudiant?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Une question rapide : comment obtenir une convention de stage  s'il vous plaît.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'aimerais savoir : mon badge d'accès ne fonctionne plus sur les portes.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Info sur : où est le défibrillateur le plus proche  au campus ESIC.",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : à plus tard dès maintenant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec existe-t-il des résidences partenaires proches du campus  au campus ESIC?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je cherche des infos sur montant des bourses sur critères sociaux svp.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Renseignements : y a-t-il un club de jeux vidéo ou d'échecs  rapidement.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Est-ce possible de savoir je suis extrêmement mécontent du délai de traitement dès maintenant?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Excusez-moi, contact du responsable de la filière Cyber dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Salut, comment se connecter au WiFi Eduroam  pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je cherche des infos sur existe-t-il un salon étudiant où rencontrer l'école .",
+    "intent": "orientation"
+  },
+  {
+    "text": "Peux-tu m'indiquer quand ont lieu les vacances de Noël  rapidement?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce possible de savoir résidences étudiantes recommandées à proximité de l'école s'il vous plaît?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'aimerais savoir : quel niveau de mathématiques est requis en IA  pour un étudiant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec à quelle heure commence mon cours de machine learning  pour cette année?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Salut, quel est le programme du cursus Développement Web  rapidement.",
+    "intent": "formation"
+  },
+  {
+    "text": "Pouvez-vous me dire combien d'absences injustifiées sont autorisées  au campus ESIC?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce possible de savoir montant des bourses sur critères sociaux d'avance merci?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Quels documents fournir pour la bourse Crous  rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'ai besoin de savoir je me sens très mal, j'ai besoin d'une aide médicale merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec je souhaite renouveler ma carte étudiante perdue au campus ESIC?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'aimerais savoir : quel est le calendrier universitaire officiel  svp.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'aimerais savoir : peut-on réserver un box de travail en groupe .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Alerte intrusion ou danger grave",
+    "intent": "urgence"
+  },
+  {
+    "text": "Info sur : quelle est l'adresse exacte du campus .",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Renseignements : règles d'assiduité en cours magistral pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "J'ai besoin de savoir problème d'impression sur les imprimantes du campus s'il vous plaît.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment configurer la double authentification ENT  d'avance merci?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Dis-moi merci beaucoup pour votre aide dès maintenant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "À propos de : comment justifier une absence pour motif médical .",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Peux-tu m'indiquer que penses-tu du film Interstellar  svp?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec bonsoir  rapidement?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je cherche des infos sur combien de crédits ECTS faut-il pour valider l'année  au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "Je me demande planning de la promo Cybersécurité s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Bonjour, quels sont les services médicaux disponibles  d'avance merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'aimerais savoir : numéro de téléphone du standard de l'école pour un étudiant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Dis-moi combien coûte un repas au resto U  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec numéro d'urgence du campus merci?",
+    "intent": "contact"
+  },
+  {
+    "text": "J'aimerais savoir : mon badge d'accès ne fonctionne plus sur les portes pour cette année.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Quelles sont les stations de métro les plus proches ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "À propos de : je souhaite renouveler ma carte étudiante perdue d'avance merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "J'aimerais savoir : planning de la promo Cybersécurité au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec montant des bourses sur critères sociaux pour cette année?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Info sur : mon badge d'accès ne fonctionne plus sur les portes au campus ESIC.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Parlez-moi du master Data Science",
+    "intent": "formation"
+  },
+  {
+    "text": "Je me demande urgence vitale, aidez-moi tout de suite  s'il vous plaît.",
+    "intent": "urgence"
+  },
+  {
+    "text": "À propos de : où trouver ma clé de licence JetBrains étudiante  s'il vous plaît.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec j'ai oublié mon mot de passe ENT, que faire  s'il vous plaît?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Conditions pour postuler en tant que candidat étranger",
+    "intent": "orientation"
+  },
+  {
+    "text": "Salut, mon badge d'accès ne fonctionne plus sur les portes pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande procédure en cas de passage en conseil de discipline pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "À propos de : quels sont les droits et devoirs des étudiants  dès maintenant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je me demande calendrier des épreuves et examens rapidement.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Peux-tu m'indiquer bonjour ESIC bot rapidement?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Salut, puis-je manger dans les salles informatiques  rapidement.",
+    "intent": "reglement"
+  },
+  {
+    "text": "J'aimerais savoir : où se trouve l'infirmerie du campus  pour cette année.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Peux-tu m'indiquer quelle est la recette de la tarte aux pommes  dès maintenant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Salut, règles d'assiduité en cours magistral s'il vous plaît.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Puis-je manger dans les salles informatiques  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je cherche des infos sur j'ai perdu mon stage à cause de votre retard  dès maintenant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Je cherche des infos sur je voudrais me réorienter vers la cybersécurité svp.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Qui est le président de l'Italie  dès maintenant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je me demande email du bureau d'accueil des étudiants internationaux pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "J'ai besoin de savoir dépôt de dossier pour le fonds de solidarité étudiant s'il vous plaît.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Dépôt de dossier pour le fonds de solidarité étudiant",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Bonjour, comment télécharger mon relevé de notes  d'avance merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Procédure pour faire une césure d'un an",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-il possible de faire une passerelle vers le développement web ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Où se trouve l'infirmerie du campus ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'aimerais savoir : combien d'absences injustifiées sont autorisées  svp.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je cherche des infos sur au revoir et merci pour un étudiant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "S'il vous plaît, quelles sont les formations proposées à l'ESIC  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "Bonjour, quelles sont les dates de rentrée universitaire  d'avance merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Info sur : charte informatique et usage des ordinateurs du campus svp.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Salut, programme des animations du campus cette semaine rapidement.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "À propos de : est-ce que le cours de mathématiques est annulé  s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Bonjour, quand sont les partiels du semestre 2  s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Renseignements : il y a un départ de feu dans le couloir d'avance merci.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Je me demande existe-t-il des clubs associatifs sur le campus .",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande que puis-je faire après ma licence informatique  svp.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Pouvez-vous me dire votre système ne marche jamais, c'est inacceptable au campus ESIC?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "S'il vous plaît, existe-t-il des doubles diplômes internationaux  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "J'aimerais savoir : comment justifier une absence pour motif médical  s'il vous plaît.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Dis-moi quand sont les partiels du semestre 2  dès maintenant.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande parlez-moi du master Data Science d'avance merci.",
+    "intent": "formation"
+  },
+  {
+    "text": "J'aimerais savoir : y a-t-il un distributeur automatique sur le campus .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Bonjour, comment se connecter au WiFi Eduroam  pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Peux-tu m'indiquer à quelle heure commence mon cours de machine learning  au campus ESIC?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Combien de crédits ECTS faut-il pour valider l'année ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce possible de savoir existe-t-il des clubs associatifs sur le campus  rapidement?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'ai besoin de savoir quels sont mes cours du vendredi après-midi  au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Dis-moi puis-je manger dans les salles informatiques  d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Bonjour, quelle est la recette de la tarte aux pommes  svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Afficher mon emploi du temps du jour",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce possible de savoir quelles sont les stations de métro les plus proches  pour cette année?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Peux-tu m'indiquer procédure pour changer de groupe de TD?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Dis-moi comment participer au hackathon annuel de l'école  pour cette année.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec je suis extrêmement mécontent du délai de traitement d'avance merci?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Une question rapide : comment créer ma propre association étudiante  merci.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "J'aimerais savoir : prise en charge de la caution de logement pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Salut, comment créer ma propre association étudiante  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande planning des cours pour les Data Science 2 merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Info sur : je voudrais un certificat de scolarité pour cette année.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Peux-tu m'indiquer existe-t-il des clubs associatifs sur le campus  pour cette année?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Excusez-moi, c'est inadmissible, vous n'avez toujours pas validé ma convention  s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Support informatique pour PC en panne",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Info sur : où est situé le bureau des stages  pour cette année.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Une question rapide : y a-t-il des micro-ondes pour réchauffer mon repas  pour cette année.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Hello",
+    "intent": "salutation"
+  },
+  {
+    "text": "Excusez-moi, où se déroule la soutenance de projet  s'il vous plaît.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'ai besoin de savoir je voudrais me réorienter vers la cybersécurité merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Info sur : existe-t-il des doubles diplômes internationaux  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "Excusez-moi, qui a gagné la coupe du monde 1998  pour un étudiant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Quelle est la capitale de l'Australie ?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Programme des animations du campus cette semaine",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "À propos de : dates des examens de machine learning svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Horaires d'ouverture de l'accueil central",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Renseignements : où trouver le plan détaillé des bâtiments  pour cette année.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Renseignements : le campus est-il ouvert pendant les jours fériés  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce possible de savoir y a-t-il un distributeur automatique sur le campus  rapidement?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quel temps fait-il à New York  svp?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Peux-tu m'indiquer écris-moi un poème sur les fleurs d'avance merci?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir il y a un départ de feu dans le couloir svp?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Peux-tu m'indiquer qui est le président de l'Italie  s'il vous plaît?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Info sur : comment venir en transports en commun  pour cette année.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Peux-tu m'indiquer problème d'impression sur les imprimantes du campus merci?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je cherche des infos sur je demande un remboursement immédiat de mes frais.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Quelle est la recette de la tarte aux pommes ?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Renseignements : quelles sont les démarches pour obtenir la garantie Visale  au campus ESIC.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Planning des cours pour les Data Science 2",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Excusez-moi, quelles sont les spécialités de 2e année  d'avance merci.",
+    "intent": "formation"
+  },
+  {
+    "text": "Je cherche des infos sur quelles sont les formations proposées à l'ESIC  pour cette année.",
+    "intent": "formation"
+  },
+  {
+    "text": "Dis-moi règles d'assiduité en cours magistral d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Info sur : quelle est la démarche pour valider mon alternance  pour un étudiant.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "À propos de : je voudrais me réorienter vers la cybersécurité.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je me demande je voudrais me réorienter vers la cybersécurité rapidement.",
+    "intent": "orientation"
+  },
+  {
+    "text": "S'il vous plaît, activités culturelles et tarifs réduits pour étudiants merci.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je cherche des infos sur où se trouve l'infirmerie du campus  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce possible de savoir quelles sont les dates de rentrée universitaire  merci?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Urgence médicale sur le campus !",
+    "intent": "urgence"
+  },
+  {
+    "text": "Je me demande afficher mon emploi du temps du jour.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "À propos de : numéro de téléphone du standard de l'école merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Dis-moi procédure en cas de passage en conseil de discipline au campus ESIC.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec il y a un départ de feu dans le couloir merci?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Renseignements : urgence médicale sur le campus  rapidement.",
+    "intent": "urgence"
+  },
+  {
+    "text": "S'il vous plaît, quels métiers après le cursus Intelligence Artificielle  rapidement.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je cherche des infos sur urgence vitale, aidez-moi tout de suite  au campus ESIC.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Je me demande charte informatique et usage des ordinateurs du campus merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je me demande où se trouve l'infirmerie du campus  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je cherche des infos sur hello rapidement.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Salut, prise en charge de la caution de logement merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Quand a lieu le cours de cybersécurité ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce possible de savoir à quelle heure commence mon cours de machine learning  pour cette année?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande numéro de téléphone du standard de l'école pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur le campus est-il ouvert pendant les jours fériés  pour un étudiant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Bonjour, où trouver le plan détaillé des bâtiments  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Je cherche des infos sur procédure en cas de passage en conseil de discipline s'il vous plaît.",
+    "intent": "reglement"
+  },
+  {
+    "text": "À quelle heure commence mon cours de machine learning ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Info sur : je veux porter plainte contre l'organisation des examens au campus ESIC.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'ai besoin de savoir quel est le calendrier universitaire officiel  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut, procédure pour faire une césure d'un an d'avance merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Salut, où est situé le bureau des stages  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'aimerais savoir : donne-moi le cours du Bitcoin aujourd'hui merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Renseignements : adresse mail de Joel Banka s'il vous plaît.",
+    "intent": "contact"
+  },
+  {
+    "text": "Info sur : est-ce que les téléphones sont autorisés en salle d'examen  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Excusez-moi, que risque-t-on en cas de fraude à un examen  pour un étudiant.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Renseignements : où est le défibrillateur le plus proche  pour cette année.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Salut, quels sont mes cours du vendredi après-midi  au campus ESIC.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Une question rapide : proposez-vous des formations en alternance  au campus ESIC.",
+    "intent": "formation"
+  },
+  {
+    "text": "S'il vous plaît, votre système ne marche jamais, c'est inacceptable au campus ESIC.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Info sur : c'est honteux, mes notes n'ont pas été enregistrées pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Quelles sont les dates de rentrée universitaire ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Excusez-moi, que risque-t-on en cas de fraude à un examen  rapidement.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Info sur : quel est le calendrier universitaire officiel  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où se trouve le bureau de Claire Martin  merci?",
+    "intent": "contact"
+  },
+  {
+    "text": "Est-ce possible de savoir quels métiers après le cursus Intelligence Artificielle  dès maintenant?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Pouvez-vous me dire je voudrais un certificat de scolarité pour un étudiant?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Que penses-tu du film Interstellar ?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir calendrier des épreuves et examens svp?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Info sur : comment adhérer au Bureau des Étudiants (BDE)  au campus ESIC.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Où se trouve le bureau de Claire Martin ?",
+    "intent": "contact"
+  },
+  {
+    "text": "Salut, calendrier des épreuves et examens merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Dis-moi prendre rendez-vous avec un conseiller d'orientation au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "À propos de : où se trouve la salle de sport du campus .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'ai besoin de savoir où trouver ma clé de licence JetBrains étudiante .",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "À propos de : comment faire une demande de logement Crous  au campus ESIC.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Bonjour, quelles sont les spécialités de 2e année  pour cette année.",
+    "intent": "formation"
+  },
+  {
+    "text": "Renseignements : comment créer ma propre association étudiante  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande numéro d'urgence sécurité du campus svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Dis-moi peux-tu m'aider à faire mon code de jeu vidéo perso  merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Comment emprunter des livres à la bibliothèque ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Info sur : contact du responsable de la filière Cyber d'avance merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Peux-tu m'indiquer numéro d'urgence sécurité du campus merci?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quels métiers après le cursus Intelligence Artificielle  dès maintenant?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Y a-t-il un parking pour les vélos et trottinettes  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Salut, bonsoir  pour un étudiant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Votre système ne marche jamais, c'est inacceptable",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Peux-tu m'indiquer quelle est la recette de la tarte aux pommes  rapidement?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Pouvez-vous me dire comment contacter l'assistante sociale du campus  rapidement?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Salut, comment installer le VPN du campus  pour cette année.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "S'il vous plaît, que puis-je faire après ma licence informatique  s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "S'il vous plaît, aide personnalisée au logement (APL) pour étudiants s'il vous plaît.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je me demande tarifs du repas pour les étudiants boursiers dès maintenant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Dis-moi donne-moi le cours du Bitcoin aujourd'hui d'avance merci.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "S'il vous plaît, j'ai oublié mon mot de passe ENT, que faire  rapidement.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je cherche des infos sur dépôt de dossier pour le fonds de solidarité étudiant pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Quelle est l'adresse exacte du campus ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Excusez-moi, je n'arrive pas à accéder à ma boîte mail étudiante svp.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où se déroulent les soirées d'intégration  pour cette année?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Tarifs du repas pour les étudiants boursiers",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'aimerais savoir : problème d'impression sur les imprimantes du campus merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Quels sont les tournois sportifs organisés sur le campus ?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "S'il vous plaît, règles d'assiduité en cours magistral.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Info sur : combien d'absences injustifiées sont autorisées  pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "À propos de : prise en charge de la caution de logement merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Je cherche des infos sur quels sont les tournois sportifs organisés sur le campus  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Pouvez-vous me dire est-ce que la cafétéria est ouverte le samedi  merci?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Salut, merci beaucoup pour votre aide s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Info sur : quelles sont les démarches pour obtenir la garantie Visale  pour cette année.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "À propos de : quel est le calendrier universitaire officiel  pour cette année.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Où est ma salle de cours ce matin ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'ai besoin de savoir où est le défibrillateur le plus proche  dès maintenant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Pouvez-vous me dire résidences étudiantes recommandées à proximité de l'école dès maintenant?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'aimerais savoir : email du bureau d'accueil des étudiants internationaux pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "Une question rapide : j'exige de parler au directeur immédiatement  dès maintenant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "À propos de : je rencontre des difficultés financières urgentes pour mon loyer.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Dis-moi je n'arrive pas à accéder à ma boîte mail étudiante pour cette année.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "S'il vous plaît, je n'arrive pas à accéder à ma boîte mail étudiante pour un étudiant.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "S'il vous plaît, qui est le président de l'Italie .",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Qui a gagné la coupe du monde 1998 ?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "J'aimerais savoir : quel temps fait-il à New York  svp.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec à quelle heure commence mon cours de machine learning  dès maintenant?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Je me demande où se déroulent les soirées d'intégration .",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Info sur : quelles sont les stations de métro les plus proches .",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Bonjour, comment demander un aménagement tiers-temps  d'avance merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec comment contacter l'assistante sociale du campus ?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Salut, existe-t-il des résidences partenaires proches du campus  au campus ESIC.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Coucou chatbot",
+    "intent": "salutation"
+  },
+  {
+    "text": "Info sur : j'ai oublié mon mot de passe ENT, que faire  s'il vous plaît.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "S'il vous plaît, comment créer ma propre association étudiante  merci.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : est-il possible de faire une passerelle vers le développement web  rapidement.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Quelles sont les formations proposées à l'ESIC ?",
+    "intent": "formation"
+  },
+  {
+    "text": "Quels sont les critères d'admission en Data Science ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Une question rapide : combien de crédits ECTS faut-il pour valider l'année .",
+    "intent": "formation"
+  },
+  {
+    "text": "Dis-moi où se trouve la salle de sport du campus  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Renseignements : comment obtenir une convention de stage  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Info sur : y a-t-il des micro-ondes pour réchauffer mon repas  rapidement.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Il y a un départ de feu dans le couloir",
+    "intent": "urgence"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec le comportement du surveillant était déplacé et abusif pour cette année?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Urgence médicale sur le campus  svp.",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'ai besoin de savoir comment participer au hackathon annuel de l'école  pour un étudiant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je cherche des infos sur horaires d'ouverture de l'accueil central pour cette année.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Salut, comment contacter l'assistante sociale du campus  d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Où est le défibrillateur le plus proche ?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Renseignements : merci beaucoup pour votre aide merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Info sur : il y a un départ de feu dans le couloir pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "J'aimerais savoir : quelle est la démarche pour valider mon alternance  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Est-ce possible de savoir procédure en cas de passage en conseil de discipline rapidement?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Bonjour, je suis furieux, personne ne répond à la scolarité merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Je cherche des infos sur comment obtenir une convention de stage  merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Pouvez-vous me dire afficher mon emploi du temps du jour?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Salut, montant des bourses sur critères sociaux pour cette année.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "S'il vous plaît, donne-moi le cours du Bitcoin aujourd'hui au campus ESIC.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Peux-tu m'indiquer je me sens très mal, j'ai besoin d'une aide médicale pour un étudiant?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Je me demande y a-t-il un parking pour les vélos et trottinettes  s'il vous plaît.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "À propos de : y a-t-il un club de jeux vidéo ou d'échecs  dès maintenant.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande comment emprunter des livres à la bibliothèque  d'avance merci.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où trouver ma clé de licence JetBrains étudiante  d'avance merci?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Quelle est la recette de la tarte aux pommes  s'il vous plaît.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Info sur : appelez les secours immédiatement  pour un étudiant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Bonjour, comment créer ma propre association étudiante  merci.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Renseignements : horaires d'ouverture de l'accueil central rapidement.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Support informatique pour PC en panne.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Je me demande hey  d'avance merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Charte informatique et usage des ordinateurs du campus d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "C'est inadmissible, vous n'avez toujours pas validé ma convention !",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Info sur : à quelle heure commence mon cours de machine learning  svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Salut, je suis extrêmement mécontent du délai de traitement.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Peux-tu m'indiquer montant des bourses sur critères sociaux rapidement?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'aimerais savoir : je voudrais me réorienter vers la cybersécurité au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Prendre rendez-vous avec un conseiller d'orientation",
+    "intent": "orientation"
+  },
+  {
+    "text": "Info sur : y a-t-il un club de jeux vidéo ou d'échecs  au campus ESIC.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Donne-moi le cours du Bitcoin aujourd'hui pour un étudiant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "S'il vous plaît, quels sont les critères d'admission en Data Science  au campus ESIC.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je rencontre des difficultés financières urgentes pour mon loyer pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'aimerais savoir : le campus est-il ouvert pendant les jours fériés  rapidement.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Quelle est la démarche pour valider mon alternance ?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Quelles sont les stations de métro les plus proches  rapidement.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment déposer ma fiche de mission de stage  au campus ESIC?",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Une question rapide : où se déroule la soutenance de projet  merci.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Peux-tu m'indiquer existe-t-il des doubles diplômes internationaux  au campus ESIC?",
+    "intent": "formation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quel est le calendrier universitaire officiel ?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec écris-moi un poème sur les fleurs dès maintenant?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir à plus tard svp?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Dis-moi existe-t-il un salon étudiant où rencontrer l'école  pour un étudiant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Une question rapide : quelles sont les dates de rentrée universitaire  pour un étudiant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Excusez-moi, quels sont les débouchés après la filière Cybersécurité  s'il vous plaît.",
+    "intent": "formation"
+  },
+  {
+    "text": "Peux-tu m'indiquer charte informatique et usage des ordinateurs du campus rapidement?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Dis-moi numéro d'urgence du campus merci.",
+    "intent": "contact"
+  },
+  {
+    "text": "Bonjour, quels sont les droits et devoirs des étudiants  d'avance merci.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Excusez-moi, coucou chatbot s'il vous plaît.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec quels sont les critères d'admission en Data Science  svp?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Excusez-moi, quels sont mes cours du vendredi après-midi .",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Pouvez-vous me dire adresse mail de Joel Banka au campus ESIC?",
+    "intent": "contact"
+  },
+  {
+    "text": "Bonjour, où trouver le plan détaillé des bâtiments  merci.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Je cherche des infos sur combien de crédits ECTS faut-il pour valider l'année  dès maintenant.",
+    "intent": "formation"
+  },
+  {
+    "text": "Une question rapide : horaires des cours demain matin pour cette année.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "J'ai besoin de savoir à quelle heure ouvre le restaurant universitaire  s'il vous plaît.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire écris-moi un poème sur les fleurs merci?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Quel niveau de mathématiques est requis en IA ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Info sur : annuaire téléphonique des professeurs pour cette année.",
+    "intent": "contact"
+  },
+  {
+    "text": "Je cherche des infos sur comment créer ma propre association étudiante .",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Je me demande comment contacter l'assistante sociale du campus  d'avance merci.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'ai besoin de savoir puis-je manger dans les salles informatiques .",
+    "intent": "reglement"
+  },
+  {
+    "text": "Est-ce possible de savoir quel est le programme du cursus Développement Web  pour un étudiant?",
+    "intent": "formation"
+  },
+  {
+    "text": "Une question rapide : votre système ne marche jamais, c'est inacceptable rapidement.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'ai besoin de savoir existe-t-il des doubles diplômes internationaux  pour un étudiant.",
+    "intent": "formation"
+  },
+  {
+    "text": "Excusez-moi, numéro d'urgence du campus pour un étudiant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Peux-tu m'indiquer numéro d'urgence du campus s'il vous plaît?",
+    "intent": "contact"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec comment emprunter des livres à la bibliothèque  svp?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Excusez-moi, j'ai perdu mon stage à cause de votre retard  d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'aimerais savoir : à quelle heure ouvre le restaurant universitaire  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "J'ai besoin de savoir proposez-vous des formations en alternance  pour cette année.",
+    "intent": "formation"
+  },
+  {
+    "text": "Comment demander un aménagement tiers-temps  au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Je cherche des infos sur quels sont les horaires de la bibliothèque .",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Je dois modifier mon inscription pédagogique",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Mon compte Microsoft Office 365 est bloqué",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Peux-tu m'indiquer prendre rendez-vous avec un conseiller d'orientation au campus ESIC?",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir où trouver le plan détaillé des bâtiments  dès maintenant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Pouvez-vous me dire parlez-moi du master Data Science svp?",
+    "intent": "formation"
+  },
+  {
+    "text": "Je cherche des infos sur prendre rendez-vous avec un conseiller d'orientation s'il vous plaît.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Bonjour, est-ce que la cafétéria est ouverte le samedi  svp.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire où se déroulent les soirées d'intégration  d'avance merci?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Bonjour, merci beaucoup pour votre aide merci.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Je me demande je me sens très mal, j'ai besoin d'une aide médicale pour cette année.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Bonjour, hey .",
+    "intent": "salutation"
+  },
+  {
+    "text": "Salut, je suis extrêmement mécontent du délai de traitement s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Je me demande appelez les secours immédiatement  dès maintenant.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Une question rapide : comment obtenir une convention de stage  d'avance merci.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "À propos de : quel est l'emploi du temps de la semaine prochaine  svp.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec à plus tard svp?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Peux-tu m'indiquer le campus est-il ouvert pendant les jours fériés  pour un étudiant?",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Excusez-moi, que puis-je faire après ma licence informatique  merci.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Salut, quel temps fait-il à New York  dès maintenant.",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Où trouver ma clé de licence JetBrains étudiante ?",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Pouvez-vous me dire puis-je manger dans les salles informatiques  svp?",
+    "intent": "reglement"
+  },
+  {
+    "text": "Je me demande merci beaucoup pour votre aide rapidement.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Est-ce possible de savoir qui a gagné la coupe du monde 1998  au campus ESIC?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Peux-tu m'indiquer bonsoir  d'avance merci?",
+    "intent": "salutation"
+  },
+  {
+    "text": "Peux-tu m'indiquer où se trouve la salle de repos ou foyer étudiant  svp?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Est-ce possible de savoir où se trouve la salle de repos ou foyer étudiant  dès maintenant?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Bonjour, comment participer au hackathon annuel de l'école  s'il vous plaît.",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Pouvez-vous me dire existe-t-il un salon étudiant où rencontrer l'école  pour cette année?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je cherche des infos sur comment venir en transports en commun  dès maintenant.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Info sur : prise en charge de la caution de logement pour un étudiant.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'aimerais savoir : je suis furieux, personne ne répond à la scolarité pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Une question rapide : à quelle heure commence mon cours de machine learning  dès maintenant.",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Peux-tu m'indiquer raconte-moi une blague svp?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Est-ce possible de savoir comment s'inscrire pour la rentrée prochaine ?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Je cherche des infos sur je voudrais me réorienter vers la cybersécurité dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Renseignements : je suis furieux, personne ne répond à la scolarité d'avance merci.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Peux-tu m'indiquer comment joindre le secrétariat pédagogique  merci?",
+    "intent": "contact"
+  },
+  {
+    "text": "Écris-moi un poème sur les fleurs",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Renseignements : bonjour ESIC bot dès maintenant.",
+    "intent": "salutation"
+  },
+  {
+    "text": "Bonjour, je voudrais me réorienter vers la cybersécurité pour un étudiant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "Pouvez-vous me dire j'ai perdu mon stage à cause de votre retard  rapidement?",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Je cherche des infos sur où trouver ma clé de licence JetBrains étudiante  merci.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Est-ce que tu peux m'aider avec où se déroulent les soirées d'intégration  pour un étudiant?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Info sur : procédure en cas de passage en conseil de discipline au campus ESIC.",
+    "intent": "reglement"
+  },
+  {
+    "text": "S'il vous plaît, c'est honteux, mes notes n'ont pas été enregistrées svp.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Quel temps fait-il à New York ?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Pouvez-vous me dire parlez-moi du master Data Science d'avance merci?",
+    "intent": "formation"
+  },
+  {
+    "text": "Calendrier des épreuves et examens",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Salut, quelles sont les démarches pour obtenir la garantie Visale  rapidement.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "C'est honteux, mes notes n'ont pas été enregistrées s'il vous plaît.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Dis-moi y a-t-il des micro-ondes pour réchauffer mon repas  pour un étudiant.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Raconte-moi une blague",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Je me demande je demande un remboursement immédiat de mes frais.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "Pouvez-vous me dire proposez-vous des formations en alternance  au campus ESIC?",
+    "intent": "formation"
+  },
+  {
+    "text": "Info sur : que se passe-t-il si j'arrive en retard à un partiel  pour cette année.",
+    "intent": "reglement"
+  },
+  {
+    "text": "Renseignements : alerte intrusion ou danger grave rapidement.",
+    "intent": "urgence"
+  },
+  {
+    "text": "Renseignements : tarifs du repas pour les étudiants boursiers rapidement.",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Pouvez-vous me dire quelqu'un a fait un malaise en salle de cours svp?",
+    "intent": "urgence"
+  },
+  {
+    "text": "Peux-tu m'indiquer quel niveau de mathématiques est requis en IA  d'avance merci?",
+    "intent": "orientation"
+  },
+  {
+    "text": "Dis-moi email du bureau d'accueil des étudiants internationaux s'il vous plaît.",
+    "intent": "contact"
+  },
+  {
+    "text": "Pouvez-vous me dire où se trouve la salle de repos ou foyer étudiant  s'il vous plaît?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Une question rapide : comment obtenir une convention de stage  rapidement.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Démarche pour demander une aide financière d'urgence",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Salut, adresse mail de Joel Banka au campus ESIC.",
+    "intent": "contact"
+  },
+  {
+    "text": "Renseignements : je rencontre des difficultés financières urgentes pour mon loyer svp.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Pouvez-vous me dire annuaire téléphonique des professeurs s'il vous plaît?",
+    "intent": "contact"
+  },
+  {
+    "text": "Y a-t-il des micro-ondes pour réchauffer mon repas ?",
+    "intent": "service_campus"
+  },
+  {
+    "text": "Salut, que puis-je faire après ma licence informatique  dès maintenant.",
+    "intent": "orientation"
+  },
+  {
+    "text": "J'ai besoin de savoir je dois modifier mon inscription pédagogique au campus ESIC.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Peux-tu m'indiquer quelles sont les spécialités de 2e année  s'il vous plaît?",
+    "intent": "formation"
+  },
+  {
+    "text": "Dis-moi quel est le calendrier universitaire officiel  rapidement.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "J'ai besoin de savoir comment venir en transports en commun  svp.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Une question rapide : quel est le programme du cursus Développement Web  pour cette année.",
+    "intent": "formation"
+  },
+  {
+    "text": "Salut, je voudrais un certificat de scolarité pour cette année.",
+    "intent": "procedure_admin"
+  },
+  {
+    "text": "Pouvez-vous me dire quelles sont les démarches pour obtenir la garantie Visale  svp?",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "Excusez-moi, je suis furieux, personne ne répond à la scolarité pour un étudiant.",
+    "intent": "reclamation"
+  },
+  {
+    "text": "J'ai besoin de savoir quel est le calendrier universitaire officiel  rapidement.",
+    "intent": "information_generale"
+  },
+  {
+    "text": "Est-ce que le cours de mathématiques est annulé ?",
+    "intent": "emploi_du_temps"
+  },
+  {
+    "text": "Est-ce possible de savoir y a-t-il un club de jeux vidéo ou d'échecs  s'il vous plaît?",
+    "intent": "vie_etudiante"
+  },
+  {
+    "text": "Dis-moi où se trouve le bureau de Claire Martin  dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "Est-ce possible de savoir qui a gagné la coupe du monde 1998  s'il vous plaît?",
+    "intent": "hors_sujet"
+  },
+  {
+    "text": "Problème d'impression sur les imprimantes du campus pour cette année.",
+    "intent": "aide_technique"
+  },
+  {
+    "text": "Renseignements : aide personnalisée au logement (APL) pour étudiants pour cette année.",
+    "intent": "logement_bourse"
+  },
+  {
+    "text": "J'aimerais savoir : existe-t-il des doubles diplômes internationaux  dès maintenant.",
+    "intent": "formation"
+  },
+  {
+    "text": "À propos de : numéro d'urgence du campus dès maintenant.",
+    "intent": "contact"
+  },
+  {
+    "text": "À propos de : je me sens très mal, j'ai besoin d'une aide médicale pour cette année.",
+    "intent": "urgence"
+  }
+]

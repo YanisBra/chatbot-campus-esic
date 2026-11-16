@@ -1,0 +1,364 @@
+=== Dialogue 1 : Question Simple ===
+Utilisateur: Bonjour, à quelle heure ouvre la bibliothèque ?
+Bot: Bonjour ! La bibliothèque est ouverte :
+- Lundi à vendredi : 8h-20h
+- Samedi : 9h-17h
+- Fermée le dimanche
+Puis-je vous aider avec autre chose ?
+Utilisateur: Non merci, bonne journée !
+Bot: Je vous en prie ! Excellente journée sur le campus ESIC.
+
+
+=== Dialogue 2 : Question Complexe avec Entités ===
+Utilisateur: Je suis en Data Science 2e année, quand sont mes examens de machine learning ?
+Bot: Pour la formation Data Science 2e année, les examens de Machine Learning sont programmés :
+📅 Examen écrit : Vendredi 15 mars, 14h-17h, Amphi B
+📋 Projet soutenance : Semaine du 22 mars (planning individuel à venir)
+Souhaitez-vous consulter le planning complet de vos examens ?
+Utilisateur: Oui s'il vous plaît.
+Bot: Voici le lien vers votre calendrier complet des examens sur l'ENT : https://ent.esic.fr/examens
+
+
+=== Dialogue 3 : Question Ambiguë ===
+Utilisateur: Comment faire ma demande ?
+Bot: Je peux vous aider ! Pouvez-vous préciser quel type de demande :
+🎓 Demande de stage/alternance
+📄 Certificat de scolarité
+🏠 Aide au logement
+💰 Bourse d'études
+ou autre chose ?
+Utilisateur: Demande de stage
+Bot: Pour votre convention de stage, complétez le formulaire sur l'ENT rubrique Stages & Conventions, puis faites-le signer par votre tuteur et déposez-le au bureau de Sophie Dubois (Scolarité, Bât A).
+
+
+=== Dialogue 4 : Escalade vers Humain (Frustration) ===
+Utilisateur: C'est inadmissible, j'ai perdu mon stage à cause de votre retard !
+Bot: Je comprends votre frustration et je suis désolé pour cette situation. Cette situation nécessite une attention personnalisée.
+🎯 Je vous mets en relation avec Sophie Dubois (Responsable Scolarité) :
+📧 sophie.dubois@esic.fr | ☎️ 01.53.90.15.20
+Elle est généralement disponible aujourd'hui de 9h à 17h.
+Puis-je faire autre chose pour vous aider ?
+Utilisateur: Merci, je vais l'appeler.
+Bot: N'hésitez pas si vous avez la moindre autre question. Nous restons à votre entière disposition.
+
+
+=== Dialogue 5 ===
+Utilisateur: Quels sont les clubs étudiants ?
+Bot: Le campus compte plusieurs clubs dynamiques animés par le BDE : Club IA & Robotique, BDE Evenements, Club E-Sport, Club Éloquence et Association Sportive.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 6 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 7 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 8 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 9 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 10 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 11 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 12 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 13 ===
+Utilisateur: Quels sont les clubs étudiants ?
+Bot: Le campus compte plusieurs clubs dynamiques animés par le BDE : Club IA & Robotique, BDE Evenements, Club E-Sport, Club Éloquence et Association Sportive.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 14 ===
+Utilisateur: Où manger ce midi ?
+Bot: Le Resto U du bâtiment D est ouvert de 11h30 à 14h00. Le repas étudiant complet est à 3,30€ (1,00€ pour les boursiers).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 15 ===
+Utilisateur: Quels sont les clubs étudiants ?
+Bot: Le campus compte plusieurs clubs dynamiques animés par le BDE : Club IA & Robotique, BDE Evenements, Club E-Sport, Club Éloquence et Association Sportive.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 16 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 17 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 18 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 19 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 20 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 21 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 22 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 23 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 24 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 25 ===
+Utilisateur: Où manger ce midi ?
+Bot: Le Resto U du bâtiment D est ouvert de 11h30 à 14h00. Le repas étudiant complet est à 3,30€ (1,00€ pour les boursiers).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 26 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 27 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 28 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 29 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 30 ===
+Utilisateur: Où manger ce midi ?
+Bot: Le Resto U du bâtiment D est ouvert de 11h30 à 14h00. Le repas étudiant complet est à 3,30€ (1,00€ pour les boursiers).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 31 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 32 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 33 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 34 ===
+Utilisateur: Quels sont les clubs étudiants ?
+Bot: Le campus compte plusieurs clubs dynamiques animés par le BDE : Club IA & Robotique, BDE Evenements, Club E-Sport, Club Éloquence et Association Sportive.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 35 ===
+Utilisateur: Quels sont les clubs étudiants ?
+Bot: Le campus compte plusieurs clubs dynamiques animés par le BDE : Club IA & Robotique, BDE Evenements, Club E-Sport, Club Éloquence et Association Sportive.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 36 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 37 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 38 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 39 ===
+Utilisateur: Quels sont les clubs étudiants ?
+Bot: Le campus compte plusieurs clubs dynamiques animés par le BDE : Club IA & Robotique, BDE Evenements, Club E-Sport, Club Éloquence et Association Sportive.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 40 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 41 ===
+Utilisateur: Où manger ce midi ?
+Bot: Le Resto U du bâtiment D est ouvert de 11h30 à 14h00. Le repas étudiant complet est à 3,30€ (1,00€ pour les boursiers).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 42 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 43 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 44 ===
+Utilisateur: Quels sont les clubs étudiants ?
+Bot: Le campus compte plusieurs clubs dynamiques animés par le BDE : Club IA & Robotique, BDE Evenements, Club E-Sport, Club Éloquence et Association Sportive.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 45 ===
+Utilisateur: Où manger ce midi ?
+Bot: Le Resto U du bâtiment D est ouvert de 11h30 à 14h00. Le repas étudiant complet est à 3,30€ (1,00€ pour les boursiers).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 46 ===
+Utilisateur: Est-ce qu'il y a du WiFi partout ?
+Bot: Oui, connectez-vous au réseau Eduroam ou ESIC-Secure avec vos identifiants ENT habituels (prenom.nom@esic.fr).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 47 ===
+Utilisateur: Quels sont les clubs étudiants ?
+Bot: Le campus compte plusieurs clubs dynamiques animés par le BDE : Club IA & Robotique, BDE Evenements, Club E-Sport, Club Éloquence et Association Sportive.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 48 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 49 ===
+Utilisateur: Who is the director of the school?
+Bot: The academic director is Mr. Joel Banka, reachable at joel.banka@esic.fr (Building A, Office 201).
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.
+
+
+=== Dialogue 50 ===
+Utilisateur: Comment obtenir un certificat de scolarité ?
+Bot: Vous pouvez télécharger votre certificat de scolarité directement sur l'ENT en format PDF certifié, ou passer au guichet scolarité Bâtiment A bureau 102.
+Utilisateur: Parfait, merci beaucoup.
+Bot: Avec plaisir ! N'hésitez pas si vous avez d'autres questions.

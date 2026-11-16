@@ -1,0 +1,151 @@
+nom,prenom,role,service,email,telephone,bureau,disponibilite
+Dubois,Sophie,Responsable Scolarité,Scolarité,sophie.dubois@esic.fr,01.53.90.15.20,Bât A - Bureau 102,9h-17h
+Banka,Joel,Directeur Pédagogique & Enseignant IA,Direction des Études,joel.banka@esic.fr,01.53.90.15.01,Bât A - Bureau 201,10h-18h
+Rousseau,Emma,Déléguée Étudiante Data Science 2,Représentation Étudiante,emma.rousseau@esic.fr,06.12.34.56.78,Foyer Bât D,Sur RDV
+Martin,Claire,Responsable Pôle Data Science,Département IA & Data,claire.martin@esic.fr,01.53.90.15.22,Bât B - Bureau 210,9h-16h30
+Petit,Alexandre,Responsable Cybersécurité,Département Cyber,alexandre.petit@esic.fr,01.53.90.15.25,Bât B - Bureau 212,10h-17h
+Leroy,Sophie,Coordinatrice des Stages & Alternance,Relations Entreprises,sophie.leroy@esic.fr,01.53.90.15.30,Bât A - Bureau 204,9h-17h
+Bernard,Marc,Responsable Bibliothèque Universitaire,Bibliothèque,marc.bernard@esic.fr,01.53.90.15.40,Bât C - Bureau BU-01,8h-20h
+Durand,Hélène,Médecin du Campus,Service Médical,helene.durand@esic.fr,01.53.90.15.15,Bât B - Bureau 012,Mardi/Jeudi 14h-17h
+Moreau,Vincent,Responsable Support Informatique,DSI Campus,vincent.moreau@esic.fr,01.53.90.15.55,Bât B - Salle 005,8h30-18h
+Garcia,Elena,Coordinatrice Erasmus & International,International,elena.garcia@esic.fr,01.53.90.15.38,Bât A - Bureau 308,9h30-16h30
+Nicolas,Antoine,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,antoine.nicolas@esic.fr,01.53.90.15.11,Bât A - 172,Du lundi au vendredi 9h-17h
+Nicolas,Louis,Enseignant / Chargé de mission Vie Associative,Vie Associative,louis.nicolas@esic.fr,01.53.90.15.12,Bât D - 244,Du lundi au vendredi 9h-17h
+Fournier,Manon,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,manon.fournier@esic.fr,01.53.90.15.13,Bât C - 189,Du lundi au vendredi 9h-17h
+Nguyen,Gabriel,Enseignant / Chargé de mission DSI Campus,DSI Campus,gabriel.nguyen@esic.fr,01.53.90.15.14,Bât B - 238,Du lundi au vendredi 9h-17h
+Boyer,Alice,Enseignant / Chargé de mission Vie Associative,Vie Associative,alice.boyer@esic.fr,01.53.90.15.15,Bât A - 292,Du lundi au vendredi 9h-17h
+Lemoine,Lina,Enseignant / Chargé de mission Département Cyber,Département Cyber,lina.lemoine@esic.fr,01.53.90.15.16,Bât C - 177,Du lundi au vendredi 9h-17h
+Fournier,Antoine,Enseignant / Chargé de mission Scolarité,Scolarité,antoine.fournier@esic.fr,01.53.90.15.17,Bât B - 216,Du lundi au vendredi 9h-17h
+Henry,Lea,Enseignant / Chargé de mission Service Médical,Service Médical,lea.henry@esic.fr,01.53.90.15.18,Bât D - 141,Du lundi au vendredi 9h-17h
+Giraud,Maxime,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,maxime.giraud@esic.fr,01.53.90.15.19,Bât A - 234,Du lundi au vendredi 9h-17h
+Sanchez,Antoine,Enseignant / Chargé de mission Scolarité,Scolarité,antoine.sanchez@esic.fr,01.53.90.15.20,Bât D - 134,Du lundi au vendredi 9h-17h
+Duval,Arthur,Enseignant / Chargé de mission Scolarité,Scolarité,arthur.duval@esic.fr,01.53.90.15.21,Bât D - 299,Du lundi au vendredi 9h-17h
+Sanchez,Alice,Enseignant / Chargé de mission Département Cyber,Département Cyber,alice.sanchez@esic.fr,01.53.90.15.22,Bât B - 132,Du lundi au vendredi 9h-17h
+Gerard,Paul,Enseignant / Chargé de mission Département Cyber,Département Cyber,paul.gerard@esic.fr,01.53.90.15.23,Bât C - 259,Du lundi au vendredi 9h-17h
+Nicolas,Arthur,Enseignant / Chargé de mission Département Cyber,Département Cyber,arthur.nicolas@esic.fr,01.53.90.15.24,Bât C - 140,Du lundi au vendredi 9h-17h
+Lemoine,Maxime,Enseignant / Chargé de mission Comptabilité,Comptabilité,maxime.lemoine@esic.fr,01.53.90.15.25,Bât A - 276,Du lundi au vendredi 9h-17h
+Guerin,Lea,Enseignant / Chargé de mission Département Cyber,Département Cyber,lea.guerin@esic.fr,01.53.90.15.26,Bât A - 203,Du lundi au vendredi 9h-17h
+Duval,Leo,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,leo.duval@esic.fr,01.53.90.15.27,Bât B - 316,Du lundi au vendredi 9h-17h
+Muller,Paul,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,paul.muller@esic.fr,01.53.90.15.28,Bât A - 217,Du lundi au vendredi 9h-17h
+Sanchez,Louis,Enseignant / Chargé de mission Scolarité,Scolarité,louis.sanchez@esic.fr,01.53.90.15.29,Bât C - 184,Du lundi au vendredi 9h-17h
+Boyer,Arthur,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,arthur.boyer@esic.fr,01.53.90.15.30,Bât B - 266,Du lundi au vendredi 9h-17h
+Roussel,Camille,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,camille.roussel@esic.fr,01.53.90.15.31,Bât A - 232,Du lundi au vendredi 9h-17h
+Boyer,Leo,Enseignant / Chargé de mission Vie Associative,Vie Associative,leo.boyer@esic.fr,01.53.90.15.32,Bât A - 165,Du lundi au vendredi 9h-17h
+Duval,Lea,Enseignant / Chargé de mission DSI Campus,DSI Campus,lea.duval@esic.fr,01.53.90.15.33,Bât C - 142,Du lundi au vendredi 9h-17h
+Clement,Louis,Enseignant / Chargé de mission DSI Campus,DSI Campus,louis.clement@esic.fr,01.53.90.15.34,Bât C - 285,Du lundi au vendredi 9h-17h
+Roussel,Antoine,Enseignant / Chargé de mission Vie Associative,Vie Associative,antoine.roussel@esic.fr,01.53.90.15.35,Bât C - 183,Du lundi au vendredi 9h-17h
+Blanc,Camille,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,camille.blanc@esic.fr,01.53.90.15.36,Bât C - 212,Du lundi au vendredi 9h-17h
+Fontaine,Lina,Enseignant / Chargé de mission Vie Associative,Vie Associative,lina.fontaine@esic.fr,01.53.90.15.37,Bât D - 313,Du lundi au vendredi 9h-17h
+Clement,Antoine,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,antoine.clement@esic.fr,01.53.90.15.38,Bât A - 173,Du lundi au vendredi 9h-17h
+Fournier,Paul,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,paul.fournier@esic.fr,01.53.90.15.39,Bât C - 228,Du lundi au vendredi 9h-17h
+Boyer,Antoine,Enseignant / Chargé de mission Service Médical,Service Médical,antoine.boyer@esic.fr,01.53.90.15.40,Bât D - 265,Du lundi au vendredi 9h-17h
+Guerin,Lucas,Enseignant / Chargé de mission DSI Campus,DSI Campus,lucas.guerin@esic.fr,01.53.90.15.41,Bât B - 185,Du lundi au vendredi 9h-17h
+Henry,Ines,Enseignant / Chargé de mission Comptabilité,Comptabilité,ines.henry@esic.fr,01.53.90.15.42,Bât D - 121,Du lundi au vendredi 9h-17h
+Perrin,Gabriel,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,gabriel.perrin@esic.fr,01.53.90.15.43,Bât B - 216,Du lundi au vendredi 9h-17h
+Gerard,Antoine,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,antoine.gerard@esic.fr,01.53.90.15.44,Bât C - 177,Du lundi au vendredi 9h-17h
+Clement,Sarah,Enseignant / Chargé de mission Comptabilité,Comptabilité,sarah.clement@esic.fr,01.53.90.15.45,Bât A - 240,Du lundi au vendredi 9h-17h
+Lemaire,Maxime,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,maxime.lemaire@esic.fr,01.53.90.15.46,Bât C - 102,Du lundi au vendredi 9h-17h
+Masson,Ines,Enseignant / Chargé de mission DSI Campus,DSI Campus,ines.masson@esic.fr,01.53.90.15.47,Bât D - 221,Du lundi au vendredi 9h-17h
+Fontaine,Ines,Enseignant / Chargé de mission Comptabilité,Comptabilité,ines.fontaine@esic.fr,01.53.90.15.48,Bât A - 298,Du lundi au vendredi 9h-17h
+Clement,Leo,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,leo.clement@esic.fr,01.53.90.15.49,Bât D - 123,Du lundi au vendredi 9h-17h
+Nicolas,Lea,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,lea.nicolas@esic.fr,01.53.90.15.50,Bât D - 204,Du lundi au vendredi 9h-17h
+Giraud,Jade,Enseignant / Chargé de mission Service Médical,Service Médical,jade.giraud@esic.fr,01.53.90.15.51,Bât A - 315,Du lundi au vendredi 9h-17h
+Mathieu,Jules,Enseignant / Chargé de mission Vie Associative,Vie Associative,jules.mathieu@esic.fr,01.53.90.15.52,Bât C - 187,Du lundi au vendredi 9h-17h
+Fournier,Louis,Enseignant / Chargé de mission Comptabilité,Comptabilité,louis.fournier@esic.fr,01.53.90.15.53,Bât C - 309,Du lundi au vendredi 9h-17h
+Robin,Ines,Enseignant / Chargé de mission Département Cyber,Département Cyber,ines.robin@esic.fr,01.53.90.15.54,Bât B - 285,Du lundi au vendredi 9h-17h
+Nguyen,Jade,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,jade.nguyen@esic.fr,01.53.90.15.55,Bât B - 251,Du lundi au vendredi 9h-17h
+Henry,Camille,Enseignant / Chargé de mission Département Cyber,Département Cyber,camille.henry@esic.fr,01.53.90.15.56,Bât D - 177,Du lundi au vendredi 9h-17h
+Gerard,Arthur,Enseignant / Chargé de mission Département Cyber,Département Cyber,arthur.gerard@esic.fr,01.53.90.15.57,Bât C - 227,Du lundi au vendredi 9h-17h
+Robin,Chloe,Enseignant / Chargé de mission Vie Associative,Vie Associative,chloe.robin@esic.fr,01.53.90.15.58,Bât A - 225,Du lundi au vendredi 9h-17h
+Sanchez,Louis,Enseignant / Chargé de mission Scolarité,Scolarité,louis.sanchez@esic.fr,01.53.90.15.59,Bât A - 253,Du lundi au vendredi 9h-17h
+Mercier,Gabriel,Enseignant / Chargé de mission Service Médical,Service Médical,gabriel.mercier@esic.fr,01.53.90.15.60,Bât D - 250,Du lundi au vendredi 9h-17h
+Nguyen,Lucas,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,lucas.nguyen@esic.fr,01.53.90.15.61,Bât B - 181,Du lundi au vendredi 9h-17h
+Gerard,Sarah,Enseignant / Chargé de mission Service Médical,Service Médical,sarah.gerard@esic.fr,01.53.90.15.62,Bât C - 265,Du lundi au vendredi 9h-17h
+Roussel,Gabriel,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,gabriel.roussel@esic.fr,01.53.90.15.63,Bât A - 254,Du lundi au vendredi 9h-17h
+Guerin,Camille,Enseignant / Chargé de mission DSI Campus,DSI Campus,camille.guerin@esic.fr,01.53.90.15.64,Bât A - 261,Du lundi au vendredi 9h-17h
+Mathieu,Louis,Enseignant / Chargé de mission Comptabilité,Comptabilité,louis.mathieu@esic.fr,01.53.90.15.65,Bât C - 231,Du lundi au vendredi 9h-17h
+Clement,Lea,Enseignant / Chargé de mission Vie Associative,Vie Associative,lea.clement@esic.fr,01.53.90.15.66,Bât A - 199,Du lundi au vendredi 9h-17h
+Masson,Leo,Enseignant / Chargé de mission Scolarité,Scolarité,leo.masson@esic.fr,01.53.90.15.67,Bât B - 211,Du lundi au vendredi 9h-17h
+Nguyen,Louise,Enseignant / Chargé de mission Vie Associative,Vie Associative,louise.nguyen@esic.fr,01.53.90.15.68,Bât A - 200,Du lundi au vendredi 9h-17h
+Masson,Ines,Enseignant / Chargé de mission Comptabilité,Comptabilité,ines.masson@esic.fr,01.53.90.15.69,Bât B - 118,Du lundi au vendredi 9h-17h
+Nguyen,Antoine,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,antoine.nguyen@esic.fr,01.53.90.15.70,Bât A - 224,Du lundi au vendredi 9h-17h
+Duval,Louis,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,louis.duval@esic.fr,01.53.90.15.71,Bât A - 124,Du lundi au vendredi 9h-17h
+Nguyen,Louis,Enseignant / Chargé de mission Comptabilité,Comptabilité,louis.nguyen@esic.fr,01.53.90.15.72,Bât C - 124,Du lundi au vendredi 9h-17h
+Clement,Sarah,Enseignant / Chargé de mission Comptabilité,Comptabilité,sarah.clement@esic.fr,01.53.90.15.73,Bât A - 317,Du lundi au vendredi 9h-17h
+Morin,Ines,Enseignant / Chargé de mission Comptabilité,Comptabilité,ines.morin@esic.fr,01.53.90.15.74,Bât B - 119,Du lundi au vendredi 9h-17h
+Mercier,Jade,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,jade.mercier@esic.fr,01.53.90.15.75,Bât A - 167,Du lundi au vendredi 9h-17h
+Sanchez,Ines,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,ines.sanchez@esic.fr,01.53.90.15.76,Bât B - 105,Du lundi au vendredi 9h-17h
+Perrin,Jade,Enseignant / Chargé de mission Service Médical,Service Médical,jade.perrin@esic.fr,01.53.90.15.77,Bât B - 187,Du lundi au vendredi 9h-17h
+Lemaire,Camille,Enseignant / Chargé de mission Scolarité,Scolarité,camille.lemaire@esic.fr,01.53.90.15.78,Bât C - 167,Du lundi au vendredi 9h-17h
+Nicolas,Ines,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,ines.nicolas@esic.fr,01.53.90.15.79,Bât D - 267,Du lundi au vendredi 9h-17h
+Giraud,Ines,Enseignant / Chargé de mission Vie Associative,Vie Associative,ines.giraud@esic.fr,01.53.90.15.80,Bât A - 124,Du lundi au vendredi 9h-17h
+Nguyen,Lea,Enseignant / Chargé de mission DSI Campus,DSI Campus,lea.nguyen@esic.fr,01.53.90.15.81,Bât C - 204,Du lundi au vendredi 9h-17h
+Gauthier,Lucas,Enseignant / Chargé de mission Comptabilité,Comptabilité,lucas.gauthier@esic.fr,01.53.90.15.82,Bât C - 231,Du lundi au vendredi 9h-17h
+Denis,Hugo,Enseignant / Chargé de mission DSI Campus,DSI Campus,hugo.denis@esic.fr,01.53.90.15.83,Bât D - 241,Du lundi au vendredi 9h-17h
+Duval,Manon,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,manon.duval@esic.fr,01.53.90.15.84,Bât C - 207,Du lundi au vendredi 9h-17h
+Duval,Lucas,Enseignant / Chargé de mission DSI Campus,DSI Campus,lucas.duval@esic.fr,01.53.90.15.85,Bât D - 306,Du lundi au vendredi 9h-17h
+Lemaire,Lea,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,lea.lemaire@esic.fr,01.53.90.15.86,Bât B - 298,Du lundi au vendredi 9h-17h
+Guerin,Jade,Enseignant / Chargé de mission Vie Associative,Vie Associative,jade.guerin@esic.fr,01.53.90.15.87,Bât A - 116,Du lundi au vendredi 9h-17h
+Masson,Leo,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,leo.masson@esic.fr,01.53.90.15.88,Bât D - 177,Du lundi au vendredi 9h-17h
+Denis,Manon,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,manon.denis@esic.fr,01.53.90.15.89,Bât C - 256,Du lundi au vendredi 9h-17h
+Fournier,Alice,Enseignant / Chargé de mission Département Cyber,Département Cyber,alice.fournier@esic.fr,01.53.90.15.90,Bât C - 250,Du lundi au vendredi 9h-17h
+Nguyen,Camille,Enseignant / Chargé de mission Bibliothèque,Bibliothèque,camille.nguyen@esic.fr,01.53.90.15.91,Bât A - 265,Du lundi au vendredi 9h-17h
+Guerin,Camille,Enseignant / Chargé de mission DSI Campus,DSI Campus,camille.guerin@esic.fr,01.53.90.15.92,Bât A - 107,Du lundi au vendredi 9h-17h
+Lemoine,Lina,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,lina.lemoine@esic.fr,01.53.90.15.93,Bât D - 300,Du lundi au vendredi 9h-17h
+Mercier,Louise,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,louise.mercier@esic.fr,01.53.90.15.94,Bât D - 174,Du lundi au vendredi 9h-17h
+Gerard,Jade,Enseignant / Chargé de mission Service Médical,Service Médical,jade.gerard@esic.fr,01.53.90.15.95,Bât A - 286,Du lundi au vendredi 9h-17h
+Masson,Paul,Enseignant / Chargé de mission Comptabilité,Comptabilité,paul.masson@esic.fr,01.53.90.15.96,Bât A - 274,Du lundi au vendredi 9h-17h
+Fournier,Arthur,Enseignant / Chargé de mission Vie Associative,Vie Associative,arthur.fournier@esic.fr,01.53.90.15.97,Bât A - 294,Du lundi au vendredi 9h-17h
+Robin,Jade,Enseignant / Chargé de mission Département Cyber,Département Cyber,jade.robin@esic.fr,01.53.90.15.98,Bât A - 199,Du lundi au vendredi 9h-17h
+Gerard,Louis,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,louis.gerard@esic.fr,01.53.90.15.99,Bât A - 209,Du lundi au vendredi 9h-17h
+Masson,Alice,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,alice.masson@esic.fr,01.53.90.15.00,Bât B - 179,Du lundi au vendredi 9h-17h
+Robin,Ines,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,ines.robin@esic.fr,01.53.90.15.01,Bât B - 194,Du lundi au vendredi 9h-17h
+Gauthier,Lucas,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,lucas.gauthier@esic.fr,01.53.90.15.02,Bât A - 300,Du lundi au vendredi 9h-17h
+Gauthier,Maxime,Enseignant / Chargé de mission Scolarité,Scolarité,maxime.gauthier@esic.fr,01.53.90.15.03,Bât D - 221,Du lundi au vendredi 9h-17h
+Fournier,Ines,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,ines.fournier@esic.fr,01.53.90.15.04,Bât D - 251,Du lundi au vendredi 9h-17h
+Henry,Louis,Enseignant / Chargé de mission Bibliothèque,Bibliothèque,louis.henry@esic.fr,01.53.90.15.05,Bât B - 320,Du lundi au vendredi 9h-17h
+Clement,Ines,Enseignant / Chargé de mission DSI Campus,DSI Campus,ines.clement@esic.fr,01.53.90.15.06,Bât C - 138,Du lundi au vendredi 9h-17h
+Henry,Arthur,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,arthur.henry@esic.fr,01.53.90.15.07,Bât A - 181,Du lundi au vendredi 9h-17h
+Perrin,Arthur,Enseignant / Chargé de mission Département Cyber,Département Cyber,arthur.perrin@esic.fr,01.53.90.15.08,Bât C - 259,Du lundi au vendredi 9h-17h
+Lemaire,Arthur,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,arthur.lemaire@esic.fr,01.53.90.15.09,Bât A - 312,Du lundi au vendredi 9h-17h
+Giraud,Manon,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,manon.giraud@esic.fr,01.53.90.15.10,Bât A - 263,Du lundi au vendredi 9h-17h
+Perrin,Antoine,Enseignant / Chargé de mission Scolarité,Scolarité,antoine.perrin@esic.fr,01.53.90.15.11,Bât B - 296,Du lundi au vendredi 9h-17h
+Fontaine,Alice,Enseignant / Chargé de mission Vie Associative,Vie Associative,alice.fontaine@esic.fr,01.53.90.15.12,Bât C - 237,Du lundi au vendredi 9h-17h
+Fontaine,Lea,Enseignant / Chargé de mission DSI Campus,DSI Campus,lea.fontaine@esic.fr,01.53.90.15.13,Bât B - 225,Du lundi au vendredi 9h-17h
+Blanc,Alice,Enseignant / Chargé de mission Scolarité,Scolarité,alice.blanc@esic.fr,01.53.90.15.14,Bât A - 294,Du lundi au vendredi 9h-17h
+Boyer,Lina,Enseignant / Chargé de mission Vie Associative,Vie Associative,lina.boyer@esic.fr,01.53.90.15.15,Bât B - 251,Du lundi au vendredi 9h-17h
+Duval,Manon,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,manon.duval@esic.fr,01.53.90.15.16,Bât A - 193,Du lundi au vendredi 9h-17h
+Robin,Antoine,Enseignant / Chargé de mission Département Cyber,Département Cyber,antoine.robin@esic.fr,01.53.90.15.17,Bât C - 303,Du lundi au vendredi 9h-17h
+Mercier,Lina,Enseignant / Chargé de mission Vie Associative,Vie Associative,lina.mercier@esic.fr,01.53.90.15.18,Bât B - 124,Du lundi au vendredi 9h-17h
+Duval,Louise,Enseignant / Chargé de mission Vie Associative,Vie Associative,louise.duval@esic.fr,01.53.90.15.19,Bât B - 287,Du lundi au vendredi 9h-17h
+Lemoine,Louis,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,louis.lemoine@esic.fr,01.53.90.15.20,Bât A - 172,Du lundi au vendredi 9h-17h
+Blanc,Louise,Enseignant / Chargé de mission Scolarité,Scolarité,louise.blanc@esic.fr,01.53.90.15.21,Bât C - 267,Du lundi au vendredi 9h-17h
+Nicolas,Lina,Enseignant / Chargé de mission DSI Campus,DSI Campus,lina.nicolas@esic.fr,01.53.90.15.22,Bât A - 212,Du lundi au vendredi 9h-17h
+Duval,Jade,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,jade.duval@esic.fr,01.53.90.15.23,Bât C - 199,Du lundi au vendredi 9h-17h
+Lemaire,Sarah,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,sarah.lemaire@esic.fr,01.53.90.15.24,Bât C - 308,Du lundi au vendredi 9h-17h
+Boyer,Antoine,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,antoine.boyer@esic.fr,01.53.90.15.25,Bât C - 172,Du lundi au vendredi 9h-17h
+Nicolas,Lucas,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,lucas.nicolas@esic.fr,01.53.90.15.26,Bât D - 198,Du lundi au vendredi 9h-17h
+Clement,Gabriel,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,gabriel.clement@esic.fr,01.53.90.15.27,Bât D - 184,Du lundi au vendredi 9h-17h
+Perrin,Arthur,Enseignant / Chargé de mission Service Médical,Service Médical,arthur.perrin@esic.fr,01.53.90.15.28,Bât D - 192,Du lundi au vendredi 9h-17h
+Giraud,Louise,Enseignant / Chargé de mission Département Dév Web,Département Dév Web,louise.giraud@esic.fr,01.53.90.15.29,Bât D - 158,Du lundi au vendredi 9h-17h
+Nguyen,Arthur,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,arthur.nguyen@esic.fr,01.53.90.15.30,Bât B - 313,Du lundi au vendredi 9h-17h
+Guerin,Jules,Enseignant / Chargé de mission Bibliothèque,Bibliothèque,jules.guerin@esic.fr,01.53.90.15.31,Bât C - 160,Du lundi au vendredi 9h-17h
+Clement,Jade,Enseignant / Chargé de mission Scolarité,Scolarité,jade.clement@esic.fr,01.53.90.15.32,Bât B - 185,Du lundi au vendredi 9h-17h
+Morin,Gabriel,Enseignant / Chargé de mission Comptabilité,Comptabilité,gabriel.morin@esic.fr,01.53.90.15.33,Bât C - 111,Du lundi au vendredi 9h-17h
+Lemaire,Lucas,Enseignant / Chargé de mission Scolarité,Scolarité,lucas.lemaire@esic.fr,01.53.90.15.34,Bât B - 290,Du lundi au vendredi 9h-17h
+Duval,Camille,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,camille.duval@esic.fr,01.53.90.15.35,Bât D - 113,Du lundi au vendredi 9h-17h
+Giraud,Lina,Enseignant / Chargé de mission Service Médical,Service Médical,lina.giraud@esic.fr,01.53.90.15.36,Bât B - 268,Du lundi au vendredi 9h-17h
+Mathieu,Maxime,Enseignant / Chargé de mission Scolarité,Scolarité,maxime.mathieu@esic.fr,01.53.90.15.37,Bât A - 157,Du lundi au vendredi 9h-17h
+Robin,Leo,Enseignant / Chargé de mission Relations Entreprises,Relations Entreprises,leo.robin@esic.fr,01.53.90.15.38,Bât A - 289,Du lundi au vendredi 9h-17h
+Boyer,Alice,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,alice.boyer@esic.fr,01.53.90.15.39,Bât A - 266,Du lundi au vendredi 9h-17h
+Muller,Ines,Enseignant / Chargé de mission Département Cyber,Département Cyber,ines.muller@esic.fr,01.53.90.15.40,Bât C - 194,Du lundi au vendredi 9h-17h
+Boyer,Jules,Enseignant / Chargé de mission Vie Associative,Vie Associative,jules.boyer@esic.fr,01.53.90.15.41,Bât B - 254,Du lundi au vendredi 9h-17h
+Nguyen,Chloe,Enseignant / Chargé de mission Service Médical,Service Médical,chloe.nguyen@esic.fr,01.53.90.15.42,Bât B - 184,Du lundi au vendredi 9h-17h
+Henry,Sarah,Enseignant / Chargé de mission Scolarité,Scolarité,sarah.henry@esic.fr,01.53.90.15.43,Bât D - 236,Du lundi au vendredi 9h-17h
+Giraud,Antoine,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,antoine.giraud@esic.fr,01.53.90.15.44,Bât B - 148,Du lundi au vendredi 9h-17h
+Masson,Alice,Enseignant / Chargé de mission Département Cyber,Département Cyber,alice.masson@esic.fr,01.53.90.15.45,Bât D - 169,Du lundi au vendredi 9h-17h
+Nicolas,Chloe,Enseignant / Chargé de mission DSI Campus,DSI Campus,chloe.nicolas@esic.fr,01.53.90.15.46,Bât A - 123,Du lundi au vendredi 9h-17h
+Masson,Camille,Enseignant / Chargé de mission Vie Associative,Vie Associative,camille.masson@esic.fr,01.53.90.15.47,Bât C - 126,Du lundi au vendredi 9h-17h
+Mercier,Jules,Enseignant / Chargé de mission Admission & Concours,Admission & Concours,jules.mercier@esic.fr,01.53.90.15.48,Bât C - 301,Du lundi au vendredi 9h-17h
+Blanc,Manon,Enseignant / Chargé de mission DSI Campus,DSI Campus,manon.blanc@esic.fr,01.53.90.15.49,Bât D - 208,Du lundi au vendredi 9h-17h
+Morin,Manon,Enseignant / Chargé de mission Département IA & Data,Département IA & Data,manon.morin@esic.fr,01.53.90.15.50,Bât A - 265,Du lundi au vendredi 9h-17h
